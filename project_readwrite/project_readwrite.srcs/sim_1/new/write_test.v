@@ -32,7 +32,7 @@ wire y;
 AND_2 andgate(y,x1,x2);
 
 
-initial
+always
     begin
     $display("checkpoint 1");
     #10
@@ -49,7 +49,7 @@ initial
    x1=0;
    x2=0;
    #200
-   file_id = $fopen("writtenfile.txt","w+");
+   file_id = $fopen("writtenfile.txt","a");
    $fwrite(file_id,"%b",y);
    $fclose(file_id);
    
@@ -58,7 +58,7 @@ initial
    x2=0;
    #200
    //$fwrite(file_id,"%b",y);
-   file_id = $fopen("writtenfile.txt","w+");
+   file_id = $fopen("writtenfile.txt","a");
    $fwrite(file_id,"%b",y);
    $fclose(file_id);
    
@@ -67,7 +67,7 @@ initial
    x2=1;
    #200
   // $fwrite(file_id,"%b",y);
-   file_id = $fopen("writtenfile.txt","w+");
+   file_id = $fopen("writtenfile.txt","a");
    $fwrite(file_id,"%b",y);
    $fclose(file_id);   
    
@@ -76,15 +76,15 @@ initial
    x2=1;
    #200
  //  $fwrite(file_id,"%b",y);
-    file_id = $fopen("writtenfile.txt","w+");
+    file_id = $fopen("writtenfile.txt","a");
    $fwrite(file_id,"%b",y);
    $fclose(file_id);
 
        
 end
 
-initial 
-$monitor ($time, " Output y = %d" , y) ;
+//always 
+//$monitor ($time, " Output y = %d" , y) ;
 
 
 
