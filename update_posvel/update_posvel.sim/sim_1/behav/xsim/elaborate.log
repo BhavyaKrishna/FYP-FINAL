@@ -1,0 +1,133 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 0feebefb734e42f09bf0db7fa0af2f45 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot update_module_behav xil_defaultlib.update_module xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:344]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/New folder/multiplier_16bit.v:357]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/multiplier_16bit.v" Line 1. Module multiplier_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_16bit.v" Line 1. Module adder_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_16bit.v" Line 1. Module adder_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_16bit.v" Line 1. Module adder_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_16bit.v" Line 1. Module adder_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_16bit.v" Line 1. Module adder_16bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/adder_4bit.v" Line 1. Module adder_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/FYP-FINAL/New folder/full_adder.v" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot update_module_behav
