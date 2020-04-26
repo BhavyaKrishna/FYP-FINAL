@@ -72,6 +72,7 @@ use ieee.numeric_std.all;
 use ieee.math_real.all;
 
 entity tb_proj is
+
 end tb_proj;
 
 architecture tb of tb_proj is
@@ -140,6 +141,10 @@ architecture tb of tb_proj is
   constant IP_PHASE_DEPTH : integer := 32;
   constant IP_PHASE_WIDTH : integer := 16;
   constant IP_PHASE_SHIFT : integer := 0;  -- no bit shift, max amplitude
+  constant x_real:real:= 0.707;
+  constant y_real:real:= 0.707;
+  constant theta_real:real:= 0.785;
+  constant p:integer:=0;
   type T_IP_INT_ENTRY is record
     re : integer;
     im : integer;
@@ -155,7 +160,7 @@ architecture tb of tb_proj is
   type T_IP_PHASE_TABLE is array (0 to IP_PHASE_DEPTH-1) of T_IP_PHASE_ENTRY;
 
   -- Common function to calculate sine and cosine values
-  function create_ip_entry(index, depth, width : integer) return T_IP_INT_ENTRY is
+  function create_ip_entry(index, depth, width, polar : integer) return T_IP_INT_ENTRY is
     variable result : T_IP_INT_ENTRY;
     variable theta : real;
     variable limited_width : integer := width - 2;
@@ -163,24 +168,36 @@ architecture tb of tb_proj is
     if limited_width > 30 then
       limited_width := 30; --avoid integer overflow
     end if;
-    theta := real(index) / real(depth) * 2.0 * MATH_PI;
-    result.re := 1;
-    result.im := -1;
+    if p =1 then
+        result.re := integer(round(x_real * real(2**14)));
+        result.im := 0;
+    end if;
+    if p =0 then
+        result.re := integer(round(x_real * real(2**14)));
+        result.im := integer(round(y_real * real(2**14)));
+    end if;
     return result;
   end function create_ip_entry;
-  
-   function create_ip_entry_phase(index, depth, width : integer) return T_IP_INT_ENTRY is
-     variable result : T_IP_INT_ENTRY;
-     variable theta : real;
-     variable limited_width : integer := width - 2;
-   begin
-     if limited_width > 30 then
-       limited_width := 30; --avoid integer overflow
-     end if;
-     result.re := 25728;
-     result.im := 0;
-     return result;
-   end function create_ip_entry_phase;
+    function create_ip_entry_phase(index, depth, width, polar : integer) return T_IP_INT_ENTRY is
+    variable result : T_IP_INT_ENTRY;
+    variable theta : real;
+    variable limited_width : integer := width - 2;
+  begin
+    if limited_width > 30 then
+      limited_width := 30; --avoid integer overflow
+    end if;
+    if p =1 then
+        result.re := integer(round(theta_real* real(2**13*(-1))));
+        result.im := 0;
+    end if;
+    if p =0 then
+        theta := real(index) / real(depth) * 2.0 * MATH_PI;
+        result.re :=0;
+        result.im := 0;
+        
+    end if;
+    return result;
+  end function create_ip_entry_phase;
 
   -- Use separate functions to calculate channel S_AXIS_CARTESIAN and S_AXIS_PHASE sinusoids as they return different types
   function create_ip_cartesian_table return T_IP_CARTESIAN_TABLE is
@@ -188,7 +205,7 @@ architecture tb of tb_proj is
     variable entry_int : T_IP_INT_ENTRY;
   begin
     for i in 0 to IP_CARTESIAN_DEPTH-1 loop
-      entry_int := create_ip_entry(i, IP_CARTESIAN_DEPTH, IP_CARTESIAN_WIDTH - IP_CARTESIAN_SHIFT);
+      entry_int := create_ip_entry(i, IP_CARTESIAN_DEPTH, IP_CARTESIAN_WIDTH - IP_CARTESIAN_SHIFT,p);
       result(i).re := std_logic_vector(to_signed(entry_int.re, IP_CARTESIAN_WIDTH));
       result(i).im := std_logic_vector(to_signed(entry_int.im, IP_CARTESIAN_WIDTH));
     end loop;
@@ -200,8 +217,13 @@ architecture tb of tb_proj is
     variable entry_int : T_IP_INT_ENTRY;
   begin
     for i in 0 to IP_PHASE_DEPTH-1 loop
-      entry_int := create_ip_entry_phase(IP_PHASE_DEPTH-1-i, IP_PHASE_DEPTH, IP_PHASE_WIDTH - IP_PHASE_SHIFT);  -- note rotation direction
+      entry_int := create_ip_entry_phase(IP_PHASE_DEPTH-1-i, IP_PHASE_DEPTH, IP_PHASE_WIDTH - IP_PHASE_SHIFT,p);  -- note rotation direction
+      if p = 1 then
       result(i).re := std_logic_vector(to_signed(entry_int.re, IP_PHASE_WIDTH));
+      end if;
+      if p = 0 then
+          result(i).re :="ZZZZZZZZZZZZZZZZ" ;
+      end if;
     end loop;
     return result;
   end function create_ip_phase_table;
@@ -390,4 +412,3 @@ begin
   m_axis_dout_tdata_imag       <= m_axis_dout_tdata(31 downto 16);
 
 end tb;
-
