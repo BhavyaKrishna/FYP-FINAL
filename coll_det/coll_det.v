@@ -8,8 +8,8 @@ output reg out_rdy;
 reg [15:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
 reg [31:0] e,f,g,h,i,j,l,n,dot_sq;                               //intermediate registers
-reg [15:0] a,b,c,d,r_sq,vab_sq,k,m,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6,C1,C2;
-
+reg [15:0] a,b,c,d,r_sq,vab_sq,k,m,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
+reg [63:0] C1,C2;
 wire [0:10] carry;
 
 integer count=0;
@@ -105,7 +105,7 @@ always @(posedge clock)
    9:begin
       trial=C0;  
       count=-1;             //so that after updation it goes to 0
-      out_rdy=1'b0;         //out_rdy signal is raised once all outputs are ready
+      out_rdy=1'b1;         //out_rdy signal is raised once all outputs are ready
     end 
      
   endcase
