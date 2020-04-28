@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="cordic_1_synth_1" LaunchDir="C:/Users/AMRITHA/integration_try1/integration_try1.runs/cordic_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
