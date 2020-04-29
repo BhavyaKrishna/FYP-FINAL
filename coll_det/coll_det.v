@@ -111,6 +111,7 @@ always @(posedge clock)
       output_ready=1'b1;         //out_rdy signal is raised once all outputs are ready 
       #5;
       output_ready=1'b0;  //Should be given as a pulse
+      trial =1'b0;        //Same with the trial case :P  
     end 
      
   endcase

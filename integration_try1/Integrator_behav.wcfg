@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Integrator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Integrator" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="120804994266fs"></ZoomStartTime>
+      <ZoomEndTime time="120805001147fs"></ZoomEndTime>
+      <Cursor1Time time="120805000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject fp_name="/Integrator/x" type="array">
+      <obj_property name="ElementShortName">x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vx" type="array">
+      <obj_property name="ElementShortName">vx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vy" type="array">
+      <obj_property name="ElementShortName">vy[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vy[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/ax" type="array">
+      <obj_property name="ElementShortName">ax[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ax[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/ay" type="array">
+      <obj_property name="ElementShortName">ay[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ay[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/t" type="array">
+      <obj_property name="ElementShortName">t[15:0]</obj_property>
+      <obj_property name="ObjectShortName">t[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/x2" type="array">
+      <obj_property name="ElementShortName">x2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/y2" type="array">
+      <obj_property name="ElementShortName">y2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vx2" type="array">
+      <obj_property name="ElementShortName">vx2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vx2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vy2" type="array">
+      <obj_property name="ElementShortName">vy2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vy2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/UM_Vxin" type="array">
+      <obj_property name="ElementShortName">UM_Vxin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">UM_Vxin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/UM_Vyin" type="array">
+      <obj_property name="ElementShortName">UM_Vyin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">UM_Vyin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/CD_Vxin" type="array">
+      <obj_property name="ElementShortName">CD_Vxin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CD_Vxin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/CD_Vyin" type="array">
+      <obj_property name="ElementShortName">CD_Vyin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CD_Vyin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/CD_xin" type="array">
+      <obj_property name="ElementShortName">CD_xin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CD_xin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/CD_yin" type="array">
+      <obj_property name="ElementShortName">CD_yin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CD_yin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/xnew" type="array">
+      <obj_property name="ElementShortName">xnew[15:0]</obj_property>
+      <obj_property name="ObjectShortName">xnew[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/ynew" type="array">
+      <obj_property name="ElementShortName">ynew[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ynew[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vxnew" type="array">
+      <obj_property name="ElementShortName">vxnew[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vxnew[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vynew" type="array">
+      <obj_property name="ElementShortName">vynew[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vynew[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/UM_in_rdy" type="logic">
+      <obj_property name="ElementShortName">UM_in_rdy</obj_property>
+      <obj_property name="ObjectShortName">UM_in_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/CD_in_rdy" type="logic">
+      <obj_property name="ElementShortName">CD_in_rdy</obj_property>
+      <obj_property name="ObjectShortName">CD_in_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/UM_out_rdy" type="logic">
+      <obj_property name="ElementShortName">UM_out_rdy</obj_property>
+      <obj_property name="ObjectShortName">UM_out_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/CD_out_rdy" type="logic">
+      <obj_property name="ElementShortName">CD_out_rdy</obj_property>
+      <obj_property name="ObjectShortName">CD_out_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/trial" type="logic">
+      <obj_property name="ElementShortName">trial</obj_property>
+      <obj_property name="ObjectShortName">trial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/VS_Vxin" type="array">
+      <obj_property name="ElementShortName">VS_Vxin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">VS_Vxin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/VS_Vyin" type="array">
+      <obj_property name="ElementShortName">VS_Vyin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">VS_Vyin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/VS_Vxout" type="array">
+      <obj_property name="ElementShortName">VS_Vxout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">VS_Vxout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/VS_Vyout" type="array">
+      <obj_property name="ElementShortName">VS_Vyout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">VS_Vyout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/VS_in_rdy" type="logic">
+      <obj_property name="ElementShortName">VS_in_rdy</obj_property>
+      <obj_property name="ObjectShortName">VS_in_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/VS_out_rdy" type="logic">
+      <obj_property name="ElementShortName">VS_out_rdy</obj_property>
+      <obj_property name="ObjectShortName">VS_out_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/xnew_CD" type="array">
+      <obj_property name="ElementShortName">xnew_CD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">xnew_CD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/ynew_CD" type="array">
+      <obj_property name="ElementShortName">ynew_CD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ynew_CD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/Vxnew_CD" type="array">
+      <obj_property name="ElementShortName">Vxnew_CD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Vxnew_CD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/Vynew_CD" type="array">
+      <obj_property name="ElementShortName">Vynew_CD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Vynew_CD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/Vxnew_UM" type="array">
+      <obj_property name="ElementShortName">Vxnew_UM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Vxnew_UM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/Vynew_UM" type="array">
+      <obj_property name="ElementShortName">Vynew_UM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Vynew_UM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/Vxnew_VS" type="array">
+      <obj_property name="ElementShortName">Vxnew_VS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Vxnew_VS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/Vynew_VS" type="array">
+      <obj_property name="ElementShortName">Vynew_VS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Vynew_VS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/input_check" type="logic">
+      <obj_property name="ElementShortName">input_check</obj_property>
+      <obj_property name="ObjectShortName">input_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/output_check" type="logic">
+      <obj_property name="ElementShortName">output_check</obj_property>
+      <obj_property name="ObjectShortName">output_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vx1_WT" type="array">
+      <obj_property name="ElementShortName">vx1_WT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vx1_WT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vy1_WT" type="array">
+      <obj_property name="ElementShortName">vy1_WT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vy1_WT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vx2_WT" type="array">
+      <obj_property name="ElementShortName">vx2_WT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vx2_WT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vy2_WT" type="array">
+      <obj_property name="ElementShortName">vy2_WT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vy2_WT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vx3_WT" type="array">
+      <obj_property name="ElementShortName">vx3_WT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vx3_WT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/vy3_WT" type="array">
+      <obj_property name="ElementShortName">vy3_WT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vy3_WT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/WT_vx1" type="array">
+      <obj_property name="ElementShortName">WT_vx1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WT_vx1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/WT_vy1" type="array">
+      <obj_property name="ElementShortName">WT_vy1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WT_vy1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/WT_vx2" type="array">
+      <obj_property name="ElementShortName">WT_vx2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WT_vx2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/WT_vy2" type="array">
+      <obj_property name="ElementShortName">WT_vy2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WT_vy2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/WT_vx3" type="array">
+      <obj_property name="ElementShortName">WT_vx3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WT_vx3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/WT_vy3" type="array">
+      <obj_property name="ElementShortName">WT_vy3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WT_vy3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/input_CD" type="logic">
+      <obj_property name="ElementShortName">input_CD</obj_property>
+      <obj_property name="ObjectShortName">input_CD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/input_UM" type="logic">
+      <obj_property name="ElementShortName">input_UM</obj_property>
+      <obj_property name="ObjectShortName">input_UM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/input_VS" type="logic">
+      <obj_property name="ElementShortName">input_VS</obj_property>
+      <obj_property name="ObjectShortName">input_VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Integrator/output_check_reg" type="logic">
+      <obj_property name="ElementShortName">output_check_reg</obj_property>
+      <obj_property name="ObjectShortName">output_check_reg</obj_property>
+   </wvobject>
+</wave_config>

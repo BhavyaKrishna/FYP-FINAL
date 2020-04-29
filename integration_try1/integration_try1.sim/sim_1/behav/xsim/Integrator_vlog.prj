@@ -9,9 +9,11 @@ verilog xil_defaultlib  \
 "D:/FYP_FINAL/FYP-FINAL/coll_det/full_adder.v" \
 "D:/FYP_FINAL/FYP-FINAL/coll_det/multiplier_16bit.v" \
 "D:/FYP-FINAL/update_posvel/update_posvel.srcs/sources_1/imports/New folder/shifter.v" \
+"D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v" \
 "D:/FYP_FINAL/FYP-FINAL/coll_det/subtractor_16bit.v" \
 "D:/FYP_FINAL/FYP-FINAL/coll_det/subtractor_4bit.v" \
 "D:/FYP-FINAL/update_posvel/update_posvel.srcs/sources_1/imports/New folder/update_module.v" \
+"D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v" \
 "../../../../integration_try1.srcs/sources_1/new/Integrator.v" \
 
 # compile glbl module
