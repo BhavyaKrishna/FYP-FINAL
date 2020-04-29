@@ -1,0 +1,628 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+bot 2 velocity read                 200
+bot 1 velocity read                 300
+bot 3 velocity read                 400
+bot 1 velocity updated                2455
+bot 2 velocity updated                2455
+bot 3 velocity updated                2455
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot11.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 31 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot22.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 47 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot33.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 63 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot11.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 31 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot22.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 47 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot33.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 63 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot11.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 31 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot22.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 47 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot33.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 63 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot11.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 31 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot22.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 47 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot33.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 63 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot11.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 31 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot22.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 47 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot33.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/write_simultaneous.v at line 63 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot1.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 55 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot3.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 96 is not valid.
+WARNING: file D:/Projects/FinalYearProject/bot2.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP-FINAL/synchronisation/simultaneous_read.v at line 76 is not valid.
