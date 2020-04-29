@@ -43,7 +43,7 @@ reg input_UM=1'b0;
 reg input_VS=1'b0;
 
 update_module UM (x, y, UM_Vxin, UM_Vyin, ax, ay ,t,clock, UM_in_rdy,UM_out_rdy,xnew, ynew, vxnew, vynew);
-Velocity_selector VS (VS_Vxin,VS_Vyin,VS_in_rdy,VS_Vxout,VS_Vyout,VS_out_rdy);
+Velocity_selector VS (VS_Vxin,VS_Vyin,clock,VS_in_rdy,VS_Vxout,VS_Vyout,VS_out_rdy);
 coll_det CD(CD_xin,CD_yin,x2, y2, CD_Vxin, CD_Vyin, vx2, vy2, R, trial, clock, CD_in_rdy, CD_out_rdy);
 
 assign CD_xin=xnew_CD;
@@ -62,12 +62,12 @@ assign VS_in_rdy    = input_VS;
 assign UM_in_rdy    = input_UM;
 assign CD_in_rdy    = input_CD;
 
-always @(posedge input_check)   //Make input_check high for writing into UM from file
+/*always @(posedge input_check)   //Make input_check high for writing into UM from file
 begin
     input_UM = 1'b1;
     Vxnew_UM = vx;
     Vynew_UM = vy;
-end
+end*/
 
 always @(posedge UM_out_rdy)
 begin
@@ -76,7 +76,7 @@ begin
     ynew_CD  = ynew;
     Vxnew_CD = vxnew;
     Vynew_CD = vynew;
-    #5;
+    #10;
     input_UM = 1'b0;
 end
 
@@ -89,17 +89,17 @@ end
 
 always @(posedge CD_out_rdy)
 begin
-    #5;
-    input_CD = 1'b1;
+    #10;
+    input_CD = 1'b0;
 end
 
 always @(posedge VS_out_rdy)
 begin
-    input_UM <= 1'b1;
-    Vxnew_UM <= VS_Vxout;
-    Vynew_UM <= VS_Vyout;
-    #5;
-    input_VS <= 1'b0;        //To turn the module of once output is ready(simillarly with the rest);
+    input_UM = 1'b1;
+    Vxnew_UM = VS_Vxout;
+    Vynew_UM = VS_Vyout;
+    #10;                     //Delay necessary to copy the outputs before deactivating the module
+    input_VS = 1'b0;        //To turn the module of once output is ready(simillarly with the rest);
 end
 
 endmodule

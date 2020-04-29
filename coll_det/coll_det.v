@@ -42,7 +42,6 @@ always @(posedge clock)
  
   case(count)
   0: begin
-      output_ready=1'b0;  
       X1<=x1; Y1<=y1; X2<=x2; Y2<=y2; VX1<=vx1; VY1<=vy1; VX2<=vx2; VY2<=vy2; R2<=r2;     //input registers getting their values 
      end
      
@@ -110,6 +109,8 @@ always @(posedge clock)
       trial=C0;  
       count=-1;             //so that after updation it goes to 0
       output_ready=1'b1;         //out_rdy signal is raised once all outputs are ready 
+      #5;
+      output_ready=1'b0;  //Should be given as a pulse
     end 
      
   endcase
