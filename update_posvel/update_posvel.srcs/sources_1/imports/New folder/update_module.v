@@ -25,7 +25,7 @@ module update_module(x, y, vx, vy, ax, ay ,t,clock, in_rdy,out_rdy,xnew, ynew, v
 input [15:0] x,y,vx,vy,ax,ay,t;
 output [15:0] xnew,ynew,vxnew,vynew; //confirm size of t
 input clock,in_rdy;			
-output reg out_rdy;
+output out_rdy;
 
 reg [15:0] X,Y,VX,VY,AX,AY,T;    //input registers
 
@@ -36,7 +36,9 @@ wire [0:10] carry;
 integer count=0;
 wire[31:0] M0P,M1P;
 wire [15:0] S0,S1,SHO,SFO;
+reg output_ready=1'b0;
 //instantiations
+assign out_rdy=output_ready;
 
 multiplier_16bit mult0(M0P, M0A, M0B);
 multiplier_16bit mult1(M1P, M1A,M1B);
@@ -54,6 +56,7 @@ always @(posedge clock)
  
   case(count)
   0: begin
+      output_ready=1'b0;
       X<=x; Y<=y; VX<=vx; VY<=vy; AX<=ax; AY<=ay; T<=t;     //input registers getting their values 
      end
      
@@ -97,11 +100,14 @@ always @(posedge clock)
     end        
    6:begin
       xnew=S0;  
-      ynew=S1;
-      count=-1;             //so that after updation it goes to 0
-      out_rdy=1'b0;         //out_rdy signal is raised once all outputs are ready
+      ynew=S1;         //out_rdy signal is raised once all outputs are ready
     end 
-     
+   7:begin
+        count=-1;             //so that after updation it goes to 0
+        output_ready=1'b1;
+        #5;                   //Output pulse
+        output_ready=1'b0;
+     end 
   endcase
  count=count+1;
  end
