@@ -2,8 +2,8 @@
 vhdl xil_defaultlib  \
 "../../../../integration_try1.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd" \
 "../../../../integration_try1.srcs/sources_1/ip/cordic_1/sim/cordic_1.vhd" \
-"D:/FYP-FINAL/Cordic_final/Polar_to_rect.vhd" \
-"D:/FYP-FINAL/Cordic_final/Rect_to_polar.vhd" \
+"../../../../../Cordic_final/Polar_to_rect.vhd" \
+"../../../../../Cordic_final/Rect_to_polar.vhd" \
 
 # Do not sort compile order
 nosort

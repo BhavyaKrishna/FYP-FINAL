@@ -27,13 +27,13 @@ always @(posedge write_check)
         vy3=vy3_bin*(1.0/((2**11)*1.0));
         fork 
            begin
-              #300 file_id = $fopen("D:/Projects/FinalYearProject/bot11.txt","r");
+              #300 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot11.txt","r");
               code=$fscanf(file_id, "%c",char1);
               //$display("%c", char1);
               $fclose(file_id);
               if(char1 =="r")
               begin
-                  file_id = $fopen("D:/Projects/FinalYearProject/bot11.txt","w");
+                  file_id = $fopen("F:/FYP-FINAL/synchronisation/bot11.txt","w");
                   $fwrite(file_id, "w\n");
                   $fwrite(file_id,vx1,"\n");
                   $fwrite(file_id,vy1,"\n");
@@ -43,13 +43,13 @@ always @(posedge write_check)
                end
            end
            begin
-               #300 file_id = $fopen("D:/Projects/FinalYearProject/bot22.txt","r");
+               #300 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot22.txt","r");
                code=$fscanf(file_id, "%c",char2);
                //$display("%c", char1);
                $fclose(file_id);
                if(char1 =="r")
                begin
-                   file_id = $fopen("D:/Projects/FinalYearProject/bot22.txt","w");
+                   file_id = $fopen("F:/FYP-FINAL/synchronisation/bot22.txt","w");
                    $fwrite(file_id, "w\n");
                    $fwrite(file_id,vx2,"\n");
                    $fwrite(file_id,vy2,"\n");
@@ -59,13 +59,13 @@ always @(posedge write_check)
                end
             end
            begin
-              #300 file_id = $fopen("D:/Projects/FinalYearProject/bot33.txt","r");
+              #300 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot33.txt","r");
               code=$fscanf(file_id, "%c",char3);
               //$display("%c", char1);
               $fclose(file_id);
               if(char3 =="r")
               begin
-                  file_id = $fopen("D:/Projects/FinalYearProject/bot33.txt","w");
+                  file_id = $fopen("F:/FYP-FINAL/synchronisation/bot33.txt","w");
                   $fwrite(file_id, "w\n");
                   $fwrite(file_id,vx3,"\n");
                   $fwrite(file_id,vy3,"\n");

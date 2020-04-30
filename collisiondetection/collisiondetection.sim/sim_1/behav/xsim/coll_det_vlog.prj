@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../coll_det/adder_16bit.v" \
+"../../../../../coll_det/adder_4bit.v" \
+"../../../../../coll_det/adder_64bit.v" \
+"../../../../../coll_det/comparator.v" \
+"../../../../../coll_det/full_adder.v" \
+"../../../../../coll_det/multiplier_16bit.v" \
+"../../../../../coll_det/subtractor_16bit.v" \
+"../../../../../coll_det/subtractor_4bit.v" \
+"../../../../../coll_det/coll_det.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

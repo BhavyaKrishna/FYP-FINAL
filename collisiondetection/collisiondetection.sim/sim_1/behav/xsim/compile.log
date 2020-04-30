@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FYP-FINAL/coll_det/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det

@@ -1,0 +1,36 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 484dd3b2e409494fbe118e421ab96731 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot coll_det_behav xil_defaultlib.coll_det xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:344]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [F:/FYP-FINAL/coll_det/multiplier_16bit.v:357]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "F:/FYP-FINAL/collisiondetection/collisiondetection.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot coll_det_behav

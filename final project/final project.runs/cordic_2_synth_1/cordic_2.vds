@@ -1,0 +1,587 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Apr 30 16:29:02 2020
+# Process ID: 17768
+# Current directory: F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1
+# Command line: vivado.exe -log cordic_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cordic_2.tcl
+# Log file: F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1/cordic_2.vds
+# Journal file: F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source cordic_2.tcl -notrace
+Command: synth_design -top cordic_2 -part xc7k70tfbv676-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18444 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 384.379 ; gain = 95.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cordic_2' [f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/synth/cordic_2.vhd:71]
+	Parameter C_ARCHITECTURE bound to: 2 - type: integer 
+	Parameter C_CORDIC_FUNCTION bound to: 0 - type: integer 
+	Parameter C_COARSE_ROTATE bound to: 1 - type: integer 
+	Parameter C_DATA_FORMAT bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: kintex7 - type: string 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ACLK bound to: 1 - type: integer 
+	Parameter C_HAS_S_AXIS_CARTESIAN bound to: 1 - type: integer 
+	Parameter C_HAS_S_AXIS_PHASE bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_INPUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_ITERATIONS bound to: 0 - type: integer 
+	Parameter C_OUTPUT_WIDTH bound to: 16 - type: integer 
+	Parameter C_PHASE_FORMAT bound to: 0 - type: integer 
+	Parameter C_PIPELINE_MODE bound to: -2 - type: integer 
+	Parameter C_PRECISION bound to: 0 - type: integer 
+	Parameter C_ROUND_MODE bound to: 0 - type: integer 
+	Parameter C_SCALE_COMP bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_PHASE_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_PHASE_TLAST bound to: 0 - type: integer 
+	Parameter C_S_AXIS_PHASE_TDATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_S_AXIS_PHASE_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_S_AXIS_CARTESIAN_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_CARTESIAN_TLAST bound to: 0 - type: integer 
+	Parameter C_S_AXIS_CARTESIAN_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXIS_CARTESIAN_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_DOUT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXIS_DOUT_TUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'cordic_v6_0_14' declared at 'f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/hdl/cordic_v6_0_vh_rfs.vhd:10135' bound to instance 'U0' of component 'cordic_v6_0_14' [f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/synth/cordic_2.vhd:149]
+INFO: [Synth 8-256] done synthesizing module 'cordic_2' (29#1) [f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/synth/cordic_2.vhd:71]
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized1 has unconnected port ADD
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized1 has unconnected port ADD_IN_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized1 has unconnected port ROM_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized0 has unconnected port ADD
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized0 has unconnected port ADD_IN_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized0 has unconnected port ROM_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder has unconnected port ADD
+WARNING: [Synth 8-3331] design ccm_scaled_adder has unconnected port ADD_IN_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder has unconnected port ROM_CE
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[19]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[18]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[17]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[16]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[15]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[14]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[13]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[12]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[11]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[10]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[9]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[8]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[7]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[6]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[5]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[4]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[3]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[2]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[1]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port D[0]
+WARNING: [Synth 8-3331] design ccm_dist_mem__parameterized0 has unconnected port WE
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[5]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[4]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[3]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[2]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[1]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[0]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[23]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[22]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[21]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[20]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[19]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[18]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[17]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[16]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[15]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[14]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[13]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[12]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[11]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[10]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[9]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[8]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[7]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[6]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[5]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[4]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[3]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[2]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[1]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port D[0]
+WARNING: [Synth 8-3331] design ccm_dist_mem has unconnected port WE
+WARNING: [Synth 8-3331] design ccm_syncmem has unconnected port ADDR_B0[5]
+WARNING: [Synth 8-3331] design ccm_syncmem has unconnected port ADDR_B0[4]
+WARNING: [Synth 8-3331] design ccm_syncmem has unconnected port ADDR_B0[3]
+WARNING: [Synth 8-3331] design ccm_syncmem has unconnected port ADDR_B0[2]
+WARNING: [Synth 8-3331] design ccm_syncmem has unconnected port ADDR_B0[1]
+WARNING: [Synth 8-3331] design ccm_syncmem has unconnected port ADDR_B0[0]
+WARNING: [Synth 8-3331] design delay_line has unconnected port CLK
+WARNING: [Synth 8-3331] design delay_line has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line has unconnected port SCLR
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[17]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[16]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[15]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[14]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[13]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[12]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[11]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[10]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[9]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[8]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[7]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[6]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[5]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[4]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[3]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[2]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[1]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[0]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[19]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[18]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port CE
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port SCLR
+WARNING: [Synth 8-3331] design delay__parameterized6 has unconnected port WE
+WARNING: [Synth 8-3331] design delay__parameterized6 has unconnected port CE
+WARNING: [Synth 8-3331] design delay__parameterized6 has unconnected port SCLR
+WARNING: [Synth 8-3331] design delay__parameterized6 has unconnected port CLK
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized2 has unconnected port CE
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized2 has unconnected port AINIT
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized2 has unconnected port ACLR
+WARNING: [Synth 8-3331] design c_reg_fd_v12_0_5_viv__parameterized2 has unconnected port ASET
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 505.949 ; gain = 217.371
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:02 . Memory (MB): peak = 505.949 ; gain = 217.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:56 ; elapsed = 00:01:02 . Memory (MB): peak = 505.949 ; gain = 217.371
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2136 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/cordic_2_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/cordic_2_ooc.xdc] for cell 'U0'
+Parsing XDC File [F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.501 . Memory (MB): peak = 797.086 ; gain = 2.844
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:15 ; elapsed = 00:01:35 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:15 ; elapsed = 00:01:35 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  {F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1/dont_touch.xdc}, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:36 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "ROM". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "ROM". This will be implemented in logic
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:18 ; elapsed = 00:01:39 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_y_int_reg[0]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_x_int_reg[0]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_y_int_reg[1]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_x_int_reg[1]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_y_int_reg[2]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_x_int_reg[2]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_y_int_reg[3]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.data_x_int_reg[3]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[0]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[1]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[2]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.input_stage/gen_input_regs.phase_int_reg[3] )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_reg[0]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_reg[1]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_reg[2]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_reg[3]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_x_int_dly/gen_rtl.gen_reg.d_reg_reg[0]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[0]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_x_int_dly/gen_rtl.gen_reg.d_reg_reg[1]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[1]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_x_int_dly/gen_rtl.gen_reg.d_reg_reg[2]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[2]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_x_int_dly/gen_rtl.gen_reg.d_reg_reg[3]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_xy.gen_data_y_int_dly/gen_rtl.gen_reg.d_reg_reg[3]' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[1]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[2]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[3]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[4]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[5]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[6]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[7]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[8]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[9]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[10]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[11]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[12]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[13]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[14]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[15]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_x_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[1]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[2]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[3]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[4]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[5]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[6]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[7]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[8]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[9]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[10]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[11]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[12]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[13]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[14]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[15]' (FDR) to 'U0/i_synth/i_synth/gen_cordic.output_stage/gen_scaling.gen_y_out.scale/multiplier/gCCM.iCCM/use_ccm_core.ccm_core/b0g2.b1g4.bg[3].use_dist_ram.dg1.dmem/sp_mem.dist_mem.dmg0/has_q.O_reg[18]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[2].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[3].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[4].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[6].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[7].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[8].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[9].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[10].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[11].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3886] merging instance 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[12].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg' (FDRE) to 'U0/i_synth/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_synth/\i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg_reg )
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[22]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[20]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[19]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[18]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[17]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[16]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[15]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[14]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[13]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[11]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1]) is unused and will be removed from module c_addsub_v12_0_12_viv.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[22]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[20]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[19]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[18]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[17]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[16]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[15]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[14]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[13]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[11]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__1.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__2.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__3.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[19]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[18]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[17]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[16]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[15]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[14]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[13]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[11]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__4.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__5.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[19]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[18]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[17]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[16]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[15]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[14]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[13]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[11]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__6.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__7.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__8.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__10.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__11.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__12.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__13.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__14.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__15.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__16.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__17.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__18.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__19.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__20.
+INFO: [Synth 8-3332] Sequential element (i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[21]) is unused and will be removed from module c_addsub_v12_0_12_viv__parameterized3__21.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:23 ; elapsed = 00:01:44 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:59 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:02:00 . Memory (MB): peak = 797.086 ; gain = 508.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:38 ; elapsed = 00:02:02 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:40 ; elapsed = 00:02:04 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:40 ; elapsed = 00:02:04 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:41 ; elapsed = 00:02:05 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:41 ; elapsed = 00:02:05 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:41 ; elapsed = 00:02:05 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:41 ; elapsed = 00:02:05 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    38|
+|2     |LUT1    |    70|
+|3     |LUT2    |   536|
+|4     |LUT3    |   600|
+|5     |LUT4    |    40|
+|6     |LUT5    |    13|
+|7     |LUT6    |   121|
+|8     |MUXCY   |   971|
+|9     |SRL16E  |     5|
+|10    |SRLC32E |     1|
+|11    |XORCY   |   925|
+|12    |FDRE    |  1385|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:41 ; elapsed = 00:02:05 . Memory (MB): peak = 799.516 ; gain = 510.938
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 365 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:01:39 . Memory (MB): peak = 799.516 ; gain = 219.801
+Synthesis Optimization Complete : Time (s): cpu = 00:01:41 ; elapsed = 00:02:05 . Memory (MB): peak = 799.516 ; gain = 510.938
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1934 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 265 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 265 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+207 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:48 ; elapsed = 00:02:17 . Memory (MB): peak = 815.672 ; gain = 537.094
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1/cordic_2.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP f:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_2/cordic_2.xci
+INFO: [Coretcl 2-1174] Renamed 401 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/FYP-FINAL/final project/final project.runs/cordic_2_synth_1/cordic_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file cordic_2_utilization_synth.rpt -pb cordic_2_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.313 . Memory (MB): peak = 815.672 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 30 16:32:01 2020...

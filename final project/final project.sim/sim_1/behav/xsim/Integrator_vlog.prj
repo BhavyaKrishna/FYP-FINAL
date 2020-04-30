@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/Cordic_final/Velocity_selector.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/adder_16bit.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/adder_4bit.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/adder_64bit.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/coll_det.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/comparator.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.ip_user_files/ip/cordic_0/cordic_0_stub.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.ip_user_files/ip/cordic_1/cordic_1_stub.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/full_adder.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/multiplier_16bit.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/update_posvel/update_posvel.srcs/sources_1/imports/New folder/shifter.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/synchronisation/simultaneous_read.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/subtractor_16bit.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/coll_det/subtractor_4bit.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/update_posvel/update_posvel.srcs/sources_1/imports/New folder/update_module.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/synchronisation/write_simultaneous.v" \
+"../../../../final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.srcs/sources_1/new/Integrator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

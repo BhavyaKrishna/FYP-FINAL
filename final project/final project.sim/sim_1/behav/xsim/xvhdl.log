@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cordic_0
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/FYP-FINAL/final project/final project.srcs/sources_1/ip/cordic_1/sim/cordic_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cordic_1
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/FYP-FINAL/final project/final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.ip_user_files/ip/cordic_0/cordic_0_stub.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cordic_0
+WARNING: [VRFC 10-1193] overwriting existing primary unit cordic_0 [F:/FYP-FINAL/final project/final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.ip_user_files/ip/cordic_0/cordic_0_stub.vhdl:15]
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/FYP-FINAL/final project/final project.srcs/sources_1/imports/FYP-FINAL/Cordic_final/Polar_to_rect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Polar_to_rect
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/FYP-FINAL/final project/final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.ip_user_files/ip/cordic_1/cordic_1_stub.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cordic_1
+WARNING: [VRFC 10-1193] overwriting existing primary unit cordic_1 [F:/FYP-FINAL/final project/final project.srcs/sources_1/imports/FYP-FINAL/integration_try1/integration_try1.ip_user_files/ip/cordic_1/cordic_1_stub.vhdl:15]
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/FYP-FINAL/final project/final project.srcs/sources_1/imports/FYP-FINAL/Cordic_final/Rect_to_polar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rect_to_polar
