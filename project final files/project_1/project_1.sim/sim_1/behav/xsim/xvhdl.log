@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sujan/Desktop/project final files/all verilog files/Polar_to_rect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Polar_to_rect
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sujan/Desktop/project final files/all verilog files/Rect_to_polar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rect_to_polar

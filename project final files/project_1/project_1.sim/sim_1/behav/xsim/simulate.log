@@ -1,0 +1,13 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+bot 2 velocity read                 200
+bot 1 velocity read                 300
+bot 3 velocity read                 400
+Sujana 1
+disabled 
+enabled
+bot 1 velocity updated                2355
+bot 2 velocity updated                2355
+bot 3 velocity updated                2355
+Sujana 0
+disabled 
