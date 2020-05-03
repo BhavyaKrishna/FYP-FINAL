@@ -54,7 +54,13 @@ always @(posedge clock)
  
   case(count)
   0: begin
-      X<=x; Y<=y; VX<=vx; VY<=vy; AX<=ax; AY<=ay; T<=t;     //input registers getting their values 
+      assign X=x; 
+      assign Y=y; 
+      assign VX=vx; 
+      assign VY=vy; 
+      AX<=ax; 
+      AY<=ay; 
+      T<=t;     //input registers getting their values 
      end
      
   1:begin  

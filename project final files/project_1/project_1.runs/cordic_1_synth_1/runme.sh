@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/sujan/Desktop/project final files/project_1/project_1.runs/cordic_1_synth_1'
+HD_PWD='D:/Repository/FYP-FINAL/project final files/project_1/project_1.runs/cordic_1_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

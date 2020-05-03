@@ -5,6 +5,6 @@ bot 1 velocity read                 300
 bot 3 velocity read                 400
 disabled 
 enabled
-bot 1 velocity updated                2355
-bot 2 velocity updated                2355
-bot 3 velocity updated                2355
+bot 1 velocity updated                2350
+bot 2 velocity updated                2350
+bot 3 velocity updated                2350
