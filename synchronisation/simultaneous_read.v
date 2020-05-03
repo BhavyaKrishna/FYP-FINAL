@@ -20,12 +20,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 
     
-    module read_test(x1_bin,y1_bin,vx1_bin,vy1_bin,x2_bin,y2_bin,vx2_bin,vy2_bin,read_done) ;
+   module read_test(x1_bin,y1_bin,vx1_bin,vy1_bin,x2_bin,y2_bin,vx2_bin,vy2_bin,read_done) ;
     
     output [15:0] x1_bin,y1_bin,vx1_bin,vy1_bin,x2_bin,y2_bin,vx2_bin,vy2_bin;
     output read_done;
     integer i,code,k,l,m,n;
-    integer file_id;
+    integer file_id,sb;
     wire y;
     integer j = 1;
     integer char1, char2, char3;
@@ -53,9 +53,12 @@
                begin
                   #300 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot1.txt","r");
                   code=$fscanf(file_id, "%c\n",char1);
+                  $fclose(file_id);
                   //$display("%c", char1);
                   if(char1 =="w")
                   begin
+                      file_id = $fopen("F:/FYP-FINAL/synchronisation/bot1.txt","r");
+                      code=$fscanf(file_id, "%c\n",char1);
                       k = $fscanf(file_id, "%f\n",vx1);
                       //$display(vx1);
                       l = $fscanf(file_id, "%f\n",vy1);
@@ -65,7 +68,7 @@
                       $fclose(file_id);
                       //$fwrite(file_id, "\n");
                       file_id = $fopen("F:/FYP-FINAL/synchronisation/bot1.txt","w");
-                      $fseek(file_id, 0, 0);
+                      sb=$fseek(file_id, 0, 0);
                       $fwrite(file_id, "r\n");
                       $display("bot 1 velocity read", $time);
                       $fclose(file_id);
@@ -74,9 +77,12 @@
                begin
                    #200 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot2.txt","r");
                    code=$fscanf(file_id, "%c\n",char2);
+                   $fclose(file_id);
                    //$display("%c", char1);
                    if(char2 =="w")
                    begin
+                      file_id = $fopen("F:/FYP-FINAL/synchronisation/bot2.txt","r");
+                      code=$fscanf(file_id, "%c\n",char1);
                       k = $fscanf(file_id, "%f\n",vx2);
                       //$display(vx2);
                       l = $fscanf(file_id, "%f\n",vy2);
@@ -85,7 +91,7 @@
                       n = $fscanf(file_id, "%f\n",y2);
                       $fclose(file_id);
                       file_id = $fopen("F:/FYP-FINAL/synchronisation/bot2.txt","w");
-                      $fseek(file_id, 0, 0);
+                      sb=$fseek(file_id, 0, 0);
                       $fwrite(file_id, "r\n");
                       $display("bot 2 velocity read", $time);
                       $fclose(file_id);
@@ -94,9 +100,12 @@
                begin
                   #400 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot3.txt","r");
                   code=$fscanf(file_id, "%c\n",char3);
+                  $fclose(file_id);
                   //$display("%c", char1);
                   if(char3 =="w")
                   begin
+                      file_id = $fopen("F:/FYP-FINAL/synchronisation/bot3.txt","r");
+                      code=$fscanf(file_id, "%c\n",char1);
                       k = $fscanf(file_id, "%f\n",vx3);
                       //$display(vx3);
                       l = $fscanf(file_id, "%f\n",vy3);
@@ -105,7 +114,7 @@
                       n = $fscanf(file_id, "%f\n",y3);
                       $fclose(file_id);
                       file_id = $fopen("F:/FYP-FINAL/synchronisation/bot3.txt","w");
-                      $fseek(file_id, 0, 0);
+                      sb=$fseek(file_id, 0, 0);
                       $fwrite(file_id, "r\n");
                       $display("bot 3 velocity read", $time);
                       $fclose(file_id);
