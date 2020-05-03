@@ -132,7 +132,8 @@
                       #100;
                       //assign read_done = read_done_reg;
                       //$display("%b", read_done_reg);
-                     
+                     en_reg = 1'b0;
+                     $display("disabled ");
                   end
                end 
             join 
@@ -145,10 +146,9 @@
             vx2_bin_reg  = vx2 * 2**(11);
             vy2_bin_reg  = vy2 * 2**(11);
             #100;
-            $display("Sujana %b", read_done);
+            //$display("Sujana %b", read_done);
             read_done_reg    = 1'b0;
-            en_reg = 1'b0;
-            $display("disabled ");
+            
             //end
         end
     always@(posedge output_check)

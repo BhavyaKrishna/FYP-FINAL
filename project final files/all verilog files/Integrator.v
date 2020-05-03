@@ -108,31 +108,34 @@ always @(posedge input_check)   //Make input_check high for writing into UM from
 begin
         //en = 0;
         input_UM = 1'b1;
-        Vxnew_UM = vx;
-        Vynew_UM = vy;
+        assign Vxnew_UM = vx;
+        assign Vynew_UM = vy;
         //To be deleted later
         input_UM2 = 1'b1;
-        Vxnew_UM2 = vx2;
-        Vynew_UM2 = vy2;//Till here
+        assign Vxnew_UM2 = vx2;
+        assign Vynew_UM2 = vy2;//Till here
+        #10;
+        //$display("Update module started");
+        //$display("%d",vx);
 end
 
 always @(posedge UM_out_rdy)
 begin
     input_CD = 1'b1;
-    xnew_CD  = xnew;
-    ynew_CD  = ynew;
-    Vxnew_CD = vxnew;
-    Vynew_CD = vynew;
+    assign xnew_CD  = xnew;
+    assign ynew_CD  = ynew;
+    assign Vxnew_CD = vxnew;
+    assign Vynew_CD = vynew;
     #10;
     input_UM = 1'b0;
 end
 
 always @(posedge UM_out_rdy)
 begin
-    xnew2_CD  = xnew2;
-    ynew2_CD  = ynew2;
-    Vxnew2_CD = vxnew2;
-    Vynew2_CD = vynew2;
+    assign xnew2_CD  = xnew2;
+    assign ynew2_CD  = ynew2;
+    assign Vxnew2_CD = vxnew2;
+    assign Vynew2_CD = vynew2;
     #10;
     input_UM2 = 1'b0;
 end
@@ -140,8 +143,8 @@ end
 always @(posedge trial)   //Load only when collision exist
 begin
     input_VS = 1'b1;
-    Vxnew_VS = CD_Vxin;
-    Vynew_VS = CD_Vyin;
+    assign Vxnew_VS = CD_Vxin;
+    assign Vynew_VS = CD_Vyin;
 end
 
 always @(posedge CD_out_rdy)
@@ -153,8 +156,8 @@ end
 always @(negedge trial)
 begin
     output_check_reg=1'b1;
-    vx1_WT=CD_Vxin;
-    vy1_WT=CD_Vyin;
+    assign vx1_WT=CD_Vxin;
+    assign vy1_WT=CD_Vyin;
     #10;
     output_check_reg=1'b0;
 end
