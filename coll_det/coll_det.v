@@ -1,39 +1,37 @@
 module coll_det(x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2, trial, clock, in_rdy,out_rdy);
 
-input [15:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2;
+input [31:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2;
 output trial;
 input clock,in_rdy;			
-output out_rdy;
+output reg out_rdy;
 
-reg [15:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
+reg [31:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
 reg [31:0] e,f,g,h,i,j,l,n,dot_sq;                               //intermediate registers
-reg [15:0] a,b,c,d,r_sq,vab_sq,k,m,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
+reg [31:0] a,b,c,d,r_sq,vab_sq,k,m,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
 reg [63:0] C1,C2;
+
 wire [0:10] carry;
-reg output_ready=1'b0;
 
 integer count=0;
 wire C0;
-wire[31:0] M0P,M1P;
-wire [15:0] S0,S1,S2,S3,S4,S5,S6;
+wire[63:0] M0P,M1P;
+wire [31:0] S0,S1,S2,S3,S4,S5,S6;
 //instantiations
 
-multiplier_16bit mult0(M0P, M0A, M0B);
-multiplier_16bit mult1(M1P, M1A, M1B);
+multiplier_32bit mult0(M0P, M0A, M0B);
+multiplier_32bit mult1(M1P, M1A, M1B);
 
-adder_16bit add0(carry[0],S0,P0,Q0,1'b0);
-adder_16bit add1(carry[1],S1,P1,Q1,1'b0);
-adder_16bit add2(carry[2],S2,P2,Q2,1'b0);
+adder_32bit add0(carry[0],S0,P0,Q0,1'b0);
+adder_32bit add1(carry[1],S1,P1,Q1,1'b0);
+adder_32bit add2(carry[2],S2,P2,Q2,1'b0);
 
-subtractor_16bit sub0(carry[3],S3,P3,Q3,1'b1);
-subtractor_16bit sub1(carry[4],S4,P4,Q4,1'b1);
-subtractor_16bit sub2(carry[5],S5,P5,Q5,1'b1);
-subtractor_16bit sub3(carry[6],S6,P6,Q6,1'b1);
+subtractor_32bit sub0(carry[3],S3,P3,Q3,1'b1);
+subtractor_32bit sub1(carry[4],S4,P4,Q4,1'b1);
+subtractor_32bit sub2(carry[5],S5,P5,Q5,1'b1);
+subtractor_32bit sub3(carry[6],S6,P6,Q6,1'b1);
  
 comparator comp1(C0,C1,C2);
-
-assign out_rdy=output_ready;
 
 always @(posedge clock)
  
@@ -99,7 +97,7 @@ always @(posedge clock)
      M0A<=vab_sq; M0B<=R2;
     end
 
-   8:begin     
+   8:begin       
      m=S3;
      n=M0P;    
      C1<=m; C2<=n;
@@ -108,10 +106,7 @@ always @(posedge clock)
    9:begin
       trial=C0;  
       count=-1;             //so that after updation it goes to 0
-      output_ready=1'b1;         //out_rdy signal is raised once all outputs are ready 
-      #5;
-      output_ready=1'b0;  //Should be given as a pulse
-      trial =1'b0;        //Same with the trial case :P  
+      out_rdy=1'b0;         //out_rdy signal is raised once all outputs are ready
     end 
      
   endcase
