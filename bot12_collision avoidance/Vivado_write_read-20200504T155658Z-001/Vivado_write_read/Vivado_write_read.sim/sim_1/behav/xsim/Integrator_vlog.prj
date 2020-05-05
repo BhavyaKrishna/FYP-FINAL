@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/Velocity_selector.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/adder_16bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/adder_32bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/adder_4bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/adder_64bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/coll_det.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/comparator.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/full_adder.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/multiplier_16bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/multiplier_32bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/shifter.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/simultaneous_read.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/subtractor_16bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/subtractor_32bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/subtractor_4bit.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/update_module.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/write_simultaneous.v" \
+"../../../../Vivado_write_read.srcs/sources_1/imports/sources_1/imports/new/Integrator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

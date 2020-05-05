@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
     
-    module read_test(output_check,x1_bin,y1_bin,vx1_bin,vy1_bin,x2_bin,y2_bin,vx2_bin,vy2_bin,read_done) ;
-    input output_check;
+    module read_test(en,x1_bin,y1_bin,vx1_bin,vy1_bin,x2_bin,y2_bin,vx2_bin,vy2_bin,read_done) ;
+    input en;
     output [15:0] x1_bin,y1_bin,vx1_bin,vy1_bin,x2_bin,y2_bin,vx2_bin,vy2_bin;
     output read_done;
     integer i,code,k,l,m,n;
@@ -35,10 +35,10 @@
     real vx3, vy3, x3, y3;
     reg [15:0] x1_bin_reg,y1_bin_reg,vx1_bin_reg,vy1_bin_reg,x2_bin_reg,y2_bin_reg,vx2_bin_reg,vy2_bin_reg;
     reg read_done_reg=1'b0;
-    reg en_reg = 1'b1;
+    reg en_reg;
     //reg enable;
     
-    //assign en_reg = en;
+   
     
     assign x1_bin    = x1_bin_reg;
     assign x2_bin    = x2_bin_reg;
@@ -55,10 +55,10 @@
     $display(en_reg);
     end*/
 
-    always@(en_reg)
+    always@(en)
       
         begin 
-            //$display("enable = %b", en_reg);
+            $display("enable = %b", en);
             //read_done_reg    = 1'b0;
             //if (en_reg ==1)
             //begin
@@ -66,6 +66,7 @@
                begin
                   #300 file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot1_read.txt","r");
                   code=$fscanf(file_id, "%c\n",char1);
+                  //$display("bot1");
                   //$display("%c", char1);
                   //$fclose(file_id);
                   if(char1 =="w")
@@ -89,6 +90,7 @@
                begin
                    #200 file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot2_read.txt","r");
                    code=$fscanf(file_id, "%c\n",char2);
+                   //$display("bot2");
                    //$display("%c", char1);
                    //$fclose(file_id);
                    if(char2 =="w")
@@ -128,15 +130,15 @@
                       $fwrite(file_id, "r\n");
                       $display("bot 3 velocity read", $time);
                       $fclose(file_id);
-                      read_done_reg    = 1'b1;
-                      #100;
                       //assign read_done = read_done_reg;
                       //$display("%b", read_done_reg);
-                     en_reg = 1'b0;
-                     $display("disabled ");
+                    
                   end
                end 
-            join 
+            join
+             //en_reg = 1'b0;
+            read_done_reg    = 1'b1;
+            #100;
             x1_bin_reg   = x1  * 2**(11);
             y1_bin_reg   = y1  * 2**(11);
             vx1_bin_reg  = vx1 * 2**(11);
@@ -151,9 +153,4 @@
             
             //end
         end
-    always@(posedge output_check)
-    begin
-    en_reg = 1'b1;
-    $display("enabled");
-    end
     endmodule

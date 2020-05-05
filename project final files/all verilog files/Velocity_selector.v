@@ -61,10 +61,10 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
          case(count)
               30: begin
                     done <=1'b0;
-                    mag1 <=mag;
+                   assign mag1 =mag;
                  end   
               35:begin
-                    mag1 <= mag1-1;
+                  assign  mag1 = mag1-1;
                  end
               60:begin
                     count=-1;             //so that after updation it goes to 0

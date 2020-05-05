@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
--- Date        : Sun May  3 19:06:19 2020
+-- Date        : Sun May  3 19:06:12 2020
 -- Host        : DESKTOP-I2LGHSG running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub {D:/Repository/FYP-FINAL/project final
---               files/project_1/project_1.srcs/sources_1/ip/cordic_1/cordic_1_stub.vhdl}
+-- Command     : write_vhdl -force -mode synth_stub -rename_top cordic_1 -prefix
+--               cordic_1_ cordic_1_stub.vhdl
 -- Design      : cordic_1
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7k70tfbv676-1

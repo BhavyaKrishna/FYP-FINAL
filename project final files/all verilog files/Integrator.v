@@ -41,12 +41,12 @@ reg [15:0] ax_reg=0.5*2**11,ay_reg=0.5*2**11;
 reg [31:0] R_reg=0.22*2**11;
 reg [15:0] vx1_WT,vy1_WT,vx2_WT,vy2_WT,vx3_WT,vy3_WT;
 wire [15:0] WT_vx1,WT_vy1,WT_vx2,WT_vy2,WT_vx3,WT_vy3;
- 
+wire en;
 reg clock_reg;
 reg input_CD=1'b0;
 reg input_UM=1'b0;
 reg input_VS=1'b0;
-
+reg en_reg = 1'b1;
 reg output_check_reg=1'b0;
 
 //To be deleted once all the bots are tied up
@@ -69,7 +69,7 @@ update_module UM21 (x2, y2, UM_Vxin1, UM_Vyin1, ax, ay ,t,clock, UM_in_rdy2,UM_o
 update_module UM (x, y, UM_Vxin, UM_Vyin, ax, ay ,t,clock, UM_in_rdy,UM_out_rdy,xnew, ynew, vxnew, vynew);
 Velocity_selector VS (VS_Vxin,VS_Vyin,clock,VS_in_rdy,VS_Vxout,VS_Vyout,VS_out_rdy);
 coll_det CD(CD_xin,CD_yin,x2, y2, CD_Vxin, CD_Vyin, vx2, vy2, R, trial, clock, CD_in_rdy, CD_out_rdy);
-read_test RT(output_check,x,y,vx,vy,x2,y2,vx2,vy2,input_check);
+read_test RT(en,x,y,vx,vy,x2,y2,vx2,vy2,input_check);
 write_test WT(WT_vx1,WT_vy1,WT_vx2,WT_vy2,WT_vx3,WT_vy3,output_check) ;
 
  
@@ -78,8 +78,8 @@ assign R     = R_reg;
 assign ax    = ax_reg;
 assign ay    = ay_reg;
 assign clock = clock_reg;
-assign t = 2048;
-
+assign t = 1;
+assign en = en_reg;
 
 assign CD_xin=xnew_CD;
 assign CD_yin=ynew_CD;
@@ -106,7 +106,8 @@ assign WT_vy3        =  vy3_WT;
 
 always @(posedge input_check)   //Make input_check high for writing into UM from file
 begin
-        //en = 0;
+        en_reg = 0;
+        $display("disabled "); 
         input_UM = 1'b1;
         assign Vxnew_UM = vx;
         assign Vynew_UM = vy;
@@ -173,6 +174,12 @@ begin
     //en = 1;       //To turn the module of once output is ready(simillarly with the rest);
 end
 
+always@(posedge output_check)
+    begin
+    en_reg = 1'b1;
+    $display("enabled");
+    end
+    
 always
     #50 clock_reg=~clock_reg;
 
