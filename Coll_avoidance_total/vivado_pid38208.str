@@ -1,0 +1,108 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 38208
+License: Customer
+
+Current time: 	Thu May 07 12:11:27 IST 2020
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 134 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	AMRITHA
+User home directory: C:/Users/AMRITHA
+User working directory: C:/Users/AMRITHA/Coll_avoidance_total
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/AMRITHA/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/AMRITHA/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/AMRITHA/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/AMRITHA/Coll_avoidance_total/vivado.log
+Vivado journal file location: 	C:/Users/AMRITHA/Coll_avoidance_total/vivado.jou
+Engine tmp dir: 	C:/Users/AMRITHA/Coll_avoidance_total/.Xil/Vivado-38208-DESKTOP-RJUI5FD
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 474 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 58 MB (+58718kb) [00:00:15]
+// [Engine Memory]: 462 MB (+333208kb) [00:00:15]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\AMRITHA\Coll_avoidance_total\Coll_avoidance_total.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/AMRITHA/Coll_avoidance_total/Coll_avoidance_total.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 32 MB. Current time: 5/7/20 12:11:29 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 489 MB (+4206kb) [00:00:28]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 32 MB. Current time: 5/7/20 12:11:44 PM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 537 MB (+24168kb) [00:00:36]
+// Tcl Message: open_project C:/Users/AMRITHA/Coll_avoidance_total/Coll_avoidance_total.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// Project name: Coll_avoidance_total; location: C:/Users/AMRITHA/Coll_avoidance_total; part: xc7k70tfbv676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 778.309 ; gain = 76.230 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 566 MB (+2338kb) [00:00:46]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 48 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), I3 : Integrator2 (Integrator2.v)]", 8); // B (D, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), I3 : Integrator2 (Integrator2.v), CD2 : coll_det (coll_det.v)]", 12); // B (D, ck)
+// PAPropertyPanels.initPanels (comparator.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), I3 : Integrator2 (Integrator2.v), CD2 : coll_det (coll_det.v), comp1 : comparator (comparator.v)]", 22, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), I3 : Integrator2 (Integrator2.v), CD2 : coll_det (coll_det.v), comp1 : comparator (comparator.v)]", 22, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 591 MB. GUI used memory: 39 MB. Current time: 5/7/20 12:12:59 PM IST
+// Elapsed time: 19 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B

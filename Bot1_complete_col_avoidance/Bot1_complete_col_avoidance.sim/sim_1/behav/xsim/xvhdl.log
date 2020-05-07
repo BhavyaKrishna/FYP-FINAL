@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP-FINAL/Bot1_complete_col_avoidance/Bot1_complete_col_avoidance.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cordic_0
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP-FINAL/Bot1_complete_col_avoidance/Bot1_complete_col_avoidance.srcs/sources_1/ip/cordic_1/sim/cordic_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cordic_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP-FINAL/Bot1_complete_col_avoidance/Bot1_complete_col_avoidance.srcs/sources_1/imports/new/Polar_to_rect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Polar_to_rect
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP-FINAL/Bot1_complete_col_avoidance/Bot1_complete_col_avoidance.srcs/sources_1/imports/new/Rect_to_polar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rect_to_polar
