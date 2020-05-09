@@ -1778,8 +1778,8 @@ const int NumRelocateId= 1728;
 void relocate(char *dp)
 {
 	iki_relocate(dp, "xsim.dir/Integrator_behav/xsim.reloc",  (void **)funcTab, 1728);
-	iki_vhdl_file_variable_register(dp + 4769384);
-	iki_vhdl_file_variable_register(dp + 4769440);
+	iki_vhdl_file_variable_register(dp + 4769552);
+	iki_vhdl_file_variable_register(dp + 4769608);
 
 
 	/*Populate the transaction function pointer field in the whole net structure */
@@ -1795,13 +1795,13 @@ void simulate(char *dp)
 	iki_schedule_processes_at_time_zero(dp, "xsim.dir/Integrator_behav/xsim.reloc");
 	// Initialize Verilog nets in mixed simulation, for the cases when the value at time 0 should be propagated from the mixed language Vhdl net
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 7529872, dp + 7527368, 0, 15, 0, 15, 16, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 7530040, dp + 7527536, 0, 15, 0, 15, 16, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 7529912, dp + 7527424, 0, 15, 0, 15, 16, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 7530080, dp + 7527592, 0, 15, 0, 15, 16, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 9774064, dp + 7527704, 0, 15, 0, 15, 16, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 9774232, dp + 7527872, 0, 15, 0, 15, 16, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 9774104, dp + 7527760, 0, 15, 0, 15, 16, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 9774272, dp + 7527928, 0, 15, 0, 15, 16, 1);
 	iki_execute_processes();
 
 	// Schedule resolution functions for the multiply driven Verilog nets that have strength

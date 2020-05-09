@@ -52,8 +52,7 @@ shifter shift1(SFI,SFO);
 always @(posedge clock)
  
  if(in_rdy)
-  begin
- 
+  begin 
   case(count)
   0: begin
       output_ready=1'b0;

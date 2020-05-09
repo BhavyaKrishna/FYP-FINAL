@@ -168,10 +168,7 @@ begin
       wait for CLOCK_PERIOD/2;
       aclk <= '1';
       wait for CLOCK_PERIOD/2;
-      if cycles >= TEST_CYCLES then
-        report "Not a real failure. Simulation finished successfully. Test completed successfully" severity failure;
-        wait;
-      end if;
+      
     end loop;
   end process clock_gen;
 
