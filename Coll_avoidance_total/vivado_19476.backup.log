@@ -1,0 +1,2435 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May  9 19:48:10 2020
+# Process ID: 19476
+# Current directory: D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34120 D:\FYP_FINAL\FYP-FINAL\Coll_avoidance_total\Coll_avoidance_total.xpr
+# Log file: D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/vivado.log
+# Journal file: D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/FYP_FINAL/FYP-FINAL/project_12/top_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 740.809 ; gain = 62.574
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Integrator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/update_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 765.289 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:344]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1201]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1202]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 765.289 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '49' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP-FINAL/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP-FINAL/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:01:15 . Memory (MB): peak = 929.859 ; gain = 20.285
+xsim: Time (s): cpu = 00:00:36 ; elapsed = 00:01:28 . Memory (MB): peak = 929.859 ; gain = 164.570
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:44 ; elapsed = 00:02:26 . Memory (MB): peak = 929.859 ; gain = 164.570
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 2 us
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+run 2 us
+Inside Path Planner1
+bot 1 velocity updated                2050
+bot 2 velocity updated                2050
+bot 3 velocity updated                2050
+run 2 us
+run 2 us
+run 2 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Integrator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/update_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 946.984 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:344]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1201]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1202]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:01:00 . Memory (MB): peak = 946.984 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '60' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP-FINAL/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP-FINAL/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 965.988 ; gain = 2.750
+xsim: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 965.988 ; gain = 19.004
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:01:33 . Memory (MB): peak = 965.988 ; gain = 19.004
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5 s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+bot 3 velocity updated                2050
+bot 2 velocity updated               25850
+bot 2 velocity read               33600
+Inside Path Planner1
+bot 1 velocity updated               33750
+bot 1 velocity read               35100
+Inside Path Planner1
+bot 1 velocity updated               35550
+bot 2 velocity updated               35650
+bot 1 velocity read               36300
+bot 2 velocity read               36300
+bot 3 velocity read               43200
+bot 3 velocity updated               43650
+bot 3 velocity read               44700
+bot 3 velocity updated               53150
+bot 3 velocity read               60300
+bot 3 velocity updated               70250
+bot 3 velocity read               76200
+bot 3 velocity updated               78250
+Inside Path Planner1
+bot 1 velocity updated               84250
+bot 2 velocity updated               84250
+bot 3 velocity read               84300
+bot 1 velocity read               85500
+bot 2 velocity read               85800
+Inside Path Planner1
+bot 1 velocity updated               86050
+bot 1 velocity read               86400
+Inside Path Planner1
+bot 1 velocity updated              118850
+bot 1 velocity read              119100
+bot 2 velocity updated              125850
+bot 3 velocity updated              125850
+bot 2 velocity read              128100
+bot 3 velocity read              128100
+bot 2 velocity updated              130150
+bot 3 velocity updated              130150
+bot 2 velocity read              130200
+bot 3 velocity read              131700
+bot 2 velocity updated              132250
+bot 3 velocity updated              132250
+bot 2 velocity read              133200
+bot 3 velocity read              133200
+bot 2 velocity updated              133750
+bot 3 velocity updated              133750
+bot 2 velocity read              134700
+bot 3 velocity read              134700
+bot 2 velocity updated              135250
+bot 3 velocity updated              135250
+bot 2 velocity read              136200
+bot 3 velocity read              136200
+bot 2 velocity updated              136750
+bot 3 velocity updated              136750
+bot 2 velocity read              136800
+bot 3 velocity read              137700
+bot 2 velocity updated              138250
+bot 3 velocity updated              138250
+bot 2 velocity read              139200
+bot 3 velocity read              139200
+bot 2 velocity updated              139750
+bot 3 velocity updated              139750
+bot 2 velocity read              140700
+bot 3 velocity read              140700
+bot 2 velocity updated              141250
+bot 3 velocity updated              141250
+bot 2 velocity read              141900
+bot 3 velocity read              142200
+bot 2 velocity updated              142750
+bot 3 velocity updated              142750
+bot 2 velocity read              143400
+bot 3 velocity read              143400
+bot 2 velocity updated              143950
+bot 3 velocity updated              143950
+Inside Path Planner1
+bot 1 velocity updated              144350
+bot 1 velocity read              144600
+bot 2 velocity read              144900
+bot 3 velocity read              144900
+Inside Path Planner1
+bot 1 velocity updated              145450
+bot 2 velocity updated              145450
+bot 3 velocity updated              145450
+bot 1 velocity read              145500
+bot 2 velocity read              146400
+bot 3 velocity read              146400
+Inside Path Planner1
+bot 1 velocity updated              146950
+bot 2 velocity updated              146950
+bot 3 velocity updated              146950
+bot 1 velocity read              147000
+bot 2 velocity read              147900
+bot 3 velocity read              147900
+Inside Path Planner1
+bot 1 velocity updated              148450
+bot 2 velocity updated              148450
+bot 3 velocity updated              148450
+bot 2 velocity read              148500
+bot 1 velocity read              149400
+bot 3 velocity read              149400
+Inside Path Planner1
+bot 1 velocity updated              149950
+bot 2 velocity updated              149950
+bot 3 velocity updated              149950
+bot 3 velocity read              150000
+bot 1 velocity read              151500
+Inside Path Planner1
+bot 1 velocity updated              151750
+bot 2 velocity read              151800
+bot 1 velocity read              153300
+Inside Path Planner1
+bot 1 velocity updated              153550
+bot 2 velocity updated              153850
+bot 3 velocity updated              153850
+bot 3 velocity read              153900
+bot 1 velocity read              154800
+bot 2 velocity read              155100
+Inside Path Planner1
+bot 1 velocity updated              155350
+bot 1 velocity read              156600
+Inside Path Planner1
+bot 1 velocity updated              157150
+bot 2 velocity updated              157150
+bot 3 velocity updated              157150
+bot 3 velocity read              157200
+bot 1 velocity read              158700
+Inside Path Planner1
+bot 1 velocity updated              158950
+bot 2 velocity read              159000
+bot 1 velocity read              160500
+Inside Path Planner1
+bot 1 velocity updated              160750
+bot 2 velocity updated              161050
+bot 3 velocity updated              161050
+bot 2 velocity read              161100
+bot 3 velocity read              162000
+bot 1 velocity read              162300
+Inside Path Planner1
+bot 1 velocity updated              170450
+bot 1 velocity read              171600
+Inside Path Planner1
+bot 1 velocity updated              180150
+bot 1 velocity read              180300
+Inside Path Planner1
+bot 1 velocity updated              189850
+bot 1 velocity read              191700
+Inside Path Planner1
+bot 1 velocity updated              199550
+bot 1 velocity read              201300
+Inside Path Planner1
+bot 1 velocity updated              209250
+bot 1 velocity read              209400
+Inside Path Planner1
+bot 1 velocity updated              218950
+bot 1 velocity read              219900
+Inside Path Planner1
+bot 1 velocity updated              228650
+bot 1 velocity read              228900
+Inside Path Planner1
+bot 1 velocity updated              238350
+bot 1 velocity read              238500
+Inside Path Planner1
+bot 1 velocity updated              248050
+bot 1 velocity read              249300
+Inside Path Planner1
+bot 1 velocity updated              257750
+bot 1 velocity read              258900
+Inside Path Planner1
+bot 1 velocity updated              267450
+bot 1 velocity read              269700
+Inside Path Planner1
+bot 1 velocity updated              277150
+bot 1 velocity read              277200
+Inside Path Planner1
+bot 1 velocity updated              286850
+bot 1 velocity read              288300
+Inside Path Planner1
+bot 1 velocity updated              296550
+bot 1 velocity read              296700
+Inside Path Planner1
+bot 1 velocity updated              306250
+bot 1 velocity read              307800
+Inside Path Planner1
+bot 1 velocity updated              315950
+bot 1 velocity read              317700
+Inside Path Planner1
+bot 1 velocity updated              325650
+bot 1 velocity read              327900
+Inside Path Planner1
+bot 1 velocity updated              335350
+bot 1 velocity read              336600
+Inside Path Planner1
+bot 1 velocity updated              345050
+bot 1 velocity read              346200
+Inside Path Planner1
+bot 1 velocity updated              354750
+bot 1 velocity read              356100
+Inside Path Planner1
+bot 1 velocity updated              364450
+bot 1 velocity read              364500
+Inside Path Planner1
+bot 1 velocity updated              374150
+bot 1 velocity read              383700
+Inside Path Planner1
+bot 1 velocity updated              383850
+bot 1 velocity read              384000
+Inside Path Planner1
+bot 1 velocity updated              393550
+bot 1 velocity read              402000
+Inside Path Planner1
+bot 1 velocity updated              403250
+bot 1 velocity read              406200
+Inside Path Planner1
+bot 1 velocity updated              412950
+bot 1 velocity read              414600
+Inside Path Planner1
+bot 1 velocity updated              422650
+bot 1 velocity read              423900
+Inside Path Planner1
+bot 1 velocity updated              432350
+bot 1 velocity read              433500
+Inside Path Planner1
+bot 1 velocity updated              442050
+bot 1 velocity read              443400
+Inside Path Planner1
+bot 1 velocity updated              451750
+bot 1 velocity read              453000
+Inside Path Planner1
+bot 1 velocity updated              461450
+bot 1 velocity read              461700
+Inside Path Planner1
+bot 1 velocity updated              471150
+bot 1 velocity read              472500
+Inside Path Planner1
+bot 1 velocity updated              480850
+bot 1 velocity read              482100
+Inside Path Planner1
+bot 1 velocity updated              490550
+bot 1 velocity read              490800
+Inside Path Planner1
+bot 1 velocity updated              500250
+bot 1 velocity read              506400
+Inside Path Planner1
+bot 1 velocity updated              509950
+bot 1 velocity read              511500
+Inside Path Planner1
+bot 1 velocity updated              519650
+bot 1 velocity read              521100
+Inside Path Planner1
+bot 1 velocity updated              529350
+bot 1 velocity read              530100
+Inside Path Planner1
+bot 1 velocity updated              539050
+bot 1 velocity read              540600
+Inside Path Planner1
+bot 1 velocity updated              548750
+bot 1 velocity read              549900
+Inside Path Planner1
+bot 1 velocity updated              558450
+bot 1 velocity read              560100
+Inside Path Planner1
+bot 1 velocity updated              568150
+bot 1 velocity read              569700
+Inside Path Planner1
+bot 1 velocity updated              577850
+bot 1 velocity read              579000
+Inside Path Planner1
+bot 1 velocity updated              587550
+bot 1 velocity read              587700
+Inside Path Planner1
+bot 1 velocity updated              597250
+bot 1 velocity read              606300
+Inside Path Planner1
+bot 1 velocity updated              606950
+bot 1 velocity read              615000
+Inside Path Planner1
+bot 1 velocity updated              616650
+bot 1 velocity read              618000
+Inside Path Planner1
+bot 1 velocity updated              626350
+bot 1 velocity read              635400
+Inside Path Planner1
+bot 1 velocity updated              636050
+bot 1 velocity read              637800
+Inside Path Planner1
+bot 1 velocity updated              645750
+bot 1 velocity read              645900
+Inside Path Planner1
+bot 1 velocity updated              655450
+bot 1 velocity read              655800
+Inside Path Planner1
+bot 1 velocity updated              665150
+bot 1 velocity read              669600
+Inside Path Planner1
+bot 1 velocity updated              674850
+bot 1 velocity read              676500
+Inside Path Planner1
+bot 1 velocity updated              684550
+bot 1 velocity read              684600
+Inside Path Planner1
+bot 1 velocity updated              694250
+bot 1 velocity read              695700
+Inside Path Planner1
+bot 1 velocity updated              703950
+bot 1 velocity read              704100
+Inside Path Planner1
+bot 1 velocity updated              713650
+bot 1 velocity read              715500
+Inside Path Planner1
+bot 1 velocity updated              723350
+bot 1 velocity read              725100
+Inside Path Planner1
+bot 1 velocity updated              733050
+bot 1 velocity read              733200
+Inside Path Planner1
+bot 1 velocity updated              742750
+bot 1 velocity read              744300
+Inside Path Planner1
+bot 1 velocity updated              752450
+bot 1 velocity read              754200
+Inside Path Planner1
+bot 1 velocity updated              762150
+bot 1 velocity read              763500
+Inside Path Planner1
+bot 1 velocity updated              771850
+bot 1 velocity read              771900
+Inside Path Planner1
+bot 1 velocity updated              781550
+bot 1 velocity read              783300
+Inside Path Planner1
+bot 1 velocity updated              791250
+bot 1 velocity read              792900
+Inside Path Planner1
+bot 1 velocity updated              800950
+bot 1 velocity read              802200
+Inside Path Planner1
+bot 1 velocity updated              810650
+bot 1 velocity read              812400
+Inside Path Planner1
+bot 1 velocity updated              820350
+bot 1 velocity read              821700
+Inside Path Planner1
+bot 1 velocity updated              830050
+bot 1 velocity read              830400
+Inside Path Planner1
+bot 1 velocity updated              839750
+bot 1 velocity read              844200
+Inside Path Planner1
+bot 1 velocity updated              849450
+bot 1 velocity read              851100
+Inside Path Planner1
+bot 1 velocity updated              859150
+bot 1 velocity read              860700
+Inside Path Planner1
+bot 1 velocity updated              868850
+bot 1 velocity read              869100
+Inside Path Planner1
+bot 1 velocity updated              878550
+bot 1 velocity read              880500
+Inside Path Planner1
+bot 1 velocity updated              888250
+bot 1 velocity read              889800
+Inside Path Planner1
+bot 1 velocity updated              897950
+bot 1 velocity read              899100
+Inside Path Planner1
+bot 1 velocity updated              907650
+bot 1 velocity read              907800
+Inside Path Planner1
+bot 1 velocity updated              917350
+bot 1 velocity read              926400
+Inside Path Planner1
+bot 1 velocity updated              927050
+bot 1 velocity read              928500
+Inside Path Planner1
+bot 1 velocity updated              936750
+bot 1 velocity read              936900
+Inside Path Planner1
+bot 1 velocity updated              946450
+bot 1 velocity read              955800
+Inside Path Planner1
+bot 1 velocity updated              956150
+bot 1 velocity read              957900
+Inside Path Planner1
+bot 1 velocity updated              965850
+bot 1 velocity read              967500
+Inside Path Planner1
+bot 1 velocity updated              975550
+bot 1 velocity read              976800
+Inside Path Planner1
+bot 1 velocity updated              985250
+bot 1 velocity read              985500
+Inside Path Planner1
+bot 1 velocity updated              994950
+bot 1 velocity read              996300
+Inside Path Planner1
+bot 1 velocity updated             1004650
+bot 1 velocity read             1006500
+Inside Path Planner1
+bot 1 velocity updated             1014350
+bot 1 velocity read             1016100
+Inside Path Planner1
+bot 1 velocity updated             1024050
+bot 1 velocity read             1025700
+Inside Path Planner1
+bot 1 velocity updated             1033750
+bot 1 velocity read             1033800
+Inside Path Planner1
+bot 1 velocity updated             1043450
+bot 1 velocity read             1045200
+Inside Path Planner1
+bot 1 velocity updated             1053150
+bot 1 velocity read             1054800
+Inside Path Planner1
+bot 1 velocity updated             1062850
+bot 1 velocity read             1063200
+Inside Path Planner1
+bot 1 velocity updated             1072550
+bot 1 velocity read             1074000
+Inside Path Planner1
+bot 1 velocity updated             1082250
+bot 1 velocity read             1082400
+Inside Path Planner1
+bot 1 velocity updated             1091950
+bot 1 velocity read             1093800
+Inside Path Planner1
+bot 1 velocity updated             1101650
+bot 1 velocity read             1102800
+Inside Path Planner1
+bot 1 velocity updated             1111350
+bot 1 velocity read             1112700
+Inside Path Planner1
+bot 1 velocity updated             1121050
+bot 1 velocity read             1122900
+Inside Path Planner1
+bot 1 velocity updated             1130750
+bot 1 velocity read             1132200
+Inside Path Planner1
+bot 1 velocity updated             1140450
+bot 1 velocity read             1141800
+Inside Path Planner1
+bot 1 velocity updated             1150150
+bot 1 velocity read             1159200
+Inside Path Planner1
+bot 1 velocity updated             1159850
+bot 1 velocity read             1161600
+Inside Path Planner1
+bot 1 velocity updated             1169550
+bot 1 velocity read             1171200
+Inside Path Planner1
+bot 1 velocity updated             1179250
+bot 1 velocity read             1183200
+Inside Path Planner1
+bot 1 velocity updated             1188950
+bot 1 velocity read             1190700
+Inside Path Planner1
+bot 1 velocity updated             1198650
+bot 1 velocity read             1198800
+Inside Path Planner1
+bot 1 velocity updated             1208350
+bot 1 velocity read             1208400
+Inside Path Planner1
+bot 1 velocity updated             1218050
+bot 1 velocity read             1227300
+Inside Path Planner1
+bot 1 velocity updated             1227750
+bot 1 velocity read             1236600
+Inside Path Planner1
+bot 1 velocity updated             1237450
+bot 1 velocity read             1239300
+Inside Path Planner1
+bot 1 velocity updated             1247150
+bot 1 velocity read             1248600
+Inside Path Planner1
+bot 1 velocity updated             1256850
+bot 1 velocity read             1258500
+Inside Path Planner1
+bot 1 velocity updated             1266550
+bot 1 velocity read             1268100
+Inside Path Planner1
+bot 1 velocity updated             1276250
+bot 1 velocity read             1277400
+Inside Path Planner1
+bot 1 velocity updated             1285950
+bot 1 velocity read             1286100
+Inside Path Planner1
+bot 1 velocity updated             1295650
+bot 1 velocity read             1295700
+Inside Path Planner1
+bot 1 velocity updated             1305350
+bot 1 velocity read             1313700
+Inside Path Planner1
+bot 1 velocity updated             1315050
+bot 1 velocity read             1316400
+Inside Path Planner1
+bot 1 velocity updated             1324750
+bot 1 velocity read             1326600
+Inside Path Planner1
+bot 1 velocity updated             1334450
+bot 1 velocity read             1336200
+Inside Path Planner1
+bot 1 velocity updated             1344150
+bot 1 velocity read             1345500
+Inside Path Planner1
+bot 1 velocity updated             1353850
+bot 1 velocity read             1353900
+Inside Path Planner1
+bot 1 velocity updated             1363550
+bot 1 velocity read             1365300
+Inside Path Planner1
+bot 1 velocity updated             1373250
+bot 1 velocity read             1374900
+Inside Path Planner1
+bot 1 velocity updated             1382950
+bot 1 velocity read             1384800
+Inside Path Planner1
+bot 1 velocity updated             1392650
+bot 1 velocity read             1394400
+Inside Path Planner1
+bot 1 velocity updated             1402350
+bot 1 velocity read             1403700
+Inside Path Planner1
+bot 1 velocity updated             1412050
+bot 1 velocity read             1412100
+Inside Path Planner1
+bot 1 velocity updated             1421750
+bot 1 velocity read             1422000
+Inside Path Planner1
+bot 1 velocity updated             1431450
+bot 1 velocity read             1432800
+Inside Path Planner1
+bot 1 velocity updated             1441150
+bot 1 velocity read             1441500
+Inside Path Planner1
+bot 1 velocity updated             1450850
+bot 1 velocity read             1452300
+Inside Path Planner1
+bot 1 velocity updated             1460550
+bot 1 velocity read             1460700
+Inside Path Planner1
+bot 1 velocity updated             1470250
+bot 1 velocity read             1470600
+Inside Path Planner1
+bot 1 velocity updated             1479950
+bot 1 velocity read             1481400
+Inside Path Planner1
+bot 1 velocity updated             1489650
+bot 1 velocity read             1491000
+Inside Path Planner1
+bot 1 velocity updated             1499350
+bot 1 velocity read             1499700
+Inside Path Planner1
+bot 1 velocity updated             1509050
+bot 1 velocity read             1510200
+Inside Path Planner1
+bot 1 velocity updated             1518750
+bot 1 velocity read             1520100
+Inside Path Planner1
+bot 1 velocity updated             1528450
+bot 1 velocity read             1530000
+Inside Path Planner1
+bot 1 velocity updated             1538150
+bot 1 velocity read             1539300
+Inside Path Planner1
+bot 1 velocity updated             1547850
+bot 1 velocity read             1548300
+Inside Path Planner1
+bot 1 velocity updated             1557550
+bot 1 velocity read             1557600
+Inside Path Planner1
+bot 1 velocity updated             1567250
+bot 1 velocity read             1569000
+Inside Path Planner1
+bot 1 velocity updated             1576950
+bot 1 velocity read             1579200
+Inside Path Planner1
+bot 1 velocity updated             1586650
+bot 1 velocity read             1588200
+Inside Path Planner1
+bot 1 velocity updated             1596350
+bot 1 velocity read             1596900
+Inside Path Planner1
+bot 1 velocity updated             1606050
+bot 1 velocity read             1607700
+Inside Path Planner1
+bot 1 velocity updated             1615750
+bot 1 velocity read             1617300
+Inside Path Planner1
+bot 1 velocity updated             1625450
+bot 1 velocity read             1627200
+Inside Path Planner1
+bot 1 velocity updated             1635150
+bot 1 velocity read             1636500
+Inside Path Planner1
+bot 1 velocity updated             1644850
+bot 1 velocity read             1646100
+Inside Path Planner1
+bot 1 velocity updated             1654550
+bot 1 velocity read             1655700
+Inside Path Planner1
+bot 1 velocity updated             1664250
+bot 1 velocity read             1664400
+Inside Path Planner1
+bot 1 velocity updated             1673950
+bot 1 velocity read             1675800
+Inside Path Planner1
+bot 1 velocity updated             1683650
+bot 1 velocity read             1690200
+Inside Path Planner1
+bot 1 velocity updated             1693350
+bot 1 velocity read             1702500
+Inside Path Planner1
+bot 1 velocity updated             1703050
+bot 1 velocity read             1704600
+Inside Path Planner1
+bot 1 velocity updated             1712750
+bot 1 velocity read             1713900
+Inside Path Planner1
+bot 1 velocity updated             1722450
+bot 1 velocity read             1723800
+Inside Path Planner1
+bot 1 velocity updated             1732150
+bot 1 velocity read             1733400
+Inside Path Planner1
+bot 1 velocity updated             1741850
+bot 1 velocity read             1742100
+Inside Path Planner1
+bot 1 velocity updated             1751550
+bot 1 velocity read             1753200
+Inside Path Planner1
+bot 1 velocity updated             1761250
+bot 1 velocity read             1762500
+Inside Path Planner1
+bot 1 velocity updated             1770950
+bot 1 velocity read             1771200
+Inside Path Planner1
+bot 1 velocity updated             1780650
+bot 1 velocity read             1782300
+Inside Path Planner1
+bot 1 velocity updated             1790350
+bot 1 velocity read             1791000
+Inside Path Planner1
+bot 1 velocity updated             1800050
+bot 1 velocity read             1801200
+Inside Path Planner1
+bot 1 velocity updated             1809750
+bot 1 velocity read             1811100
+Inside Path Planner1
+bot 1 velocity updated             1819450
+bot 1 velocity read             1821300
+Inside Path Planner1
+bot 1 velocity updated             1829150
+bot 1 velocity read             1830900
+Inside Path Planner1
+bot 1 velocity updated             1838850
+bot 1 velocity read             1840200
+Inside Path Planner1
+bot 1 velocity updated             1848550
+bot 1 velocity read             1857600
+Inside Path Planner1
+bot 1 velocity updated             1858250
+bot 1 velocity read             1867800
+Inside Path Planner1
+bot 1 velocity updated             1867950
+bot 1 velocity read             1869000
+Inside Path Planner1
+bot 1 velocity updated             1877650
+bot 1 velocity read             1887000
+Inside Path Planner1
+bot 1 velocity updated             1887350
+bot 1 velocity read             1895400
+Inside Path Planner1
+bot 1 velocity updated             1897050
+bot 1 velocity read             1906200
+Inside Path Planner1
+bot 1 velocity updated             1906750
+bot 1 velocity read             1915800
+Inside Path Planner1
+bot 1 velocity updated             1916450
+bot 1 velocity read             1918200
+Inside Path Planner1
+bot 1 velocity updated             1926150
+bot 1 velocity read             1927800
+Inside Path Planner1
+bot 1 velocity updated             1935850
+bot 1 velocity read             1936200
+Inside Path Planner1
+bot 1 velocity updated             1945550
+bot 1 velocity read             1945800
+Inside Path Planner1
+bot 1 velocity updated             1955250
+bot 1 velocity read             1955400
+Inside Path Planner1
+bot 1 velocity updated             1964950
+bot 1 velocity read             1971900
+Inside Path Planner1
+bot 1 velocity updated             1974650
+bot 1 velocity read             1976400
+Inside Path Planner1
+bot 1 velocity updated             1984350
+bot 1 velocity read             1993500
+Inside Path Planner1
+bot 1 velocity updated             1994050
+bot 1 velocity read             1995600
+Inside Path Planner1
+bot 1 velocity updated             2003750
+bot 1 velocity read             2005200
+Inside Path Planner1
+bot 1 velocity updated             2013450
+bot 1 velocity read             2014800
+Inside Path Planner1
+bot 1 velocity updated             2023150
+bot 1 velocity read             2032800
+Inside Path Planner1
+bot 1 velocity updated             2032850
+bot 1 velocity read             2033100
+Inside Path Planner1
+bot 1 velocity updated             2042550
+bot 1 velocity read             2042700
+Inside Path Planner1
+bot 1 velocity updated             2052250
+bot 1 velocity read             2056800
+Inside Path Planner1
+bot 1 velocity updated             2061950
+bot 1 velocity read             2063700
+Inside Path Planner1
+bot 1 velocity updated             2071650
+bot 1 velocity read             2073000
+Inside Path Planner1
+bot 1 velocity updated             2081350
+bot 1 velocity read             2090700
+Inside Path Planner1
+bot 1 velocity updated             2091050
+bot 1 velocity read             2092200
+Inside Path Planner1
+bot 1 velocity updated             2100750
+bot 1 velocity read             2101200
+Inside Path Planner1
+bot 1 velocity updated             2110450
+bot 1 velocity read             2119500
+Inside Path Planner1
+bot 1 velocity updated             2120150
+bot 1 velocity read             2125500
+Inside Path Planner1
+bot 1 velocity updated             2129850
+bot 1 velocity read             2131500
+Inside Path Planner1
+bot 1 velocity updated             2139550
+bot 1 velocity read             2140800
+Inside Path Planner1
+bot 1 velocity updated             2149250
+bot 1 velocity read             2149500
+Inside Path Planner1
+bot 1 velocity updated             2158950
+bot 1 velocity read             2159100
+Inside Path Planner1
+bot 1 velocity updated             2168650
+bot 1 velocity read             2177700
+Inside Path Planner1
+bot 1 velocity updated             2178350
+bot 1 velocity read             2187600
+Inside Path Planner1
+bot 1 velocity updated             2188050
+bot 1 velocity read             2197200
+Inside Path Planner1
+bot 1 velocity updated             2197750
+bot 1 velocity read             2199300
+Inside Path Planner1
+bot 1 velocity updated             2207450
+bot 1 velocity read             2214600
+Inside Path Planner1
+bot 1 velocity updated             2217150
+bot 1 velocity read             2218800
+Inside Path Planner1
+bot 1 velocity updated             2226850
+bot 1 velocity read             2227200
+Inside Path Planner1
+bot 1 velocity updated             2236550
+bot 1 velocity read             2237700
+Inside Path Planner1
+bot 1 velocity updated             2246250
+bot 1 velocity read             2247600
+Inside Path Planner1
+bot 1 velocity updated             2255950
+bot 1 velocity read             2257200
+Inside Path Planner1
+bot 1 velocity updated             2265650
+bot 1 velocity read             2265900
+Inside Path Planner1
+bot 1 velocity updated             2275350
+bot 1 velocity read             2282700
+Inside Path Planner1
+bot 1 velocity updated             2285050
+bot 1 velocity read             2286900
+Inside Path Planner1
+bot 1 velocity updated             2294750
+bot 1 velocity read             2296500
+Inside Path Planner1
+bot 1 velocity updated             2304450
+bot 1 velocity read             2304600
+Inside Path Planner1
+bot 1 velocity updated             2314150
+bot 1 velocity read             2315700
+Inside Path Planner1
+bot 1 velocity updated             2323850
+bot 1 velocity read             2325600
+Inside Path Planner1
+bot 1 velocity updated             2333550
+bot 1 velocity read             2335200
+Inside Path Planner1
+bot 1 velocity updated             2343250
+bot 1 velocity read             2344500
+Inside Path Planner1
+bot 1 velocity updated             2352950
+bot 1 velocity read             2354100
+Inside Path Planner1
+bot 1 velocity updated             2362650
+bot 1 velocity read             2363400
+Inside Path Planner1
+bot 1 velocity updated             2372350
+bot 1 velocity read             2373900
+Inside Path Planner1
+bot 1 velocity updated             2382050
+bot 1 velocity read             2383800
+Inside Path Planner1
+bot 1 velocity updated             2391750
+bot 1 velocity read             2393100
+Inside Path Planner1
+bot 1 velocity updated             2401450
+bot 1 velocity read             2403000
+Inside Path Planner1
+bot 1 velocity updated             2411150
+bot 1 velocity read             2412600
+Inside Path Planner1
+bot 1 velocity updated             2420850
+bot 1 velocity read             2422200
+Inside Path Planner1
+bot 1 velocity updated             2430550
+bot 1 velocity read             2430900
+Inside Path Planner1
+bot 1 velocity updated             2440250
+bot 1 velocity read             2444100
+Inside Path Planner1
+bot 1 velocity updated             2449950
+bot 1 velocity read             2451300
+Inside Path Planner1
+bot 1 velocity updated             2459650
+bot 1 velocity read             2460900
+Inside Path Planner1
+bot 1 velocity updated             2469350
+bot 1 velocity read             2470500
+Inside Path Planner1
+bot 1 velocity updated             2479050
+bot 1 velocity read             2480400
+Inside Path Planner1
+bot 1 velocity updated             2488750
+bot 1 velocity read             2488800
+Inside Path Planner1
+bot 1 velocity updated             2498450
+bot 1 velocity read             2500200
+Inside Path Planner1
+bot 1 velocity updated             2508150
+bot 1 velocity read             2509800
+Inside Path Planner1
+bot 1 velocity updated             2517850
+bot 1 velocity read             2518200
+Inside Path Planner1
+bot 1 velocity updated             2527550
+bot 1 velocity read             2531700
+Inside Path Planner1
+bot 1 velocity updated             2537250
+bot 1 velocity read             2538900
+Inside Path Planner1
+bot 1 velocity updated             2546950
+bot 1 velocity read             2548200
+Inside Path Planner1
+bot 1 velocity updated             2556650
+bot 1 velocity read             2556900
+Inside Path Planner1
+bot 1 velocity updated             2566350
+bot 1 velocity read             2566500
+Inside Path Planner1
+bot 1 velocity updated             2576050
+bot 1 velocity read             2577900
+Inside Path Planner1
+bot 1 velocity updated             2585750
+bot 1 velocity read             2587200
+Inside Path Planner1
+bot 1 velocity updated             2595450
+bot 1 velocity read             2595600
+Inside Path Planner1
+bot 1 velocity updated             2605150
+bot 1 velocity read             2614200
+Inside Path Planner1
+bot 1 velocity updated             2614850
+bot 1 velocity read             2616600
+Inside Path Planner1
+bot 1 velocity updated             2624550
+bot 1 velocity read             2625900
+Inside Path Planner1
+bot 1 velocity updated             2634250
+bot 1 velocity read             2635500
+Inside Path Planner1
+bot 1 velocity updated             2643950
+bot 1 velocity read             2645100
+Inside Path Planner1
+bot 1 velocity updated             2653650
+bot 1 velocity read             2653800
+Inside Path Planner1
+bot 1 velocity updated             2663350
+bot 1 velocity read             2664900
+Inside Path Planner1
+bot 1 velocity updated             2673050
+bot 1 velocity read             2673300
+Inside Path Planner1
+bot 1 velocity updated             2682750
+bot 1 velocity read             2682900
+Inside Path Planner1
+bot 1 velocity updated             2692450
+bot 1 velocity read             2692500
+Inside Path Planner1
+bot 1 velocity updated             2702150
+bot 1 velocity read             2705400
+Inside Path Planner1
+bot 1 velocity updated             2711850
+bot 1 velocity read             2713500
+Inside Path Planner1
+bot 1 velocity updated             2721550
+bot 1 velocity read             2721600
+Inside Path Planner1
+bot 1 velocity updated             2731250
+bot 1 velocity read             2733000
+Inside Path Planner1
+bot 1 velocity updated             2740950
+bot 1 velocity read             2742600
+Inside Path Planner1
+bot 1 velocity updated             2750650
+bot 1 velocity read             2751900
+Inside Path Planner1
+bot 1 velocity updated             2760350
+Inside Path Planner1
+Inside Path Planner1
+bot 1 velocity updated             2779750
+bot 1 velocity read             2779800
+bot 1 velocity read             2780100
+Inside Path Planner1
+bot 1 velocity updated             2789450
+bot 1 velocity read             2791200
+Inside Path Planner1
+bot 1 velocity updated             2799150
+bot 1 velocity read             2800500
+Inside Path Planner1
+bot 1 velocity updated             2808850
+bot 1 velocity read             2818200
+Inside Path Planner1
+bot 1 velocity updated             2818550
+bot 1 velocity read             2827800
+Inside Path Planner1
+bot 1 velocity updated             2828250
+bot 1 velocity read             2829900
+Inside Path Planner1
+bot 1 velocity updated             2837950
+bot 1 velocity read             2839200
+Inside Path Planner1
+bot 1 velocity updated             2847650
+bot 1 velocity read             2848800
+Inside Path Planner1
+bot 1 velocity updated             2857350
+bot 1 velocity read             2857500
+Inside Path Planner1
+bot 1 velocity updated             2867050
+bot 1 velocity read             2868600
+Inside Path Planner1
+bot 1 velocity updated             2876750
+bot 1 velocity read             2877600
+Inside Path Planner1
+bot 1 velocity updated             2886450
+bot 1 velocity read             2886600
+Inside Path Planner1
+bot 1 velocity updated             2896150
+bot 1 velocity read             2905200
+Inside Path Planner1
+bot 1 velocity updated             2905850
+bot 1 velocity read             2907600
+Inside Path Planner1
+bot 1 velocity updated             2915550
+bot 1 velocity read             2916900
+Inside Path Planner1
+bot 1 velocity updated             2925250
+bot 1 velocity read             2926500
+Inside Path Planner1
+bot 1 velocity updated             2934950
+bot 1 velocity read             2936100
+Inside Path Planner1
+bot 1 velocity updated             2944650
+bot 1 velocity read             2944800
+Inside Path Planner1
+bot 1 velocity updated             2954350
+bot 1 velocity read             2964000
+Inside Path Planner1
+bot 1 velocity updated             2964050
+bot 1 velocity read             2964300
+Inside Path Planner1
+bot 1 velocity updated             2973750
+bot 1 velocity read             2973900
+Inside Path Planner1
+bot 1 velocity updated             2983450
+bot 1 velocity read             2992500
+Inside Path Planner1
+bot 1 velocity updated             2993150
+bot 1 velocity read             2995500
+Inside Path Planner1
+bot 1 velocity updated             3002850
+bot 1 velocity read             3004500
+Inside Path Planner1
+bot 1 velocity updated             3012550
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+run: Time (s): cpu = 00:00:48 ; elapsed = 00:03:44 . Memory (MB): peak = 976.164 ; gain = 0.000
+run 5 s
+bot 1 velocity read             4963800
+bot 2 velocity read             4963800
+bot 1 velocity read             4964100
+bot 3 velocity updated             4973450
+Inside Path Planner1
+bot 1 velocity updated             4979850
+bot 1 velocity read             4980900
+Inside Path Planner1
+bot 1 velocity updated             4997450
+bot 3 velocity read             4998600
+bot 1 velocity read             4998900
+bot 2 velocity updated             5020850
+bot 2 velocity read             5022600
+Inside Path Planner1
+bot 1 velocity updated             5030850
+bot 1 velocity read             5031900
+Inside Path Planner1
+bot 1 velocity updated             5032650
+bot 1 velocity read             5032800
+Inside Path Planner1
+bot 1 velocity updated             5034450
+bot 1 velocity read             5035800
+Inside Path Planner1
+bot 1 velocity updated             5036250
+bot 1 velocity read             5036400
+Inside Path Planner1
+bot 1 velocity updated             5038050
+bot 1 velocity read             5039400
+Inside Path Planner1
+bot 1 velocity updated             5039850
+bot 1 velocity read             5040000
+Inside Path Planner1
+bot 1 velocity updated             5041650
+bot 1 velocity read             5041800
+Inside Path Planner1
+bot 1 velocity updated             5043450
+bot 1 velocity read             5044800
+Inside Path Planner1
+bot 1 velocity updated             5045250
+bot 1 velocity read             5046600
+Inside Path Planner1
+bot 1 velocity updated             5047050
+bot 1 velocity read             5047500
+bot 2 velocity updated             5048350
+bot 2 velocity read             5048700
+Inside Path Planner1
+bot 1 velocity updated             5048850
+bot 1 velocity read             5050200
+bot 2 velocity updated             5050750
+bot 2 velocity read             5051400
+Inside Path Planner1
+bot 1 velocity updated             5058550
+bot 1 velocity read             5059800
+Inside Path Planner1
+bot 1 velocity updated             5060350
+bot 1 velocity read             5061300
+Inside Path Planner1
+bot 1 velocity updated             5062150
+bot 1 velocity read             5063400
+Inside Path Planner1
+bot 1 velocity updated             5063950
+bot 1 velocity read             5065200
+Inside Path Planner1
+bot 1 velocity updated             5065750
+bot 1 velocity read             5066100
+Inside Path Planner1
+bot 1 velocity updated             5067550
+bot 1 velocity read             5067600
+Inside Path Planner1
+bot 1 velocity updated             5069350
+bot 1 velocity read             5070600
+Inside Path Planner1
+bot 1 velocity updated             5071150
+bot 1 velocity read             5071500
+Inside Path Planner1
+bot 1 velocity updated             5072950
+bot 1 velocity read             5074200
+Inside Path Planner1
+bot 1 velocity updated             5074750
+bot 1 velocity read             5076000
+Inside Path Planner1
+bot 1 velocity updated             5076550
+bot 1 velocity read             5076600
+Inside Path Planner1
+bot 1 velocity updated             5078350
+bot 1 velocity read             5078400
+Inside Path Planner1
+bot 1 velocity updated             5080150
+bot 1 velocity read             5080500
+Inside Path Planner1
+bot 1 velocity updated             5081950
+bot 1 velocity read             5083200
+Inside Path Planner1
+bot 1 velocity updated             5083750
+bot 1 velocity read             5083800
+Inside Path Planner1
+bot 1 velocity updated             5085550
+bot 1 velocity read             5086800
+Inside Path Planner1
+bot 1 velocity updated             5087350
+bot 1 velocity read             5088600
+Inside Path Planner1
+bot 1 velocity updated             5089150
+bot 1 velocity read             5090400
+Inside Path Planner1
+bot 1 velocity updated             5090950
+bot 1 velocity read             5091000
+Inside Path Planner1
+bot 1 velocity updated             5092750
+bot 3 velocity read             5094000
+bot 1 velocity read             5094300
+Inside Path Planner1
+bot 1 velocity updated             5094550
+bot 1 velocity read             5095200
+bot 3 velocity updated             5095450
+bot 2 velocity updated             5108750
+bot 2 velocity read             5111400
+Inside Path Planner1
+bot 1 velocity updated             5111850
+bot 1 velocity read             5112900
+bot 2 velocity updated             5121350
+bot 2 velocity read             5128800
+bot 2 velocity updated             5130850
+bot 2 velocity read             5136600
+bot 2 velocity updated             5146550
+bot 2 velocity read             5152500
+bot 2 velocity updated             5154550
+bot 2 velocity read             5160300
+Inside Path Planner1
+bot 1 velocity updated             5160850
+bot 1 velocity read             5160900
+bot 2 velocity updated             5178150
+bot 2 velocity read             5185800
+Inside Path Planner1
+bot 1 velocity updated             5265050
+bot 1 velocity read             5266200
+Inside Path Planner1
+bot 1 velocity updated             5266850
+bot 1 velocity read             5268300
+Inside Path Planner1
+bot 1 velocity updated             5268650
+bot 1 velocity read             5270100
+Inside Path Planner1
+bot 1 velocity updated             5270450
+bot 1 velocity read             5271600
+Inside Path Planner1
+bot 1 velocity updated             5272250
+bot 1 velocity read             5273700
+Inside Path Planner1
+bot 1 velocity updated             5274050
+bot 3 velocity read             5274600
+bot 1 velocity read             5275500
+Inside Path Planner1
+bot 1 velocity updated             5275850
+bot 1 velocity read             5276100
+Inside Path Planner1
+bot 1 velocity updated             5277650
+bot 1 velocity read             5279400
+Inside Path Planner1
+bot 1 velocity updated             5279450
+bot 1 velocity read             5281200
+Inside Path Planner1
+bot 1 velocity updated             5281250
+bot 1 velocity read             5281500
+Inside Path Planner1
+bot 1 velocity updated             5283050
+bot 1 velocity read             5284200
+Inside Path Planner1
+bot 1 velocity updated             5284850
+bot 1 velocity read             5286600
+Inside Path Planner1
+bot 1 velocity updated             5286650
+bot 1 velocity read             5286900
+Inside Path Planner1
+bot 1 velocity updated             5288450
+bot 1 velocity read             5289600
+Inside Path Planner1
+bot 1 velocity updated             5290250
+bot 1 velocity read             5291700
+Inside Path Planner1
+bot 1 velocity updated             5292050
+bot 1 velocity read             5293200
+Inside Path Planner1
+bot 1 velocity updated             5293850
+bot 1 velocity read             5295300
+Inside Path Planner1
+bot 1 velocity updated             5295650
+Inside Path Planner1
+bot 1 velocity read             5298000
+bot 2 velocity updated             5298450
+Inside Path Planner1
+bot 1 velocity updated             5299250
+bot 2 velocity read             5299800
+bot 1 velocity read             5300100
+Inside Path Planner1
+bot 1 velocity updated             5301050
+bot 1 velocity read             5301900
+bot 3 velocity updated             5316150
+bot 2 velocity updated             5325550
+bot 2 velocity read             5326200
+Inside Path Planner1
+bot 1 velocity updated             5326550
+bot 1 velocity read             5326800
+bot 3 velocity read             5327700
+Inside Path Planner1
+bot 1 velocity updated             5328250
+bot 2 velocity updated             5328250
+bot 3 velocity updated             5328250
+bot 2 velocity read             5328300
+bot 1 velocity read             5329200
+bot 3 velocity read             5329200
+bot 2 velocity updated             5353450
+bot 3 velocity updated             5353450
+bot 2 velocity read             5360700
+bot 3 velocity read             5361000
+bot 3 velocity updated             5378550
+bot 3 velocity read             5385000
+bot 2 velocity updated             5394350
+bot 2 velocity read             5400300
+Inside Path Planner1
+bot 1 velocity updated             5400850
+bot 1 velocity read             5401800
+bot 3 velocity updated             5402850
+bot 2 velocity updated             5410250
+bot 3 velocity read             5417700
+bot 2 velocity read             5418000
+Inside Path Planner1
+bot 1 velocity updated             5433950
+bot 1 velocity read             5434200
+bot 3 velocity updated             5451350
+bot 2 velocity updated             5459250
+bot 2 velocity read             5466900
+bot 3 velocity read             5476800
+bot 2 velocity updated             5484750
+bot 3 velocity updated             5484750
+bot 2 velocity read             5490900
+bot 3 velocity read             5497800
+bot 3 velocity updated             5500850
+bot 3 velocity read             5506800
+bot 3 velocity updated             5508850
+Inside Path Planner1
+bot 1 velocity updated             5514750
+bot 1 velocity read             5514900
+bot 3 velocity read             5516100
+bot 3 velocity updated             5526050
+Inside Path Planner1
+bot 1 velocity updated             5532350
+bot 1 velocity read             5533800
+bot 3 velocity read             5534100
+bot 3 velocity updated             5544050
+Inside Path Planner1
+bot 1 velocity updated             5549950
+bot 1 velocity read             5550000
+bot 3 velocity read             5551500
+bot 2 velocity updated             5587750
+bot 2 velocity read             5592600
+bot 3 velocity updated             5593050
+bot 2 velocity updated             5602550
+bot 2 velocity read             5607000
+Inside Path Planner1
+bot 1 velocity updated             5607050
+bot 1 velocity read             5608200
+Inside Path Planner1
+bot 1 velocity updated             5616750
+bot 1 velocity read             5616900
+bot 2 velocity updated             5616950
+bot 3 velocity read             5618100
+bot 2 velocity read             5618400
+bot 3 velocity updated             5620150
+bot 2 velocity updated             5628050
+bot 2 velocity read             5634000
+bot 3 velocity read             5635500
+bot 2 velocity updated             5636050
+bot 2 velocity read             5641800
+bot 2 velocity updated             5643850
+bot 2 velocity read             5649900
+bot 3 velocity updated             5651850
+bot 2 velocity updated             5667750
+bot 2 velocity read             5673300
+bot 3 velocity read             5675100
+bot 2 velocity updated             5675350
+bot 2 velocity read             5681100
+bot 2 velocity updated             5683150
+bot 2 velocity read             5689200
+Inside Path Planner1
+bot 1 velocity updated             5705450
+bot 1 velocity read             5706600
+bot 3 velocity updated             5706950
+bot 2 velocity updated             5714950
+bot 2 velocity read             5738400
+bot 3 velocity read             5738400
+Inside Path Planner1
+bot 1 velocity updated             5738850
+bot 1 velocity read             5739000
+bot 3 velocity updated             5740450
+bot 2 velocity updated             5748350
+bot 2 velocity read             5756100
+Inside Path Planner1
+bot 1 velocity updated             5756250
+bot 1 velocity read             5757600
+bot 3 velocity read             5757600
+bot 2 velocity updated             5758150
+bot 3 velocity updated             5758150
+bot 2 velocity read             5759100
+bot 2 velocity updated             5759650
+bot 2 velocity read             5760600
+bot 2 velocity updated             5761150
+bot 2 velocity read             5761200
+bot 3 velocity read             5761800
+bot 2 velocity updated             5762650
+bot 3 velocity updated             5762650
+bot 3 velocity read             5762700
+bot 2 velocity read             5763300
+bot 2 velocity updated             5763850
+bot 3 velocity updated             5763850
+bot 2 velocity read             5765400
+bot 3 velocity read             5765400
+bot 2 velocity updated             5767450
+bot 3 velocity updated             5767450
+bot 2 velocity read             5767500
+bot 3 velocity read             5769000
+bot 2 velocity updated             5769550
+bot 3 velocity updated             5769550
+bot 3 velocity read             5769600
+bot 2 velocity read             5770500
+bot 2 velocity updated             5771050
+bot 3 velocity updated             5771050
+bot 3 velocity read             5771100
+bot 2 velocity read             5772000
+bot 2 velocity updated             5772550
+bot 3 velocity updated             5772550
+bot 3 velocity read             5772600
+bot 2 velocity read             5773500
+bot 2 velocity updated             5774050
+bot 2 velocity updated             5775550
+bot 2 velocity read             5775600
+bot 2 velocity read             5775900
+bot 2 velocity updated             5777650
+bot 2 velocity read             5778000
+bot 3 velocity updated             5781950
+bot 3 velocity read             5805300
+bot 2 velocity updated             5807350
+bot 3 velocity updated             5807350
+bot 2 velocity read             5807400
+bot 2 velocity updated             5809450
+bot 2 velocity read             5812800
+bot 3 velocity read             5814300
+bot 2 velocity updated             5814850
+bot 3 velocity updated             5814850
+bot 3 velocity read             5814900
+bot 2 velocity read             5815800
+bot 2 velocity updated             5816350
+bot 3 velocity updated             5816350
+bot 2 velocity read             5817300
+bot 3 velocity read             5817300
+bot 2 velocity updated             5817850
+bot 2 velocity read             5817900
+bot 2 velocity updated             5819350
+bot 2 velocity read             5819700
+bot 3 velocity updated             5825750
+Inside Path Planner1
+bot 1 velocity updated             5837050
+bot 3 velocity read             5838300
+bot 1 velocity read             5838900
+Inside Path Planner1
+bot 1 velocity updated             5840350
+bot 2 velocity updated             5840350
+bot 3 velocity updated             5840350
+bot 1 velocity read             5841600
+bot 2 velocity read             5841900
+bot 3 velocity read             5843700
+Inside Path Planner1
+bot 1 velocity updated             5843950
+bot 2 velocity updated             5843950
+bot 3 velocity updated             5843950
+bot 2 velocity read             5844000
+bot 1 velocity read             5845200
+bot 3 velocity read             5845200
+bot 1 velocity updated             5845750
+bot 2 velocity updated             5845750
+bot 3 velocity updated             5845750
+bot 3 velocity read             5845800
+bot 1 velocity read             5846700
+bot 2 velocity read             5846700
+Inside Path Planner1
+bot 1 velocity updated             5847250
+bot 2 velocity updated             5847250
+bot 3 velocity updated             5847250
+bot 2 velocity read             5847300
+bot 3 velocity read             5847300
+bot 1 velocity read             5847900
+bot 3 velocity updated             5848450
+bot 3 velocity read             5850900
+bot 2 velocity updated             5864250
+bot 2 velocity read             5883900
+Inside Path Planner1
+bot 1 velocity updated             5895850
+bot 1 velocity read             5897100
+bot 2 velocity updated             5909650
+bot 3 velocity updated             5916150
+Inside Path Planner1
+bot 1 velocity updated             5921350
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+run: Time (s): cpu = 00:00:18 ; elapsed = 00:02:08 . Memory (MB): peak = 976.164 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5 s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+bot 3 velocity updated                2050
+bot 2 velocity updated               25850
+bot 2 velocity read               33300
+Inside Path Planner1
+bot 1 velocity updated               33750
+bot 1 velocity read               34800
+bot 3 velocity read               42900
+Inside Path Planner1
+bot 1 velocity updated               43250
+bot 3 velocity updated               43350
+bot 1 velocity read               44400
+bot 3 velocity read               44400
+bot 3 velocity updated               52850
+bot 3 velocity read               60300
+Inside Path Planner1
+bot 1 velocity updated               68650
+bot 1 velocity read               69600
+bot 3 velocity updated               70250
+bot 3 velocity read               74400
+bot 3 velocity updated               76450
+Inside Path Planner1
+bot 1 velocity updated               78350
+bot 3 velocity read               79800
+bot 1 velocity read               80100
+Inside Path Planner1
+bot 1 velocity updated               80150
+bot 1 velocity read               81300
+bot 3 velocity updated               81850
+bot 3 velocity read               82500
+bot 2 velocity updated               82750
+bot 3 velocity updated               83050
+bot 3 velocity read               84000
+bot 2 velocity read               84300
+bot 3 velocity updated               92450
+bot 3 velocity read               97500
+bot 2 velocity updated              100350
+bot 2 velocity read              106800
+Inside Path Planner1
+bot 1 velocity updated              121350
+bot 1 velocity read              122700
+bot 3 velocity updated              123250
+bot 3 velocity read              123900
+Inside Path Planner1
+bot 1 velocity updated              124450
+bot 1 velocity read              124500
+bot 2 velocity updated              132550
+Inside Path Planner1
+bot 1 velocity updated              138950
+bot 2 velocity read              139800
+bot 1 velocity read              140100
+bot 3 velocity updated              140250
+bot 3 velocity read              140400
+bot 3 velocity updated              141850
+bot 3 velocity read              145200
+bot 3 velocity updated              163050
+bot 3 velocity read              164400
+bot 3 velocity updated              174350
+bot 3 velocity read              174600
+bot 3 velocity updated              184550
+bot 3 velocity read              184800
+bot 2 velocity updated              315650
+Inside Path Planner1
+bot 1 velocity updated              330350
+bot 1 velocity read              331800
+Inside Path Planner1
+bot 1 velocity updated              355850
+bot 1 velocity read              356100
+Inside Path Planner1
+bot 1 velocity updated              381350
+bot 1 velocity read              381600
+Inside Path Planner1
+bot 1 velocity updated              406850
+bot 1 velocity read              407100
+Inside Path Planner1
+bot 1 velocity updated              432350
+bot 1 velocity read              432600
+Inside Path Planner1
+bot 1 velocity updated              457850
+bot 1 velocity read              459000
+Inside Path Planner1
+bot 1 velocity updated              483350
+bot 1 velocity read              484500
+Inside Path Planner1
+bot 1 velocity updated              508850
+bot 1 velocity read              510000
+Inside Path Planner1
+bot 1 velocity updated              534350
+bot 1 velocity read              535500
+Inside Path Planner1
+bot 1 velocity updated              559850
+bot 1 velocity read              560100
+Inside Path Planner1
+bot 1 velocity updated              585350
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+Inside Path Planner1
+run: Time (s): cpu = 00:00:11 ; elapsed = 00:01:07 . Memory (MB): peak = 978.832 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted

@@ -60,24 +60,6 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/ip/cordic_0/cordic_0.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/ip/cordic_0/cordic_0.xci"/>
-          <Attr Name="ImportTime" Val="1588594270"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/cordic_1/cordic_1.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/ip/cordic_1/cordic_1.xci"/>
-          <Attr Name="ImportTime" Val="1588592920"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Integrator.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/Integrator.v"/>
@@ -87,8 +69,39 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/ip/cordic_1/cordic_1.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/ip/cordic_1/cordic_1.xci"/>
+          <Attr Name="ImportTime" Val="1588592920"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/cordic_0/cordic_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/ip/cordic_0/cordic_0.xci"/>
+          <Attr Name="ImportTime" Val="1588594270"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/comparator.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/comparator.v"/>
+          <Attr Name="ImportTime" Val="1588513142"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Velocity_selector.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/Velocity_selector.v"/>
           <Attr Name="ImportTime" Val="1588601291"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -98,6 +111,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/adder_16bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/adder_16bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -107,6 +121,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/adder_32bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/adder_32bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -116,6 +131,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/adder_4bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/adder_4bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -125,6 +141,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/adder_64bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/adder_64bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -134,6 +151,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/coll_det.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/coll_det.v"/>
           <Attr Name="ImportTime" Val="1588598181"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -141,17 +159,9 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/comparator.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/comparator.v"/>
-          <Attr Name="ImportTime" Val="1588513142"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/full_adder.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/full_adder.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -161,6 +171,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/multiplier_16bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/multiplier_16bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -170,6 +181,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/multiplier_32bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/multiplier_32bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -179,6 +191,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/shifter.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/shifter.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -188,6 +201,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/simultaneous_read.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/simultaneous_read.v"/>
           <Attr Name="ImportTime" Val="1588587194"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -197,6 +211,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/subtractor_16bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/subtractor_16bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -206,6 +221,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/subtractor_32bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/subtractor_32bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -215,6 +231,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/subtractor_4bit.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/subtractor_4bit.v"/>
           <Attr Name="ImportTime" Val="1588513142"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -224,6 +241,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/update_module.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/update_module.v"/>
           <Attr Name="ImportTime" Val="1588088094"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -233,6 +251,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/write_simultaneous.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/write_simultaneous.v"/>
           <Attr Name="ImportTime" Val="1588582540"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -242,6 +261,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Polar_to_rect.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/Polar_to_rect.vhd"/>
           <Attr Name="ImportTime" Val="1588583229"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -250,6 +270,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Rect_to_polar.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_11/project_11.srcs/sources_1/imports/new/Rect_to_polar.vhd"/>
           <Attr Name="ImportTime" Val="1588583214"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -258,6 +279,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/top.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="C:/Users/AMRITHA/project_12/project_12.srcs/sources_1/new/top.v"/>
           <Attr Name="ImportTime" Val="1588689419"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -277,7 +299,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="top"/>
+        <Option Name="TopModule" Val="Integrator"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -296,7 +318,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="top"/>
+        <Option Name="TopModule" Val="Integrator"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>

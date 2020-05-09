@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Integrator1(vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,input_rdy,clock,ig_done);
+module Integrator1(vx_not_update,vy_not_update,x1_not_update,y1_not_update,tx1,ty1,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,input_rdy,clock,ig_done);
 
-input [15:0] vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3;
+input [15:0] vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3,x1_not_update,y1_not_update,tx1,ty1;
 input input_rdy,clock;
 output ig_done;
 
@@ -63,7 +63,7 @@ wire VS_in_rdy,VS_out_rdy;
 reg  [15:0] Vxnew_VS,Vynew_VS;
 Velocity_selector VS (VS_Vxin,VS_Vyin,clock,VS_in_rdy,VS_Vxout,VS_Vyout,VS_out_rdy);
 
-//Update module Variables
+//collision module Variables
 wire [15:0] CD_Vxin,CD_Vyin,CD_xin,CD_yin;
 wire CD1_in_rdy,CD1_out_rdy;
 wire CD2_in_rdy,CD2_out_rdy;
@@ -74,6 +74,11 @@ coll_det CD2(CD_xin,CD_yin,x3, y3, CD_Vxin, CD_Vyin, vx3, vy3, R, coll_detect2, 
 
 //Write Test for bot1 
 write_test2 WT(WT_vx1,WT_vy1,output_in_rdy,output_written);
+
+reg [15:0] vx_PP,vy_PP;
+
+time t1=0;
+time t2=0;
 
 assign R     = R_reg;
 assign ax    = ax_reg;
@@ -126,6 +131,7 @@ end
 
 always @(posedge UM_out_rdy)
 begin
+    t1=$time;
     input_CD1 = 1'b1;
     input_CD2=  1'b1;
     xnew_CD  = xnew;
@@ -156,6 +162,8 @@ begin
     if((coll_detect1==0)&&(coll_detect2 ==0))
     begin
         output_check_reg=1'b1;
+        t2=$time;
+        if((t1-t2)<64'd100000)
         case(vs_ip_sel)
             0:begin
                 vx1_WT = vx_not_update;
@@ -166,6 +174,17 @@ begin
                 vy1_WT  = UM_Vyin;
               end
         endcase
+        else
+        begin
+            $display("Inside Path Planner1");
+            vx_PP=(x1_not_update-tx1)/16'd25;
+            vy_PP=(y1_not_update-ty1)/16'd25;
+            #5;
+            input_UM = 1'b1;
+            Vxnew_UM = vx_PP;
+            Vynew_UM = vy_PP;
+            vs_ip_sel=1'b1;
+        end    
         #10;
         output_check_reg=1'b0;
         ig_done_reg=1'b1;
