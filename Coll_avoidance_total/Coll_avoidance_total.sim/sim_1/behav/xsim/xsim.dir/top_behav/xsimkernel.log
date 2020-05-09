@@ -2,3 +2,6 @@ Running: xsim.dir/top_behav/xsimk.exe -simmode gui -wdb top_behav.wdb -simrunnum
 Design successfully loaded
 Design Loading Memory Usage: 102616 KB (Peak: 102616 KB)
 Design Loading CPU Usage: 452 ms
+Simulation completed
+Simulation Memory Usage: 118028 KB (Peak: 118028 KB)
+Simulation CPU Usage: 31202 ms
