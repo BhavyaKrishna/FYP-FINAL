@@ -91,17 +91,18 @@ assign UM_all_done=UM1_done & UM2_done & UM3_done;
 wire IG_in_rdy1,IG_out_rdy1;
 reg IG_in_reg1;
 assign IG_in_rdy1=IG_in_reg1;
-Integrator I1(vx1,vy1,x1,y1,tx1,ty1,xnew1,ynew1,vxnew1,vynew1,xnew2,ynew2,vxnew2,vynew2,xnew3,ynew3,vxnew3,vynew3,IG_in_rdy1,clock,IG_out_rdy1);
+Integrator I1(vx1,vy1,xnew1,ynew1,vxnew1,vynew1,xnew2,ynew2,vxnew2,vynew2,xnew3,ynew3,vxnew3,vynew3,IG_in_rdy1,clock,IG_out_rdy1);
 
 wire IG_in_rdy2,IG_out_rdy2;
 reg IG_in_reg2;
 assign IG_in_rdy2=IG_in_reg2;
-Integrator1 I2(vx2,vy2,x2,y2,tx2,ty2,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,xnew3,ynew3,vxnew3,vynew3,IG_in_rdy2,clock,IG_out_rdy2);
+Integrator1 I2(vx2,vy2,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,xnew3,ynew3,vxnew3,vynew3,IG_in_rdy2,clock,IG_out_rdy2);
 
 wire IG_in_rdy3,IG_out_rdy3;
 reg IG_in_reg3;
 assign IG_in_rdy3=IG_in_reg3;
-Integrator2 I3(vx3,vy3,x3,y3,tx3,ty3,xnew3,ynew3,vxnew3,vynew3,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,IG_in_rdy3,clock,IG_out_rdy3);
+Integrator2 I3(vx3,vy3,xnew3,ynew3,vxnew3,vynew3,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,IG_in_rdy3,clock,IG_out_rdy3);
+
 
 initial
 begin
@@ -181,6 +182,8 @@ begin
 
 end
 
+
+
 always @(posedge UM_out_rdy1)
 begin
     UM1_done  = 1'b1;
@@ -232,10 +235,8 @@ always
 
 initial
     clock_reg=0;
-    
-always @(flag1 or flag2 or flag3)
-    if((flag1==1)&&(flag2==1)&&(flag3==1))
-        $stop;
+always @(flag1&flag2&flag3)
+    $stop;
 
 
 endmodule

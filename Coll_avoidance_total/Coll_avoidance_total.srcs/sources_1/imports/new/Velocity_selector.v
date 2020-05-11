@@ -38,7 +38,6 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     reg  [15:0]phase1;
     wire [15:0] x_real_nm,y_real_nm,x_rot_nm,y_rot_nm;
     reg  [15:0]step=16'd164;
-    reg  [15:0]stepphase=16'd857;
     reg  done=1'b0;
     reg [15:0] x_rot_reg,y_rot_reg;
     integer count=-1;
@@ -48,7 +47,7 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     
     assign vs_done=done;
     assign mag_real=mag1;
-    assign theta_real=phase1;
+    assign theta_real=phase;
     
     assign x_real_nm =(x_real<<3);       //To make it compatible with overall Fixed point representation
     assign y_real_nm =(y_real<<3);
@@ -63,15 +62,9 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
               30:begin
                     done <=1'b0;
                     mag1 <=mag;
-                    phase1<=phase;
                  end   
               35:begin
                     mag1 = mag1-step;     //To check
-                    if(mag1<16'd1638)
-                    begin
-                        mag1 = mag;
-                        phase1=phase-stepphase;
-                    end
                  end
               60:begin
                     x_rot_real=$signed(x_rot_nm)*(1.0/((2**14)*1.0));//For signed conditions, converting it to real and then to binary should be done rather than shifting
