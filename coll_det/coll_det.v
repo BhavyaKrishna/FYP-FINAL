@@ -7,15 +7,16 @@ output reg out_rdy;
 
 reg [31:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
-reg [31:0] e,f,g,h,i,j,l,n,dot_sq;                               //intermediate registers
-reg [31:0] a,b,c,d,r_sq,vab_sq,k,m,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
-reg [63:0] C1,C2;
+reg [31:0] e,f,g,h,i,j;
+reg [63:0] dot_sq,l,m,n;                               //intermediate registers
+reg [31:0] a,b,c,d,r_sq,vab_sq,k,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
+reg [63:0] C1,C2,P7,Q7;
 
 wire [0:10] carry;
 
 integer count=0;
 wire C0;
-wire[63:0] M0P,M1P;
+wire[63:0] M0P,M1P,S7;
 wire [31:0] S0,S1,S2,S3,S4,S5,S6;
 //instantiations
 
@@ -30,7 +31,7 @@ subtractor_32bit sub0(carry[3],S3,P3,Q3,1'b1);
 subtractor_32bit sub1(carry[4],S4,P4,Q4,1'b1);
 subtractor_32bit sub2(carry[5],S5,P5,Q5,1'b1);
 subtractor_32bit sub3(carry[6],S6,P6,Q6,1'b1);
- 
+subtractor_64bit sub4(carry[7],S7,P7,Q7,1'b1);
 comparator comp1(C0,C1,C2);
 
 always @(posedge clock)
@@ -93,12 +94,12 @@ always @(posedge clock)
    7:begin       
      dot_sq=M0P;
      l=M1P;    
-     P3<=l; Q3<=dot_sq;
+     P7<=l; Q7<=dot_sq;
      M0A<=vab_sq; M0B<=R2;
     end
 
    8:begin       
-     m=S3;
+     m=S7;
      n=M0P;    
      C1<=m; C2<=n;
     end
