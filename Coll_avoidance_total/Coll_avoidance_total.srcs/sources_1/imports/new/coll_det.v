@@ -3,8 +3,8 @@ module coll_det(x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2, trial, clock, in_rdy,out
 input [31:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2;
 output trial;
 input clock,in_rdy;			
-output reg out_rdy;
-
+output  out_rdy;
+reg output_rdy_reg;
 reg [31:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
 reg [31:0] e,f,g,h,i,j;
@@ -34,6 +34,7 @@ subtractor_32bit sub3(carry[6],S6,P6,Q6,1'b1);
 subtractor_64bit sub4(carry[7],S7,P7,Q7,1'b1);
 comparator comp1(C0,C1,C2);
 
+assign out_rdy=output_rdy_reg;
 always @(posedge clock)
  
  if(in_rdy)
@@ -107,7 +108,12 @@ always @(posedge clock)
    9:begin
       trial=C0;  
       count=-1;             //so that after updation it goes to 0
-      out_rdy=1'b0;         //out_rdy signal is raised once all outputs are ready
+      output_rdy_reg=1'b1;
+               //out_rdy signal is raised once all outputs are ready
+      #10;
+      trial=1'bX;
+      output_rdy_reg=1'b0;
+      
     end 
      
   endcase

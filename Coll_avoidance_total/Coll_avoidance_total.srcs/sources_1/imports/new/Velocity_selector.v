@@ -12,8 +12,10 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     wire [15:0]mag_real;
     wire [15:0]mag;
     wire [15:0]phase;
-    reg rtp_in_rdy,ptr_in_rdy;
-    wire rtp_out_rdy,ptr_out_rdy;
+    reg   rtp_in_rdy,ptr_in_rdy;
+    wire  rtp_out_rdy1,ptr_out_rdy1;
+    reg   set;
+    wire  rtp_out_rdy,ptr_out_rdy;
     reg  [15:0]mag1;
     reg  [15:0]phase1;
     wire [15:0] x_real_nm,y_real_nm,x_rot_nm,y_rot_nm;
@@ -22,8 +24,12 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     reg  done=1'b0;
     reg [15:0] x_rot_reg,y_rot_reg;
     integer count=-1;
-    Rect_to_polar RP(x_real_nm,y_real_nm,mag,phase,rtp_in_rdy,rtp_out_rdy);
-    Polar_to_rect PR(mag_real,theta_real,x_rot_nm,y_rot_nm,ptr_in_rdy,ptr_out_rdy);
+    
+    Rect_to_polar RP(x_real_nm,y_real_nm,mag,phase,rtp_in_rdy,rtp_out_rdy1);
+    Polar_to_rect PR(mag_real,theta_real,x_rot_nm,y_rot_nm,ptr_in_rdy,ptr_out_rdy1);
+    
+    assign rtp_out_rdy = rtp_out_rdy1 & set;
+    assign ptr_out_rdy = ptr_out_rdy1 & set;
     
     assign vs_done=done;
     assign mag_real=mag1;
@@ -37,6 +43,7 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
 
     always @(posedge active)
     begin
+    set=1'b1;
     rtp_in_rdy =1'b1;
     end
     
@@ -44,16 +51,7 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     always @(posedge rtp_out_rdy)
     begin
         #10;
-        mag1=mag;
-        phase1=phase;
         rtp_in_rdy =1'b0;
-        mag1=mag1-step;
-        if(mag1<16'd3277)
-        begin
-            phase1=phase1-stepphase;
-            mag1=16'd16384;
-        end
-        ptr_in_rdy=1'b1;
     end
     
     always @(posedge ptr_out_rdy)
@@ -61,17 +59,31 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
         #10;
         ptr_in_rdy=1'b0;
      end   
-     always @(x_rot_nm or y_rot_nm)
-     begin
-         if(ptr_out_rdy==1'b1)
+     
+     always @(negedge ptr_out_rdy)
          begin
+             #10;
              x_rot_real=$signed(x_rot_nm)*(1.0/((2**14)*1.0));//For signed conditions, converting it to real and then to binary should be done rather than shifting
              y_rot_real=$signed(y_rot_nm)*(1.0/((2**14)*1.0));
              x_rot_reg=x_rot_real*(2**11);
              y_rot_reg=y_rot_real*(2**11);
              done=1'b1;
-             #10;
+             set=1'b0;
+             #100;
              done=1'b0;
          end
-     end
+     
+     always @(negedge rtp_out_rdy)
+         begin
+         #10;
+         mag1=mag;
+             phase1=phase;
+             ptr_in_rdy=1'b1;
+             mag1=mag1-step;
+             if(mag1<16'd3277)
+             begin
+                 phase1=phase1-stepphase;
+                 mag1=16'd16384;
+             end
+          end
 endmodule

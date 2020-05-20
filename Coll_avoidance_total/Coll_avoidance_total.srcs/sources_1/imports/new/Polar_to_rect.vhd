@@ -283,11 +283,17 @@ begin
         if input_rdy='1' then
         cartesian_tvalid_nxt    := '1';
         phase_tvalid_nxt    := '1';
+        end if; 
+         
+         if input_rdy='0' then
+         cartesian_tvalid_nxt    := '0';
+         phase_tvalid_nxt    := '0';
+         end if;
         
         -- Drive handshake signals with local variable values
         s_axis_cartesian_tvalid <= cartesian_tvalid_nxt;
         s_axis_phase_tvalid     <= phase_tvalid_nxt;
-        end if;
+        
       
       -- TDATA: Real and imaginary components are each 16 bits wide and byte-aligned at their LSBs
       s_axis_cartesian_tdata(15 downto 0) <= x_real;

@@ -148,11 +148,16 @@ begin
       if input_rdy='1' then
       cartesian_tvalid_nxt    := '1';
       phase_tvalid_nxt    := '1';
-      
+      end if;
       -- Drive handshake signals with local variable values
+      if input_rdy='0' then
+      cartesian_tvalid_nxt    := '0';
+      phase_tvalid_nxt    := '0';
+      end if;
+      
       s_axis_cartesian_tvalid <= cartesian_tvalid_nxt;
       s_axis_phase_tvalid     <= phase_tvalid_nxt;
-      end if;
+      
       s_axis_cartesian_tdata(15 downto 0) <= x_real;
       s_axis_cartesian_tdata(31 downto 16) <= y_real;
      
