@@ -235,8 +235,9 @@ always
 
 initial
     clock_reg=0;
-always @(flag1&flag2&flag3)
-    $stop;
+always @(flag1 or flag2 or flag3)
+    if((flag1==1)&&(flag2==1)&&(flag3==1))
+        $stop;
 
 
 endmodule
