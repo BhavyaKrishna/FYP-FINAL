@@ -1,10 +1,11 @@
 module coll_det(x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2, trial, clock, in_rdy,out_rdy);
 
-input [31:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2, r2;
+input [15:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2;
+input [31:0] r2;
 output trial;
 input clock,in_rdy;			
-output  out_rdy;
-reg output_rdy_reg;
+output reg out_rdy;
+
 reg [31:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
 reg [31:0] e,f,g,h,i,j;
@@ -42,7 +43,94 @@ always @(posedge clock)
  
   case(count)
   0: begin
-      X1<=x1; Y1<=y1; X2<=x2; Y2<=y2; VX1<=vx1; VY1<=vy1; VX2<=vx2; VY2<=vy2; R2<=r2;     //input registers getting their values 
+ if(x1[15])
+	begin
+	X1[31:16]<=16'b1111111111111111;
+	X1[15:0]<=x1;
+	end
+	else
+	begin
+	X1[31:16]<=16'b0;
+	X1[15:0]<=x1;
+	end
+
+	if(y1[15])
+	begin
+	Y1[31:16]<=16'b1111111111111111;
+	Y1[15:0]<=y1;
+	end
+	else
+	begin
+	Y1[31:16]<=16'b0;
+	Y1[15:0]<=y1;
+	end
+
+	if(x2[15])
+	begin
+	X2[31:16]<=16'b1111111111111111;
+	X2[15:0]<=x2;
+	end
+	else
+	begin
+	X2[31:16]<=16'b0;
+	X2[15:0]<=x2;
+	end
+
+	if(y2[15])
+	begin
+	Y2[31:16]<=16'b1111111111111111;
+	Y2[15:0]<=y2;
+	end
+	else
+	begin
+	Y2[31:16]<=16'b0;
+	Y2[15:0]<=y2;
+	end
+	
+	if(vx1[15])
+	begin
+	VX1[31:16]<=16'b1111111111111111;
+	VX1[15:0]<=vx1;
+	end
+	else
+	begin
+	VX1[31:16]<=16'b0;
+	VX1[15:0]<=vx1;
+	end
+
+	if(vy1[15])
+	begin
+	VY1[31:16]<=16'b1111111111111111;
+	VY1[15:0]<=vy1;
+	end
+	else
+	begin
+	VY1[31:16]<=16'b0;
+	VY1[15:0]<=vy1;
+	end
+
+	if(vx2[15])
+	begin
+	VX2[31:16]<=16'b1111111111111111;
+	VX2[15:0]<=vx2;
+	end
+	else
+	begin
+	VX2[31:16]<=16'b0;
+	VX2[15:0]<=vx2;
+	end
+
+	if(vy2[15])
+	begin
+	VY2[31:16]<=16'b1111111111111111;
+	VY2[15:0]<=vy2;
+	end
+	else
+	begin
+	VY2[31:16]<=16'b0;
+	VY2[15:0]<=vy2;
+	end
+	R2<=r2;     //input registers getting their values 
      end
      
   1:begin  
