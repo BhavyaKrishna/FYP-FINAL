@@ -4,7 +4,7 @@ input [15:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2;
 input [31:0] r2;
 output trial;
 input clock,in_rdy;			
-output  out_rdy;
+output out_rdy;
 
 reg [31:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
@@ -12,13 +12,16 @@ reg [31:0] e,f,g,h,i,j;
 reg [63:0] dot_sq,l,m,n;                               //intermediate registers
 reg [31:0] a,b,c,d,r_sq,vab_sq,k,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
 reg [63:0] C1,C2,P7,Q7;
-reg output_rdy_reg;
+
 wire [0:10] carry;
 
 integer count=0;
 wire C0;
 wire[63:0] M0P,M1P,S7;
 wire [31:0] S0,S1,S2,S3,S4,S5,S6;
+
+reg output_ready=1'b0;
+assign out_rdy=output_ready;
 //instantiations
 
 multiplier_32bit mult0(M0P, M0A, M0B);
@@ -35,7 +38,6 @@ subtractor_32bit sub3(carry[6],S6,P6,Q6,1'b1);
 subtractor_64bit sub4(carry[7],S7,P7,Q7,1'b1);
 comparator comp1(C0,C1,C2);
 
-assign out_rdy=output_rdy_reg;
 always @(posedge clock)
  
  if(in_rdy)
@@ -43,94 +45,95 @@ always @(posedge clock)
  
   case(count)
   0: begin
- if(x1[15])
-	begin
-	X1[31:16]<=16'b1111111111111111;
-	X1[15:0]<=x1;
-	end
-	else
-	begin
-	X1[31:16]<=16'b0;
-	X1[15:0]<=x1;
-	end
+    if(x1[15])
+      begin
+      X1[31:16]<=16'b1111111111111111;
+      X1[15:0]<=x1;
+      end
+      else
+      begin
+      X1[31:16]<=16'b0;
+      X1[15:0]<=x1;
+      end
+  
+      if(y1[15])
+      begin
+      Y1[31:16]<=16'b1111111111111111;
+      Y1[15:0]<=y1;
+      end
+      else
+      begin
+      Y1[31:16]<=16'b0;
+      Y1[15:0]<=y1;
+      end
+  
+      if(x2[15])
+      begin
+      X2[31:16]<=16'b1111111111111111;
+      X2[15:0]<=x2;
+      end
+      else
+      begin
+      X2[31:16]<=16'b0;
+      X2[15:0]<=x2;
+      end
+  
+      if(y2[15])
+      begin
+      Y2[31:16]<=16'b1111111111111111;
+      Y2[15:0]<=y2;
+      end
+      else
+      begin
+      Y2[31:16]<=16'b0;
+      Y2[15:0]<=y2;
+      end
+  
+      if(vx1[15])
+      begin
+      VX1[31:16]<=16'b1111111111111111;
+      VX1[15:0]<=vx1;
+      end
+      else
+      begin
+      VX1[31:16]<=16'b0;
+      VX1[15:0]<=vx1;
+      end
+  
+      if(vy1[15])
+      begin
+      VY1[31:16]<=16'b1111111111111111;
+      VY1[15:0]<=vy1;
+      end
+      else
+      begin
+      VY1[31:16]<=16'b0;
+      VY1[15:0]<=vy1;
+      end
+  
+      if(vx2[15])
+      begin
+      VX2[31:16]<=16'b1111111111111111;
+      VX2[15:0]<=vx2;
+      end
+      else
+      begin
+      VX2[31:16]<=16'b0;
+      VX2[15:0]<=vx2;
+      end
+  
+      if(vy2[15])
+      begin
+      VY2[31:16]<=16'b1111111111111111;
+      VY2[15:0]<=vy2;
+      end
+      else
+      begin
+      VY2[31:16]<=16'b0;
+      VY2[15:0]<=vy2;
+      end
+      R2<=r2;     //input registers getting their values 
 
-	if(y1[15])
-	begin
-	Y1[31:16]<=16'b1111111111111111;
-	Y1[15:0]<=y1;
-	end
-	else
-	begin
-	Y1[31:16]<=16'b0;
-	Y1[15:0]<=y1;
-	end
-
-	if(x2[15])
-	begin
-	X2[31:16]<=16'b1111111111111111;
-	X2[15:0]<=x2;
-	end
-	else
-	begin
-	X2[31:16]<=16'b0;
-	X2[15:0]<=x2;
-	end
-
-	if(y2[15])
-	begin
-	Y2[31:16]<=16'b1111111111111111;
-	Y2[15:0]<=y2;
-	end
-	else
-	begin
-	Y2[31:16]<=16'b0;
-	Y2[15:0]<=y2;
-	end
-	
-	if(vx1[15])
-	begin
-	VX1[31:16]<=16'b1111111111111111;
-	VX1[15:0]<=vx1;
-	end
-	else
-	begin
-	VX1[31:16]<=16'b0;
-	VX1[15:0]<=vx1;
-	end
-
-	if(vy1[15])
-	begin
-	VY1[31:16]<=16'b1111111111111111;
-	VY1[15:0]<=vy1;
-	end
-	else
-	begin
-	VY1[31:16]<=16'b0;
-	VY1[15:0]<=vy1;
-	end
-
-	if(vx2[15])
-	begin
-	VX2[31:16]<=16'b1111111111111111;
-	VX2[15:0]<=vx2;
-	end
-	else
-	begin
-	VX2[31:16]<=16'b0;
-	VX2[15:0]<=vx2;
-	end
-
-	if(vy2[15])
-	begin
-	VY2[31:16]<=16'b1111111111111111;
-	VY2[15:0]<=vy2;
-	end
-	else
-	begin
-	VY2[31:16]<=16'b0;
-	VY2[15:0]<=vy2;
-	end
-	R2<=r2;     //input registers getting their values 
      end
      
   1:begin  
@@ -194,14 +197,12 @@ always @(posedge clock)
     end
      
    9:begin
-      trial=C0;  
-      count=-1;             //so that after updation it goes to 0
-      output_rdy_reg=1'b1;
-               //out_rdy signal is raised once all outputs are ready
-      #10;
-      trial=1'bX;
-      output_rdy_reg=1'b0;
-      
+        trial=C0;  
+        count=-1;             //so that after updation it goes to 0
+        output_ready=1'b1;         //out_rdy signal is raised once all outputs are ready 
+        #100;
+        output_ready=1'b0;  //Should be given as a pulse
+        trial =1'bX;        //Same with the trial case :P  
     end 
      
   endcase

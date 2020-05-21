@@ -45,12 +45,12 @@ always @(posedge write_check)
     begin 
         vx=$signed(vx_bin)*(1.0/((2**11)*1.0));
         vy=$signed(vy_bin)*(1.0/((2**11)*1.0));
-        file_id = $fopen("F:/FYP-FINAL/synchronisation/bot33.txt","r");
+        file_id = $fopen("D:/Projects/FinalYearProject/bot33.txt","r");
         code=$fscanf(file_id, "%c",char1);
         $fclose(file_id);
         if(char1 =="r")
               begin
-                  file_id = $fopen("F:/FYP-FINAL/synchronisation/bot33.txt","w");
+                  file_id = $fopen("D:/Projects/FinalYearProject/bot33.txt","w");
                   $fwrite(file_id, "w\n");
                   $fwrite(file_id,vx,"\n");
                   $fwrite(file_id,vy,"\n");

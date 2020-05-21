@@ -26,17 +26,17 @@ output [15:0] tx1,ty1,tx2,ty2,tx3,ty3;
 
 
 //the values can be read from a target file instead of hardcoding
-assign tx1=16'd20480;  //10
-assign ty1=16'd20480;  //10
+assign tx1=16'd2048;  //10
+assign ty1=16'd2048;  //10
 
 
-assign tx2=-16'd10240;// -5
-assign ty2=16'd20480;  //10
+assign tx2=-16'd1024;// -5
+assign ty2=16'd1024;  //10
 
 
 
-assign tx3=-16'd20480;  //-10
-assign ty3=16'd10240; //5
+assign tx3=-16'd2048;  //-10
+assign ty3=16'd2048; //5
 
 
 

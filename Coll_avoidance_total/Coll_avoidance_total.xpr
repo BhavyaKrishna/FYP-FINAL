@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="D:/FYP_FINAL/FYP-FINAL/Coll_avoidance_total/Coll_avoidance_total.xpr">
+<Project Version="7" Minor="38" Path="D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="8ce584d40e7249edbedde05974717a62"/>
@@ -32,7 +32,7 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="31"/>
+    <Option Name="WTXSimLaunchSim" Val="81"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -175,7 +175,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/init.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../initial setup/initial setup.srcs/sources_1/new/init.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../FYP-FINAL/initial setup/initial setup.srcs/sources_1/new/init.v"/>
           <Attr Name="ImportTime" Val="1588194119"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -329,6 +329,11 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PPRDIR/top_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top"/>
@@ -337,6 +342,8 @@
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_12/top_behav.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/top_behav.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/top_behav.wcfg"/>
         <Option Name="xsim.simulate.runtime" Val="1s"/>
       </Config>
     </FileSet>

@@ -19,7 +19,7 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     reg  [15:0]mag1;
     reg  [15:0]phase1;
     wire [15:0] x_real_nm,y_real_nm,x_rot_nm,y_rot_nm;
-    reg  [15:0]step=16'd164;
+    reg  [15:0]step=16'd1638;
     reg  [15:0]stepphase=16'd6430;
     reg  done=1'b0;
     reg [15:0] x_rot_reg,y_rot_reg;
@@ -49,18 +49,22 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     
     
     always @(posedge rtp_out_rdy)
+    if(active)
     begin
         #10;
         rtp_in_rdy =1'b0;
     end
     
     always @(posedge ptr_out_rdy)
+    if(active)
     begin
         #10;
         ptr_in_rdy=1'b0;
      end   
      
      always @(negedge ptr_out_rdy)
+         begin
+         if(active)
          begin
              #10;
              x_rot_real=$signed(x_rot_nm)*(1.0/((2**14)*1.0));//For signed conditions, converting it to real and then to binary should be done rather than shifting
@@ -72,8 +76,10 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
              #100;
              done=1'b0;
          end
+         end
      
      always @(negedge rtp_out_rdy)
+         if(active)
          begin
          #10;
          mag1=mag;

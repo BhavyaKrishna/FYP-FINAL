@@ -20,18 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Integrator2(vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,input_rdy,clock,ig_done);
+module Integrator2(vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,ax,ay,input_rdy,clock,ig_done);
 
-input [15:0] vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3;
+input [15:0] vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3,ax,ay;
 input input_rdy,clock;
 output ig_done;
 
 reg ig_done_reg=1'b0;
 assign ig_done=ig_done_reg;
 
-wire [15:0]ax,ay,t,R;
-reg [15:0] ax_reg=16'd2;
-reg [15:0] ay_reg=16'd2;
+wire [15:0] t;
+wire [31:0] R;
 reg [31:0] R_reg=32'd203004;
 
 reg [15:0] vx1_WT,vy1_WT;
@@ -76,8 +75,6 @@ coll_det CD2(CD_xin,CD_yin,x3, y3, CD_Vxin, CD_Vyin, vx3, vy3, R, coll_detect2, 
 write_test3 WT(WT_vx1,WT_vy1,output_in_rdy,output_written);
 
 assign R     = R_reg;
-assign ax    = ax_reg;
-assign ay    = ay_reg;
 assign t = 16'd1;         //Time should not b e scaled :) for LHS and RHS being okay.
 
 assign CD_xin=xnew_CD;
