@@ -40,5 +40,5 @@ buf b11(out[11],in[12]);
 buf b12(out[12],in[13]);
 buf b13(out[13],in[14]);
 buf b14(out[14],in[15]);
-buf b15(out[15],1'b0);
+buf b15(out[15],in[15]);
 endmodule

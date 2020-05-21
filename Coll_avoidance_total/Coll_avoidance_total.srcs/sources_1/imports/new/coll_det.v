@@ -4,7 +4,7 @@ input [15:0] x1, y1, x2, y2, vx1, vy1, vx2, vy2;
 input [31:0] r2;
 output trial;
 input clock,in_rdy;			
-output reg out_rdy;
+output  out_rdy;
 
 reg [31:0] X1,Y1,X2,Y2,VX1,VY1,VX2,VY2,R2;    //input registers
 reg trial; //output registers
@@ -12,7 +12,7 @@ reg [31:0] e,f,g,h,i,j;
 reg [63:0] dot_sq,l,m,n;                               //intermediate registers
 reg [31:0] a,b,c,d,r_sq,vab_sq,k,M0A,M0B,M1A,M1B,P0,Q0,P1,Q1,P2,Q2,P3,Q3,P4,Q4,P5,Q5,P6,Q6;
 reg [63:0] C1,C2,P7,Q7;
-
+reg output_rdy_reg;
 wire [0:10] carry;
 
 integer count=0;
