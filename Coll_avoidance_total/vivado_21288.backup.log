@@ -1,0 +1,2260 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 19 15:18:52 2020
+# Process ID: 21288
+# Current directory: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24084 D:\FYP_FINAL\FYP_Final\Coll_avoidance_total\Coll_avoidance_total.xpr
+# Log file: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/vivado.log
+# Journal file: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:42 . Memory (MB): peak = 729.738 ; gain = 70.699
+update_compile_order -fileset sources_1
+set_property top Rect_to_polar [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+"xvhdl --incr --relax -prj top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Rect_to_polar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rect_to_polar
+run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 805.137 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '10' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:344]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1232]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1233]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1234]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.subtractor_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:50 ; elapsed = 00:02:04 . Memory (MB): peak = 805.137 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '124' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -view {D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: Simulation object /top/I1/VS/mag_reg was not found in the design.
+WARNING: Simulation object /top/I1/VS/phase_reg was not found in the design.
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+bot 1 velocity updated                 310
+bot 1 reached target                 320
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1000.070 ; gain = 34.148
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1000.070 ; gain = 194.867
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:01:50 ; elapsed = 00:03:19 . Memory (MB): peak = 1000.070 ; gain = 194.934
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property top Rect_to_polar [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Rect_to_polar' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Rect_to_polar_vhdl.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.781 ; gain = 1.891
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Rect_to_polar' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Rect_to_polar_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L secureip -L xpm --snapshot Rect_to_polar_behav xil_defaultlib.Rect_to_polar -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.rect_to_polar
+Built simulation snapshot Rect_to_polar_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/xsim.dir/Rect_to_polar_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 54.039 ; gain = 0.949
+INFO: [Common 17-206] Exiting Webtalk at Tue May 19 16:25:22 2020...
+run_program: Time (s): cpu = 00:00:59 ; elapsed = 00:01:35 . Memory (MB): peak = 1007.508 ; gain = 2.727
+INFO: [USF-XSim-69] 'elaborate' step finished in '95' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Rect_to_polar_behav -key {Behavioral:sim_1:Functional:Rect_to_polar} -tclbatch {Rect_to_polar.tcl} -view {D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: Simulation object /top/clock was not found in the design.
+WARNING: Simulation object /top/clock_reg was not found in the design.
+WARNING: Simulation object /top/tx1 was not found in the design.
+WARNING: Simulation object /top/ty1 was not found in the design.
+WARNING: Simulation object /top/tx2 was not found in the design.
+WARNING: Simulation object /top/ty2 was not found in the design.
+WARNING: Simulation object /top/tx3 was not found in the design.
+WARNING: Simulation object /top/ty3 was not found in the design.
+WARNING: Simulation object /top/t was not found in the design.
+WARNING: Simulation object /top/x1 was not found in the design.
+WARNING: Simulation object /top/y1 was not found in the design.
+WARNING: Simulation object /top/vx1 was not found in the design.
+WARNING: Simulation object /top/vy1 was not found in the design.
+WARNING: Simulation object /top/x2 was not found in the design.
+WARNING: Simulation object /top/y2 was not found in the design.
+WARNING: Simulation object /top/vx2 was not found in the design.
+WARNING: Simulation object /top/vy2 was not found in the design.
+WARNING: Simulation object /top/x3 was not found in the design.
+WARNING: Simulation object /top/y3 was not found in the design.
+WARNING: Simulation object /top/vx3 was not found in the design.
+WARNING: Simulation object /top/vy3 was not found in the design.
+WARNING: Simulation object /top/input_read was not found in the design.
+WARNING: Simulation object /top/UM_in_rdy1 was not found in the design.
+WARNING: Simulation object /top/UM_in_rdy2 was not found in the design.
+WARNING: Simulation object /top/UM_in_rdy3 was not found in the design.
+WARNING: Simulation object /top/UM_out_rdy1 was not found in the design.
+WARNING: Simulation object /top/UM_out_rdy2 was not found in the design.
+WARNING: Simulation object /top/UM_out_rdy3 was not found in the design.
+WARNING: Simulation object /top/ax1 was not found in the design.
+WARNING: Simulation object /top/ay1 was not found in the design.
+WARNING: Simulation object /top/ax2 was not found in the design.
+WARNING: Simulation object /top/ay2 was not found in the design.
+WARNING: Simulation object /top/ax3 was not found in the design.
+WARNING: Simulation object /top/ay3 was not found in the design.
+WARNING: Simulation object /top/WT_vx1 was not found in the design.
+WARNING: Simulation object /top/WT_vy1 was not found in the design.
+WARNING: Simulation object /top/WT_vx2 was not found in the design.
+WARNING: Simulation object /top/WT_vy2 was not found in the design.
+WARNING: Simulation object /top/WT_vx3 was not found in the design.
+WARNING: Simulation object /top/WT_vy3 was not found in the design.
+WARNING: Simulation object /top/wt1 was not found in the design.
+WARNING: Simulation object /top/wt2 was not found in the design.
+WARNING: Simulation object /top/wt3 was not found in the design.
+WARNING: Simulation object /top/stopped1 was not found in the design.
+WARNING: Simulation object /top/stopped2 was not found in the design.
+WARNING: Simulation object /top/stopped3 was not found in the design.
+WARNING: Simulation object /top/flag1 was not found in the design.
+WARNING: Simulation object /top/flag2 was not found in the design.
+WARNING: Simulation object /top/flag3 was not found in the design.
+WARNING: Simulation object /top/xnew1 was not found in the design.
+WARNING: Simulation object /top/ynew1 was not found in the design.
+WARNING: Simulation object /top/vxnew1 was not found in the design.
+WARNING: Simulation object /top/vynew1 was not found in the design.
+WARNING: Simulation object /top/Vxnew_UM1 was not found in the design.
+WARNING: Simulation object /top/Vynew_UM1 was not found in the design.
+WARNING: Simulation object /top/input_UM1 was not found in the design.
+WARNING: Simulation object /top/xnew2 was not found in the design.
+WARNING: Simulation object /top/ynew2 was not found in the design.
+WARNING: Simulation object /top/vxnew2 was not found in the design.
+WARNING: Simulation object /top/vynew2 was not found in the design.
+WARNING: Simulation object /top/Vxnew_UM2 was not found in the design.
+WARNING: Simulation object /top/Vynew_UM2 was not found in the design.
+WARNING: Simulation object /top/input_UM2 was not found in the design.
+WARNING: Simulation object /top/xnew3 was not found in the design.
+WARNING: Simulation object /top/ynew3 was not found in the design.
+WARNING: Simulation object /top/vxnew3 was not found in the design.
+WARNING: Simulation object /top/vynew3 was not found in the design.
+WARNING: Simulation object /top/Vxnew_UM3 was not found in the design.
+WARNING: Simulation object /top/Vynew_UM3 was not found in the design.
+WARNING: Simulation object /top/input_UM3 was not found in the design.
+WARNING: Simulation object /top/UM1_done was not found in the design.
+WARNING: Simulation object /top/UM2_done was not found in the design.
+WARNING: Simulation object /top/UM3_done was not found in the design.
+WARNING: Simulation object /top/UM_all_done was not found in the design.
+WARNING: Simulation object /top/IG_in_rdy1 was not found in the design.
+WARNING: Simulation object /top/IG_out_rdy1 was not found in the design.
+WARNING: Simulation object /top/IG_in_rdy2 was not found in the design.
+WARNING: Simulation object /top/IG_out_rdy2 was not found in the design.
+WARNING: Simulation object /top/IG_in_rdy3 was not found in the design.
+WARNING: Simulation object /top/IG_out_rdy3 was not found in the design.
+WARNING: Simulation object /top/I1/vx_not_update was not found in the design.
+WARNING: Simulation object /top/I1/vy_not_update was not found in the design.
+WARNING: Simulation object /top/I1/x1 was not found in the design.
+WARNING: Simulation object /top/I1/y1 was not found in the design.
+WARNING: Simulation object /top/I1/vx1 was not found in the design.
+WARNING: Simulation object /top/I1/vy1 was not found in the design.
+WARNING: Simulation object /top/I1/x2 was not found in the design.
+WARNING: Simulation object /top/I1/y2 was not found in the design.
+WARNING: Simulation object /top/I1/vx2 was not found in the design.
+WARNING: Simulation object /top/I1/vx3 was not found in the design.
+WARNING: Simulation object /top/I1/vy2 was not found in the design.
+WARNING: Simulation object /top/I1/x3 was not found in the design.
+WARNING: Simulation object /top/I1/y3 was not found in the design.
+WARNING: Simulation object /top/I1/vy3 was not found in the design.
+WARNING: Simulation object /top/I1/input_rdy was not found in the design.
+WARNING: Simulation object /top/I1/clock was not found in the design.
+WARNING: Simulation object /top/I1/ig_done was not found in the design.
+WARNING: Simulation object /top/I1/ig_done_reg was not found in the design.
+WARNING: Simulation object /top/I1/ax was not found in the design.
+WARNING: Simulation object /top/I1/ay was not found in the design.
+WARNING: Simulation object /top/I1/t was not found in the design.
+WARNING: Simulation object /top/I1/R was not found in the design.
+WARNING: Simulation object /top/I1/R_reg was not found in the design.
+WARNING: Simulation object /top/I1/vx1_WT was not found in the design.
+WARNING: Simulation object /top/I1/vy1_WT was not found in the design.
+WARNING: Simulation object /top/I1/WT_vx1 was not found in the design.
+WARNING: Simulation object /top/I1/WT_vy1 was not found in the design.
+WARNING: Simulation object /top/I1/input_CD1 was not found in the design.
+WARNING: Simulation object /top/I1/input_CD2 was not found in the design.
+WARNING: Simulation object /top/I1/input_UM was not found in the design.
+WARNING: Simulation object /top/I1/input_VS was not found in the design.
+WARNING: Simulation object /top/I1/output_check_reg was not found in the design.
+WARNING: Simulation object /top/I1/input_check_reg was not found in the design.
+WARNING: Simulation object /top/I1/output_in_rdy was not found in the design.
+WARNING: Simulation object /top/I1/output_written was not found in the design.
+WARNING: Simulation object /top/I1/input_in_rdy was not found in the design.
+WARNING: Simulation object /top/I1/vs_ip_sel was not found in the design.
+WARNING: Simulation object /top/I1/UM_Vxin was not found in the design.
+WARNING: Simulation object /top/I1/UM_Vyin was not found in the design.
+WARNING: Simulation object /top/I1/xnew was not found in the design.
+WARNING: Simulation object /top/I1/ynew was not found in the design.
+WARNING: Simulation object /top/I1/vxnew was not found in the design.
+WARNING: Simulation object /top/I1/vynew was not found in the design.
+WARNING: Simulation object /top/I1/UM_in_rdy was not found in the design.
+WARNING: Simulation object /top/I1/UM_out_rdy was not found in the design.
+WARNING: Simulation object /top/I1/Vxnew_UM was not found in the design.
+WARNING: Simulation object /top/I1/Vynew_UM was not found in the design.
+WARNING: Simulation object /top/I1/VS_Vxin was not found in the design.
+WARNING: Simulation object /top/I1/VS_Vyin was not found in the design.
+WARNING: Simulation object /top/I1/VS_Vxout was not found in the design.
+WARNING: Simulation object /top/I1/VS_Vyout was not found in the design.
+WARNING: Simulation object /top/I1/VS_in_rdy was not found in the design.
+WARNING: Simulation object /top/I1/VS_out_rdy was not found in the design.
+WARNING: Simulation object /top/I1/Vxnew_VS was not found in the design.
+WARNING: Simulation object /top/I1/Vynew_VS was not found in the design.
+WARNING: Simulation object /top/I1/CD_Vxin was not found in the design.
+WARNING: Simulation object /top/I1/CD_Vyin was not found in the design.
+WARNING: Simulation object /top/I1/CD_xin was not found in the design.
+WARNING: Simulation object /top/I1/CD_yin was not found in the design.
+WARNING: Simulation object /top/I1/CD1_in_rdy was not found in the design.
+WARNING: Simulation object /top/I1/CD1_out_rdy was not found in the design.
+WARNING: Simulation object /top/I1/CD2_in_rdy was not found in the design.
+WARNING: Simulation object /top/I1/CD2_out_rdy was not found in the design.
+WARNING: Simulation object /top/I1/Vxnew_CD was not found in the design.
+WARNING: Simulation object /top/I1/Vynew_CD was not found in the design.
+WARNING: Simulation object /top/I1/xnew_CD was not found in the design.
+WARNING: Simulation object /top/I1/ynew_CD was not found in the design.
+WARNING: Simulation object /top/I1/coll_detect1 was not found in the design.
+WARNING: Simulation object /top/I1/coll_detect2 was not found in the design.
+WARNING: Simulation object /top/I2/vx_not_update was not found in the design.
+WARNING: Simulation object /top/I2/vy_not_update was not found in the design.
+WARNING: Simulation object /top/I2/x1 was not found in the design.
+WARNING: Simulation object /top/I2/y1 was not found in the design.
+WARNING: Simulation object /top/I2/vx1 was not found in the design.
+WARNING: Simulation object /top/I2/vy1 was not found in the design.
+WARNING: Simulation object /top/I2/x2 was not found in the design.
+WARNING: Simulation object /top/I2/y2 was not found in the design.
+WARNING: Simulation object /top/I2/vx2 was not found in the design.
+WARNING: Simulation object /top/I2/vx3 was not found in the design.
+WARNING: Simulation object /top/I2/vy2 was not found in the design.
+WARNING: Simulation object /top/I2/x3 was not found in the design.
+WARNING: Simulation object /top/I2/y3 was not found in the design.
+WARNING: Simulation object /top/I2/vy3 was not found in the design.
+WARNING: Simulation object /top/I2/clock was not found in the design.
+WARNING: Simulation object /top/I2/ig_done was not found in the design.
+WARNING: Simulation object /top/I2/ig_done_reg was not found in the design.
+WARNING: Simulation object /top/I2/ax was not found in the design.
+WARNING: Simulation object /top/I2/ay was not found in the design.
+WARNING: Simulation object /top/I2/t was not found in the design.
+WARNING: Simulation object /top/I2/R was not found in the design.
+WARNING: Simulation object /top/I2/R_reg was not found in the design.
+WARNING: Simulation object /top/I2/vx1_WT was not found in the design.
+WARNING: Simulation object /top/I2/vy1_WT was not found in the design.
+WARNING: Simulation object /top/I2/WT_vx1 was not found in the design.
+WARNING: Simulation object /top/I2/WT_vy1 was not found in the design.
+WARNING: Simulation object /top/I2/input_CD1 was not found in the design.
+WARNING: Simulation object /top/I2/input_CD2 was not found in the design.
+WARNING: Simulation object /top/I2/input_UM was not found in the design.
+WARNING: Simulation object /top/I2/input_VS was not found in the design.
+WARNING: Simulation object /top/I2/output_check_reg was not found in the design.
+WARNING: Simulation object /top/I2/input_check_reg was not found in the design.
+WARNING: Simulation object /top/I2/input_in_rdy was not found in the design.
+WARNING: Simulation object /top/I2/vs_ip_sel was not found in the design.
+WARNING: Simulation object /top/I2/UM_Vxin was not found in the design.
+WARNING: Simulation object /top/I2/UM_Vyin was not found in the design.
+WARNING: Simulation object /top/I2/xnew was not found in the design.
+WARNING: Simulation object /top/I2/ynew was not found in the design.
+WARNING: Simulation object /top/I2/vxnew was not found in the design.
+WARNING: Simulation object /top/I2/vynew was not found in the design.
+WARNING: Simulation object /top/I2/Vxnew_UM was not found in the design.
+WARNING: Simulation object /top/I2/Vynew_UM was not found in the design.
+WARNING: Simulation object /top/I2/VS_Vxin was not found in the design.
+WARNING: Simulation object /top/I2/VS_Vyin was not found in the design.
+WARNING: Simulation object /top/I2/VS_Vxout was not found in the design.
+WARNING: Simulation object /top/I2/VS_Vyout was not found in the design.
+WARNING: Simulation object /top/I2/Vxnew_VS was not found in the design.
+WARNING: Simulation object /top/I2/Vynew_VS was not found in the design.
+WARNING: Simulation object /top/I2/CD_Vxin was not found in the design.
+WARNING: Simulation object /top/I2/CD_Vyin was not found in the design.
+WARNING: Simulation object /top/I2/CD_xin was not found in the design.
+WARNING: Simulation object /top/I2/CD_yin was not found in the design.
+WARNING: Simulation object /top/I2/input_rdy was not found in the design.
+WARNING: Simulation object /top/I2/CD1_in_rdy was not found in the design.
+WARNING: Simulation object /top/I2/CD1_out_rdy was not found in the design.
+WARNING: Simulation object /top/I2/CD2_in_rdy was not found in the design.
+WARNING: Simulation object /top/I2/CD2_out_rdy was not found in the design.
+WARNING: Simulation object /top/I2/coll_detect1 was not found in the design.
+WARNING: Simulation object /top/I2/coll_detect2 was not found in the design.
+WARNING: Simulation object /top/I2/VS_in_rdy was not found in the design.
+WARNING: Simulation object /top/I2/VS_out_rdy was not found in the design.
+WARNING: Simulation object /top/I2/UM_in_rdy was not found in the design.
+WARNING: Simulation object /top/I2/UM_out_rdy was not found in the design.
+WARNING: Simulation object /top/I2/output_in_rdy was not found in the design.
+WARNING: Simulation object /top/I2/Vynew_CD was not found in the design.
+WARNING: Simulation object /top/I2/xnew_CD was not found in the design.
+WARNING: Simulation object /top/I2/ynew_CD was not found in the design.
+WARNING: Simulation object /top/I3/vx_not_update was not found in the design.
+WARNING: Simulation object /top/I3/vy_not_update was not found in the design.
+WARNING: Simulation object /top/I3/x1 was not found in the design.
+WARNING: Simulation object /top/I3/y1 was not found in the design.
+WARNING: Simulation object /top/I3/vx1 was not found in the design.
+WARNING: Simulation object /top/I3/vy1 was not found in the design.
+WARNING: Simulation object /top/I3/x2 was not found in the design.
+WARNING: Simulation object /top/I3/y2 was not found in the design.
+WARNING: Simulation object /top/I3/vx2 was not found in the design.
+WARNING: Simulation object /top/I3/vx3 was not found in the design.
+WARNING: Simulation object /top/I3/vy2 was not found in the design.
+WARNING: Simulation object /top/I3/x3 was not found in the design.
+WARNING: Simulation object /top/I3/y3 was not found in the design.
+WARNING: Simulation object /top/I3/vy3 was not found in the design.
+WARNING: Simulation object /top/I3/input_rdy was not found in the design.
+WARNING: Simulation object /top/I3/clock was not found in the design.
+WARNING: Simulation object /top/I3/ig_done was not found in the design.
+WARNING: Simulation object /top/I3/ig_done_reg was not found in the design.
+WARNING: Simulation object /top/I3/ax was not found in the design.
+WARNING: Simulation object /top/I3/ay was not found in the design.
+WARNING: Simulation object /top/I3/t was not found in the design.
+WARNING: Simulation object /top/I3/R was not found in the design.
+WARNING: Simulation object /top/I3/R_reg was not found in the design.
+WARNING: Simulation object /top/I3/vx1_WT was not found in the design.
+WARNING: Simulation object /top/I3/vy1_WT was not found in the design.
+WARNING: Simulation object /top/I3/WT_vx1 was not found in the design.
+WARNING: Simulation object /top/I3/WT_vy1 was not found in the design.
+WARNING: Simulation object /top/I3/input_CD1 was not found in the design.
+WARNING: Simulation object /top/I3/input_CD2 was not found in the design.
+WARNING: Simulation object /top/I3/input_UM was not found in the design.
+WARNING: Simulation object /top/I3/input_VS was not found in the design.
+WARNING: Simulation object /top/I3/output_check_reg was not found in the design.
+WARNING: Simulation object /top/I3/input_check_reg was not found in the design.
+WARNING: Simulation object /top/I3/output_written was not found in the design.
+WARNING: Simulation object /top/I3/input_in_rdy was not found in the design.
+WARNING: Simulation object /top/I3/vs_ip_sel was not found in the design.
+WARNING: Simulation object /top/I3/UM_Vxin was not found in the design.
+WARNING: Simulation object /top/I3/UM_Vyin was not found in the design.
+WARNING: Simulation object /top/I3/xnew was not found in the design.
+WARNING: Simulation object /top/I3/ynew was not found in the design.
+WARNING: Simulation object /top/I3/vxnew was not found in the design.
+WARNING: Simulation object /top/I3/vynew was not found in the design.
+WARNING: Simulation object /top/I3/UM_in_rdy was not found in the design.
+WARNING: Simulation object /top/I3/UM_out_rdy was not found in the design.
+WARNING: Simulation object /top/I3/Vxnew_UM was not found in the design.
+WARNING: Simulation object /top/I3/Vynew_UM was not found in the design.
+WARNING: Simulation object /top/I3/VS_Vxin was not found in the design.
+WARNING: Simulation object /top/I3/VS_Vyin was not found in the design.
+WARNING: Simulation object /top/I3/VS_Vxout was not found in the design.
+WARNING: Simulation object /top/I3/VS_Vyout was not found in the design.
+WARNING: Simulation object /top/I3/VS_in_rdy was not found in the design.
+WARNING: Simulation object /top/I3/VS_out_rdy was not found in the design.
+WARNING: Simulation object /top/I3/Vxnew_VS was not found in the design.
+WARNING: Simulation object /top/I3/Vynew_VS was not found in the design.
+WARNING: Simulation object /top/I3/CD_Vxin was not found in the design.
+WARNING: Simulation object /top/I3/CD_Vyin was not found in the design.
+WARNING: Simulation object /top/I3/CD_xin was not found in the design.
+WARNING: Simulation object /top/I3/CD_yin was not found in the design.
+WARNING: Simulation object /top/I3/CD1_in_rdy was not found in the design.
+WARNING: Simulation object /top/I3/CD1_out_rdy was not found in the design.
+WARNING: Simulation object /top/I3/CD2_in_rdy was not found in the design.
+WARNING: Simulation object /top/I3/CD2_out_rdy was not found in the design.
+WARNING: Simulation object /top/I3/Vxnew_CD was not found in the design.
+WARNING: Simulation object /top/I3/Vynew_CD was not found in the design.
+WARNING: Simulation object /top/I3/xnew_CD was not found in the design.
+WARNING: Simulation object /top/I3/ynew_CD was not found in the design.
+WARNING: Simulation object /top/I3/coll_detect1 was not found in the design.
+WARNING: Simulation object /top/I3/coll_detect2 was not found in the design.
+WARNING: Simulation object /top/UM_out_rdy1 was not found in the design.
+WARNING: Simulation object /top/I3/VS/x_real was not found in the design.
+WARNING: Simulation object /top/I3/VS/y_real was not found in the design.
+WARNING: Simulation object /top/I3/VS/mag was not found in the design.
+WARNING: Simulation object /top/I3/VS/phase was not found in the design.
+WARNING: Simulation object /top/I3/VS/phase1 was not found in the design.
+WARNING: Simulation object /top/I1/VS/mag_reg was not found in the design.
+WARNING: Simulation object /top/I1/VS/phase_reg was not found in the design.
+source Rect_to_polar.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1015.793 ; gain = 3.352
+xsim: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1015.793 ; gain = 8.285
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Rect_to_polar_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:01:29 ; elapsed = 00:02:11 . Memory (MB): peak = 1015.793 ; gain = 11.012
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.793 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Rect_to_polar' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Rect_to_polar_vhdl.prj"
+run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.793 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L secureip -L xpm --snapshot Rect_to_polar_behav xil_defaultlib.Rect_to_polar -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:41 ; elapsed = 00:01:10 . Memory (MB): peak = 1015.793 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '70' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Rect_to_polar_behav -key {Behavioral:sim_1:Functional:Rect_to_polar} -tclbatch {Rect_to_polar.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Rect_to_polar.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.793 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1015.793 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Rect_to_polar_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:01:06 ; elapsed = 00:01:39 . Memory (MB): peak = 1015.793 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Rect_to_polar/x_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/y_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/input_rdy} -radix hex {1 50ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Rect_to_polar' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Rect_to_polar_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Rect_to_polar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rect_to_polar
+run_program: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1023.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L secureip -L xpm --snapshot Rect_to_polar_behav xil_defaultlib.Rect_to_polar -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.rect_to_polar
+Built simulation snapshot Rect_to_polar_behav
+run_program: Time (s): cpu = 00:00:55 ; elapsed = 00:01:04 . Memory (MB): peak = 1023.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '64' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Rect_to_polar_behav -key {Behavioral:sim_1:Functional:Rect_to_polar} -tclbatch {Rect_to_polar.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Rect_to_polar.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1023.883 ; gain = 0.000
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:01:12 ; elapsed = 00:01:21 . Memory (MB): peak = 1023.883 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Rect_to_polar/x_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/y_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/input_rdy} -radix hex {1 100ns}
+run 2 us
+run 2 us
+set_property top Polar_to_rect [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top Polar_to_rect [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Polar_to_rect' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Polar_to_rect_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Polar_to_rect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Polar_to_rect
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1027.449 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L secureip -L xpm --snapshot Polar_to_rect_behav xil_defaultlib.Polar_to_rect -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.polar_to_rect
+Built simulation snapshot Polar_to_rect_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/xsim.dir/Polar_to_rect_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue May 19 16:51:15 2020...
+run_program: Time (s): cpu = 00:00:32 ; elapsed = 00:01:02 . Memory (MB): peak = 1027.449 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '62' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Polar_to_rect_behav -key {Behavioral:sim_1:Functional:Polar_to_rect} -tclbatch {Polar_to_rect.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Polar_to_rect.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1037.316 ; gain = 0.355
+xsim: Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1037.316 ; gain = 9.809
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Polar_to_rect_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:57 ; elapsed = 00:01:36 . Memory (MB): peak = 1037.316 ; gain = 9.867
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Polar_to_rect/x_real} -radix dec {23170 0ns}
+add_force {/Polar_to_rect/theta_real} -radix hex {6433 0ns}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1040.703 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Polar_to_rect' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Polar_to_rect_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Polar_to_rect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Polar_to_rect
+run_program: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1040.703 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L secureip -L xpm --snapshot Polar_to_rect_behav xil_defaultlib.Polar_to_rect -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.polar_to_rect
+Built simulation snapshot Polar_to_rect_behav
+run_program: Time (s): cpu = 00:01:09 ; elapsed = 00:01:46 . Memory (MB): peak = 1096.313 ; gain = 55.609
+INFO: [USF-XSim-69] 'elaborate' step finished in '106' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Polar_to_rect_behav -key {Behavioral:sim_1:Functional:Polar_to_rect} -tclbatch {Polar_to_rect.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Polar_to_rect.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+add_wave: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1104.555 ; gain = 0.129
+# run 1s
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1104.582 ; gain = 0.027
+xsim: Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1104.582 ; gain = 8.270
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Polar_to_rect_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:01:38 ; elapsed = 00:02:21 . Memory (MB): peak = 1104.582 ; gain = 63.879
+add_force {/Polar_to_rect/x_real} -radix dec {23170 0ns}
+add_force {/Polar_to_rect/theta_real} -radix dec {6433 0ns}
+add_force {/Polar_to_rect/input_rdy} -radix hex {1 100ns}
+run 2 us
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Velocity_selector [current_fileset]
+current_sim simulation_4
+update_compile_order -fileset sources_1
+set_property top Velocity_selector [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Vivado 12-4705] 'export_ip_user_files' task aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Velocity_selector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Velocity_selector_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+"xvhdl --incr --relax -prj Velocity_selector_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Rect_to_polar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Rect_to_polar
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1112.293 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Velocity_selector_behav xil_defaultlib.Velocity_selector xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net rtp_out_rdy is not permitted [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v:24]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ptr_out_rdy is not permitted [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v:25]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+run_program: Time (s): cpu = 00:00:17 ; elapsed = 00:00:47 . Memory (MB): peak = 1112.293 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '46' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:57 . Memory (MB): peak = 1112.293 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Velocity_selector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Velocity_selector_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+"xvhdl --incr --relax -prj Velocity_selector_vhdl.prj"
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1118.473 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Velocity_selector_behav xil_defaultlib.Velocity_selector xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Velocity_selector_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/xsim.dir/Velocity_selector_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue May 19 17:21:35 2020...
+run_program: Time (s): cpu = 00:00:27 ; elapsed = 00:01:18 . Memory (MB): peak = 1118.473 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '78' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Velocity_selector_behav -key {Behavioral:sim_1:Functional:Velocity_selector} -tclbatch {Velocity_selector.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Velocity_selector.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+run: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1118.473 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1118.473 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Velocity_selector_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:59 ; elapsed = 00:02:01 . Memory (MB): peak = 1118.473 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Velocity_selector/x_real} -radix hex {4000 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {4000 0ns}
+add_force {/Velocity_selector/clock} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+run 2 us
+run 2 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 0ns}
+run 2 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Velocity_selector/active} -radix hex {0 0ns}
+run 2 us
+add_force {/Velocity_selector/active} -radix hex {1 0ns}
+run 2 us
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1119.285 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Velocity_selector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Velocity_selector_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+"xvhdl --incr --relax -prj Velocity_selector_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Velocity_selector_behav xil_defaultlib.Velocity_selector xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Velocity_selector_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:36 . Memory (MB): peak = 1119.285 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '35' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Velocity_selector_behav -key {Behavioral:sim_1:Functional:Velocity_selector} -tclbatch {Velocity_selector.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Velocity_selector.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1119.285 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1119.285 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Velocity_selector_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:48 . Memory (MB): peak = 1119.285 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 10ns}
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Velocity_selector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Velocity_selector_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+"xvhdl --incr --relax -prj Velocity_selector_vhdl.prj"
+run_program: Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 1119.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '31' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Velocity_selector_behav xil_defaultlib.Velocity_selector xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Velocity_selector_behav
+run_program: Time (s): cpu = 00:01:02 ; elapsed = 00:01:56 . Memory (MB): peak = 1119.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '116' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Velocity_selector_behav -key {Behavioral:sim_1:Functional:Velocity_selector} -tclbatch {Velocity_selector.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Velocity_selector.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1121.578 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1121.578 ; gain = 1.941
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Velocity_selector_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:01:43 ; elapsed = 00:02:51 . Memory (MB): peak = 1121.578 ; gain = 1.941
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [Vivado 12-5357] 'setup' step aborted
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1122.098 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+current_sim simulation_4
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Velocity_selector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Velocity_selector_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+"xvhdl --incr --relax -prj Velocity_selector_vhdl.prj"
+run_program: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1122.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '16' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Velocity_selector_behav xil_defaultlib.Velocity_selector xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Velocity_selector_behav
+run_program: Time (s): cpu = 00:02:20 ; elapsed = 00:02:40 . Memory (MB): peak = 1122.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '160' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Velocity_selector_behav -key {Behavioral:sim_1:Functional:Velocity_selector} -tclbatch {Velocity_selector.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Velocity_selector.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+add_wave: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1123.047 ; gain = 0.000
+# run 1s
+run: Time (s): cpu = 00:02:35 ; elapsed = 00:02:41 . Memory (MB): peak = 1123.508 ; gain = 0.461
+xsim: Time (s): cpu = 00:02:44 ; elapsed = 00:02:50 . Memory (MB): peak = 1123.508 ; gain = 1.410
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Velocity_selector_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:05:28 ; elapsed = 00:05:57 . Memory (MB): peak = 1123.508 ; gain = 1.410
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/Velocity_selector/x_real} -radix dec {205 0ns}
+add_force {/Velocity_selector/y_real} -radix dec {205 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+add_force {/Velocity_selector/active} -radix hex {1 10ns}
+run 2 us
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1131.164 ; gain = 0.000
+current_sim simulation_4
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1131.164 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 19 18:08:19 2020...

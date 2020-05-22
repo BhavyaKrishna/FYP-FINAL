@@ -1,0 +1,7 @@
+Running: xsim.dir/Velocity_selector_behav/xsimk.exe -simmode gui -wdb Velocity_selector_behav.wdb -simrunnum 0 -socket 63294
+Design successfully loaded
+Design Loading Memory Usage: 13064 KB (Peak: 13064 KB)
+Design Loading CPU Usage: 203 ms
+Simulation completed
+Simulation Memory Usage: 14408 KB (Peak: 14408 KB)
+Simulation CPU Usage: 6249 ms

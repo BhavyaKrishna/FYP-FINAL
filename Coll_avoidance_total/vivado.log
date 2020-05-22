@@ -1,0 +1,2227 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 21 17:17:57 2020
+# Process ID: 23544
+# Current directory: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13368 D:\FYP_FINAL\FYP_Final\Coll_avoidance_total\Coll_avoidance_total.xpr
+# Log file: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/vivado.log
+# Journal file: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 727.953 ; gain = 59.473
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Integrator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/update_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 781.328 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:358]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:359]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:360]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1232]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1233]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1234]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.subtractor_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:01:03 . Memory (MB): peak = 781.328 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '63' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -view {D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+bot 1 reached target                 320
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 977.500 ; gain = 38.441
+xsim: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 977.500 ; gain = 196.172
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:25 ; elapsed = 00:01:33 . Memory (MB): peak = 977.500 ; gain = 196.172
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 us
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 994.605 ; gain = 14.344
+run 200 us
+run 200 us
+run 200 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Integrator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/update_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1005.824 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:358]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:359]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:360]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1232]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1233]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1234]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.subtractor_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:54 . Memory (MB): peak = 1005.824 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '54' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -view {D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+bot 3 velocity updated              101050
+bot 2 velocity updated              134050
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:01:07 . Memory (MB): peak = 1087.570 ; gain = 44.879
+xsim: Time (s): cpu = 00:00:35 ; elapsed = 00:01:17 . Memory (MB): peak = 1087.570 ; gain = 81.746
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:39 ; elapsed = 00:02:21 . Memory (MB): peak = 1087.570 ; gain = 81.746
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Integrator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/update_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1092.859 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '14' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:358]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:359]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:360]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1232]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1233]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1234]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.subtractor_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:02:04 . Memory (MB): peak = 1092.859 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '123' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -view {D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+WARNING: file D:/Projects/FinalYearProject/bot11.txt could not be opened
+ERROR: File descriptor (0) passed to $fscanf in file D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v at line 27 is not valid.
+bot 1 reached target                 320
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 1092.859 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:30 . Memory (MB): peak = 1092.859 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1s
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:02:49 . Memory (MB): peak = 1092.859 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 us
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+bot 1 velocity updated                 310
+bot 1 reached target                 320
+bot 3 velocity updated                2050
+bot 2 velocity updated               46050
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Integrator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/Integrator2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Integrator2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/Velocity_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Velocity_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/adder_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/coll_det.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coll_det
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/update_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module update_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/write_simultaneous.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/write_test3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_test3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1092.859 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8ce584d40e7249edbedde05974717a62 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:345]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:346]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:347]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:348]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:349]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:350]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:351]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:352]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:353]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:354]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:355]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:356]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:357]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:358]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:359]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v:360]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1203]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1204]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1206]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1207]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1208]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1209]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1210]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1211]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1212]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1213]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1214]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1215]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1216]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1217]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1218]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1219]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1220]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1221]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1222]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1223]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1224]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1225]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1226]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1227]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1228]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1229]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1230]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1231]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1232]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1233]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v:1234]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package cordic_v6_0_14.cordic_v6_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package cordic_v6_0_14.cordic_pack
+Compiling package cordic_v6_0_14.cordic_hdl_comps
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.init
+Compiling module xil_defaultlib.write_test1
+Compiling module xil_defaultlib.write_test2
+Compiling module xil_defaultlib.write_test3
+Compiling module xil_defaultlib.read_test
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 74. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 96. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+WARNING: [XSIM 43-3373] "D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" Line 118. System function $fseek is used as system task. This system function should have a LHS e.g. x=$fseek().
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_4bit
+Compiling module xil_defaultlib.adder_16bit
+Compiling module xil_defaultlib.adder_32bit
+Compiling module xil_defaultlib.multiplier_16bit
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.update_module
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=22...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=21...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.addsub [\addsub(family="kintex7",add_mod...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=2,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par(p_xdev...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=1,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_ctrl_slice_par [\cordic_ctrl_slice_par(p_xdevice...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par(p_xdev...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=2,family="kinte...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="ki...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=24,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_scaled_adder [\ccm_scaled_adder(a_width=31,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.ccm [\ccm(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_scale [\cordic_scale(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=3,family="kinte...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=3,family="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=1,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_round [\cordic_round(p_xdevicefamily="k...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay_bit [\delay_bit(delay_len=0,family="k...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_1_arch of entity xil_defaultlib.cordic_1 [cordic_1_default]
+Compiling architecture tb of entity xil_defaultlib.Rect_to_polar [rect_to_polar_default]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_inp_config [\cordic_inp_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng_slice_par [\cordic_eng_slice_par(p_xdevicef...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_eng [\cordic_eng(p_xdevicefamily="kin...]
+Compiling architecture struct_all of entity cordic_v6_0_14.delay [\delay(delay_len=0,family="kinte...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_out_config [\cordic_out_config(p_xdevicefami...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_synth [\cordic_v6_0_14_synth(c_architec...]
+Compiling architecture synth of entity cordic_v6_0_14.cordic_v6_0_14_viv [\cordic_v6_0_14_viv(c_architectu...]
+Compiling architecture xilinx of entity cordic_v6_0_14.cordic_v6_0_14 [\cordic_v6_0_14(c_architecture=2...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture tb of entity xil_defaultlib.Polar_to_rect [polar_to_rect_default]
+Compiling module xil_defaultlib.Velocity_selector
+Compiling module xil_defaultlib.adder_64bit
+Compiling module xil_defaultlib.multiplier_32bit
+Compiling module xil_defaultlib.subtractor_4bit
+Compiling module xil_defaultlib.subtractor_16bit
+Compiling module xil_defaultlib.subtractor_32bit
+Compiling module xil_defaultlib.subtractor_64bit
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.coll_det
+Compiling module xil_defaultlib.Integrator
+Compiling module xil_defaultlib.Integrator1
+Compiling module xil_defaultlib.Integrator2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:58 . Memory (MB): peak = 1092.859 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '58' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:D:/FYP_FINAL/FYP_Final/project_12/top_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -view {D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:35 ; elapsed = 00:02:20 . Memory (MB): peak = 1127.164 ; gain = 34.305
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:42 ; elapsed = 00:02:28 . Memory (MB): peak = 1127.164 ; gain = 34.305
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:45 ; elapsed = 00:03:36 . Memory (MB): peak = 1127.164 ; gain = 34.305
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 us
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 3 velocity updated               13050
+bot 3 velocity read              111900
+bot 3 velocity updated              113950
+bot 3 velocity read              122400
+bot 3 velocity updated              124450
+bot 3 velocity read              126600
+bot 3 velocity updated              128650
+bot 3 velocity read              128700
+bot 3 velocity updated              130750
+bot 3 velocity read              133500
+bot 3 velocity updated              135550
+bot 3 velocity read              138600
+bot 3 velocity updated              140650
+bot 1 velocity read              144600
+bot 3 velocity read              144600
+bot 1 velocity updated              144610
+bot 1 reached target              144620
+bot 1 velocity read              144900
+bot 3 velocity updated              146350
+bot 3 velocity read              146400
+bot 3 velocity updated              148450
+bot 3 velocity read              155400
+bot 1 velocity updated              156050
+bot 2 velocity updated              156050
+bot 1 velocity read              156900
+bot 3 velocity updated              157450
+bot 3 velocity read              158100
+bot 3 velocity updated              158650
+bot 3 velocity read              158700
+bot 3 velocity updated              160150
+bot 3 velocity read              161700
+bot 3 velocity updated              163750
+bot 3 velocity read              168000
+bot 3 velocity updated              170050
+bot 3 velocity read              182700
+bot 3 velocity updated              184750
+bot 3 velocity read              187800
+bot 3 velocity updated              189850
+bot 3 velocity read              194100
+bot 3 velocity updated              196150
+bot 3 velocity read              196200
+bot 3 velocity updated              198250
+bot 3 velocity read              198300
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:23 . Memory (MB): peak = 1139.133 ; gain = 7.102
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1 s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 3 velocity updated               13050
+bot 3 velocity read               89400
+bot 1 velocity read               89700
+bot 1 velocity updated               89710
+bot 1 reached target               89720
+bot 1 velocity read               90000
+bot 3 velocity updated               91450
+bot 3 velocity read              100500
+bot 1 velocity updated              101050
+bot 2 velocity updated              101050
+bot 1 velocity read              102000
+bot 3 velocity updated              102550
+bot 3 velocity read              103200
+bot 3 velocity updated              103750
+bot 3 velocity read              104700
+bot 3 velocity updated              105250
+bot 3 velocity read              106200
+bot 3 velocity updated              106750
+bot 3 velocity read              107700
+bot 3 velocity updated              108250
+bot 3 velocity read              108300
+bot 3 velocity updated              109750
+bot 3 velocity read              113100
+bot 3 velocity updated              115150
+bot 3 velocity read              125700
+bot 3 velocity updated              127750
+bot 3 velocity read              128100
+bot 3 velocity updated              130150
+bot 3 velocity read              138300
+bot 3 velocity updated              140350
+bot 3 velocity read              150900
+bot 3 velocity updated              152950
+bot 3 velocity read              163500
+bot 3 velocity updated              165550
+bot 3 velocity read              165900
+bot 3 velocity updated              167950
+bot 3 velocity read              176100
+bot 3 velocity updated              178150
+bot 3 velocity read              188700
+bot 3 velocity updated              190750
+bot 3 velocity read              191100
+bot 3 velocity updated              193150
+bot 3 velocity read              201300
+bot 3 velocity updated              203350
+bot 3 velocity read              203400
+bot 3 velocity updated              205450
+bot 3 velocity read              205500
+bot 3 velocity updated              207550
+bot 3 velocity read              207900
+bot 3 velocity updated              209950
+bot 3 velocity read              213900
+bot 3 velocity updated              215950
+bot 3 velocity read              226500
+bot 3 velocity updated              228550
+bot 3 velocity read              239100
+bot 3 velocity updated              241150
+bot 3 velocity read              251700
+bot 3 velocity updated              253750
+bot 3 velocity read              264300
+bot 3 velocity updated              266350
+bot 3 velocity read              266700
+bot 3 velocity updated              268750
+bot 3 velocity read              269100
+bot 2 velocity read              270600
+bot 3 velocity updated              271150
+bot 3 velocity updated              272650
+bot 3 velocity read              272700
+bot 3 velocity read              273000
+bot 3 velocity updated              274750
+bot 3 velocity read              276900
+bot 2 velocity updated              277350
+bot 3 velocity updated              278950
+bot 3 velocity read              283500
+bot 3 velocity updated              285550
+bot 3 velocity read              298200
+bot 3 velocity updated              300250
+bot 3 velocity read              324000
+bot 3 velocity updated              326050
+bot 3 velocity read              336000
+bot 3 velocity updated              338050
+bot 3 velocity read              347700
+bot 3 velocity updated              349750
+bot 3 velocity read              350100
+bot 3 velocity updated              352150
+bot 3 velocity read              390900
+bot 3 velocity updated              392950
+bot 3 velocity read              405900
+bot 3 velocity updated              407950
+bot 3 velocity read              421800
+bot 3 velocity updated              423850
+bot 3 velocity read              443700
+bot 3 velocity updated              445750
+bot 3 velocity read              469500
+bot 3 velocity updated              471550
+bot 3 velocity read              486000
+bot 3 velocity updated              488050
+bot 3 velocity read              492900
+bot 3 velocity updated              494950
+bot 3 velocity read              495300
+bot 3 velocity updated              497350
+bot 3 velocity read              497700
+bot 2 velocity read              499500
+bot 2 velocity updated              499750
+bot 3 velocity updated              499750
+bot 3 velocity read              501000
+bot 3 velocity updated              523550
+bot 3 velocity read              582900
+bot 3 velocity updated              606950
+bot 3 velocity read              607200
+bot 3 velocity updated              631250
+bot 3 velocity read              645300
+bot 3 velocity updated              669350
+bot 3 velocity read              690600
+bot 2 velocity read              703200
+bot 2 velocity updated              714650
+bot 3 velocity updated              714650
+bot 3 velocity read              721800
+bot 3 velocity updated              723850
+bot 3 velocity read              795300
+bot 3 velocity updated              797350
+bot 3 velocity read              805500
+bot 3 velocity updated              807550
+bot 3 velocity read              830100
+bot 3 velocity updated              832150
+bot 3 velocity read              832500
+bot 3 velocity updated              834550
+bot 3 velocity read              834900
+bot 3 velocity updated              836950
+bot 3 velocity read              837300
+bot 3 velocity updated              839350
+bot 3 velocity read              840900
+bot 3 velocity updated              842950
+bot 3 velocity read              870600
+bot 3 velocity updated              872650
+bot 3 velocity read              873000
+bot 3 velocity updated              875050
+bot 3 velocity read              883800
+bot 3 velocity updated              885850
+bot 3 velocity read              894000
+bot 3 velocity updated              896050
+bot 3 velocity read              905100
+bot 3 velocity updated              907150
+bot 3 velocity read              932100
+bot 3 velocity updated              934150
+bot 3 velocity read              934500
+bot 2 velocity read              936300
+bot 2 velocity updated              936550
+bot 3 velocity updated              936550
+bot 3 velocity read              936600
+bot 3 velocity updated              938350
+bot 3 velocity read              968700
+bot 3 velocity updated              970750
+bot 3 velocity read              971100
+bot 3 velocity updated              973150
+bot 3 velocity read              973500
+bot 3 velocity updated              975550
+bot 3 velocity read              994500
+bot 3 velocity updated              996550
+bot 3 velocity read              996600
+bot 3 velocity updated              998650
+bot 3 velocity read             1006200
+bot 3 velocity updated             1008250
+bot 3 velocity read             1008300
+bot 3 velocity updated             1010350
+bot 3 velocity read             1031400
+bot 3 velocity updated             1033450
+bot 3 velocity read             1049100
+bot 3 velocity updated             1051150
+bot 3 velocity read             1054800
+bot 3 velocity updated             1056850
+bot 3 velocity read             1057500
+bot 3 velocity updated             1059550
+bot 3 velocity read             1059900
+bot 3 velocity updated             1061950
+bot 3 velocity read             1062300
+bot 3 velocity updated             1064350
+bot 3 velocity read             1077600
+bot 2 velocity read             1079400
+bot 2 velocity updated             1079650
+bot 3 velocity updated             1079650
+bot 3 velocity read             1080000
+bot 3 velocity updated             1081450
+bot 3 velocity read             1110000
+bot 3 velocity updated             1112050
+bot 3 velocity read             1121100
+bot 3 velocity updated             1123150
+bot 3 velocity read             1136700
+bot 3 velocity updated             1138750
+bot 3 velocity read             1139100
+bot 3 velocity updated             1141150
+bot 3 velocity read             1141200
+bot 3 velocity updated             1143250
+bot 3 velocity read             1143600
+bot 3 velocity updated             1145650
+bot 3 velocity read             1145700
+bot 3 velocity updated             1147750
+bot 3 velocity read             1159500
+bot 3 velocity updated             1161550
+bot 3 velocity read             1180200
+bot 3 velocity updated             1182250
+bot 3 velocity read             1211100
+bot 3 velocity updated             1213150
+bot 3 velocity read             1229400
+bot 3 velocity updated             1231450
+bot 3 velocity read             1259100
+bot 3 velocity updated             1261150
+bot 3 velocity read             1261500
+bot 3 velocity updated             1263550
+bot 3 velocity read             1263900
+bot 3 velocity updated             1265950
+bot 2 velocity read             1275900
+bot 3 velocity read             1277400
+bot 2 velocity updated             1277950
+bot 3 velocity updated             1277950
+bot 2 velocity read             1278000
+bot 3 velocity read             1278900
+bot 2 velocity updated             1279450
+bot 3 velocity updated             1279450
+bot 3 velocity read             1279500
+bot 2 velocity read             1280400
+bot 2 velocity updated             1280950
+bot 3 velocity updated             1280950
+bot 2 velocity read             1281900
+bot 3 velocity read             1281900
+bot 2 velocity updated             1282450
+bot 3 velocity updated             1282450
+bot 2 velocity read             1282500
+bot 3 velocity read             1283400
+bot 2 velocity updated             1283950
+bot 3 velocity updated             1283950
+bot 3 velocity read             1284000
+bot 2 velocity read             1284900
+bot 2 velocity updated             1285450
+bot 3 velocity updated             1285450
+bot 2 velocity read             1286400
+bot 3 velocity read             1286400
+bot 2 velocity updated             1286950
+bot 3 velocity updated             1286950
+bot 2 velocity read             1287000
+bot 3 velocity read             1287000
+bot 2 velocity updated             1288450
+bot 3 velocity updated             1288450
+bot 2 velocity read             1325700
+bot 3 velocity read             1327200
+bot 2 velocity updated             1327750
+bot 3 velocity updated             1327750
+bot 3 velocity read             1327800
+bot 2 velocity read             1328700
+bot 2 velocity updated             1329250
+bot 3 velocity updated             1329250
+bot 2 velocity read             1330200
+bot 3 velocity read             1330200
+bot 2 velocity updated             1330750
+bot 3 velocity updated             1330750
+bot 2 velocity read             1331700
+bot 3 velocity read             1331700
+bot 2 velocity updated             1332250
+bot 3 velocity updated             1332250
+bot 3 velocity read             1332300
+bot 2 velocity read             1333200
+bot 2 velocity updated             1333750
+bot 3 velocity updated             1333750
+bot 3 velocity read             1333800
+bot 2 velocity read             1334700
+bot 2 velocity updated             1335250
+bot 3 velocity updated             1335250
+bot 2 velocity read             1336200
+bot 3 velocity read             1336200
+bot 2 velocity updated             1336750
+bot 3 velocity updated             1336750
+bot 3 velocity read             1336800
+bot 2 velocity read             1337700
+bot 2 velocity updated             1338250
+bot 3 velocity updated             1338250
+bot 2 velocity read             1338300
+bot 3 velocity read             1339200
+bot 2 velocity updated             1339750
+bot 3 velocity updated             1339750
+bot 2 velocity read             1339800
+bot 3 velocity read             1340700
+bot 2 velocity updated             1341250
+bot 3 velocity updated             1341250
+bot 3 velocity read             1341300
+bot 2 velocity read             1342200
+bot 2 velocity updated             1342750
+bot 3 velocity updated             1342750
+bot 3 velocity read             1342800
+bot 2 velocity read             1343700
+bot 2 velocity updated             1344250
+bot 3 velocity updated             1344250
+bot 2 velocity read             1344300
+bot 3 velocity read             1345200
+bot 2 velocity updated             1345750
+bot 3 velocity updated             1345750
+bot 2 velocity read             1346700
+bot 3 velocity read             1346700
+bot 2 velocity updated             1347250
+bot 3 velocity updated             1347250
+bot 3 velocity read             1347300
+bot 2 velocity read             1348200
+bot 2 velocity updated             1348750
+bot 3 velocity updated             1348750
+bot 2 velocity read             1349700
+bot 3 velocity read             1349700
+bot 2 velocity updated             1350250
+bot 3 velocity updated             1350250
+bot 2 velocity read             1351200
+bot 3 velocity read             1351200
+bot 2 velocity updated             1351750
+bot 3 velocity updated             1351750
+run: Time (s): cpu = 00:00:22 ; elapsed = 00:01:56 . Memory (MB): peak = 1143.715 ; gain = 4.418
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1 s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+bot 3 velocity read                 300
+bot 1 velocity read                1500
+bot 2 velocity read                1500
+bot 2 velocity updated               13050
+bot 3 velocity updated               13050
+bot 1 velocity updated               46050
+bot 2 velocity read              351600
+bot 3 velocity read              353100
+bot 2 velocity updated              353650
+bot 3 velocity updated              353650
+bot 2 velocity read              354600
+bot 3 velocity read              354600
+bot 1 velocity updated              356650
+bot 1 velocity read              356700
+bot 2 velocity updated              366150
+bot 3 velocity updated              366150
+bot 2 velocity read              410700
+bot 3 velocity read              412200
+bot 2 velocity updated              423750
+bot 3 velocity updated              423750
+bot 2 velocity read              460500
+bot 3 velocity read              462000
+bot 2 velocity updated              473550
+bot 3 velocity updated              473550
+bot 1 velocity read              519300
+bot 2 velocity read              520500
+bot 3 velocity read              520500
+bot 1 velocity updated              521050
+bot 1 velocity read              521100
+bot 1 velocity updated              522550
+bot 1 velocity read              531600
+bot 2 velocity updated              532050
+bot 3 velocity updated              532050
+bot 2 velocity read              532800
+bot 3 velocity read              532800
+bot 1 velocity updated              533350
+bot 1 velocity read              534300
+bot 1 velocity updated              534850
+bot 1 velocity read              534900
+bot 1 velocity updated              536050
+bot 1 velocity read              543900
+bot 2 velocity updated              544350
+bot 3 velocity updated              544350
+bot 2 velocity read              545100
+bot 3 velocity read              545100
+bot 1 velocity updated              545650
+bot 1 velocity read              545700
+bot 1 velocity updated              547150
+bot 1 velocity read              556200
+bot 2 velocity updated              556650
+bot 3 velocity updated              556650
+bot 2 velocity read              557400
+bot 3 velocity read              557400
+bot 1 velocity updated              557950
+bot 1 velocity read              559200
+bot 1 velocity updated              559450
+bot 1 velocity read              560400
+bot 1 velocity updated              560950
+bot 1 velocity read              561600
+bot 1 velocity updated              562150
+bot 1 velocity read              562800
+bot 1 velocity updated              563350
+bot 1 velocity read              564000
+bot 1 velocity updated              564550
+bot 1 velocity read              565200
+bot 1 velocity updated              565750
+bot 1 velocity read              566400
+bot 1 velocity updated              566950
+bot 1 velocity read              567600
+bot 1 velocity updated              568150
+bot 1 velocity read              568500
+bot 2 velocity updated              568950
+bot 3 velocity updated              568950
+bot 1 velocity updated              569350
+bot 1 velocity read              569700
+bot 2 velocity read              569700
+bot 3 velocity read              569700
+bot 1 velocity updated              571450
+bot 1 velocity read              580800
+bot 2 velocity updated              581250
+bot 3 velocity updated              581250
+bot 1 velocity updated              582550
+bot 1 velocity read              593100
+bot 1 velocity updated              594850
+bot 1 velocity read              598200
+bot 1 velocity updated              599950
+bot 1 velocity read              600300
+bot 1 velocity updated              602050
+bot 1 velocity read              605400
+bot 2 velocity read              606600
+bot 3 velocity read              606600
+bot 1 velocity updated              607150
+bot 1 velocity read              608100
+bot 1 velocity updated              608650
+bot 1 velocity read              609300
+bot 1 velocity updated              609850
+bot 1 velocity read              610500
+bot 1 velocity updated              611050
+bot 1 velocity read              611400
+bot 1 velocity updated              612250
+bot 1 velocity read              617700
+bot 2 velocity updated              618150
+bot 3 velocity updated              618150
+bot 2 velocity read              618900
+bot 3 velocity read              618900
+bot 1 velocity updated              619450
+bot 1 velocity read              620400
+bot 1 velocity updated              620950
+bot 1 velocity read              621600
+bot 1 velocity updated              622150
+bot 1 velocity read              622500
+bot 1 velocity updated              623350
+bot 1 velocity read              630000
+bot 2 velocity updated              630450
+bot 3 velocity updated              630450
+bot 2 velocity read              631200
+bot 3 velocity read              631200
+bot 1 velocity updated              631750
+bot 1 velocity read              632700
+bot 1 velocity updated              633250
+bot 1 velocity read              633900
+bot 1 velocity updated              634450
+bot 1 velocity read              635100
+bot 1 velocity updated              635650
+bot 1 velocity read              636000
+bot 1 velocity updated              636850
+bot 1 velocity read              642300
+bot 2 velocity updated              642750
+bot 3 velocity updated              642750
+bot 2 velocity read              643500
+bot 3 velocity read              643500
+bot 1 velocity updated              644050
+bot 1 velocity read              645300
+bot 1 velocity updated              645550
+bot 1 velocity read              646500
+bot 1 velocity updated              647050
+bot 1 velocity read              647700
+bot 1 velocity updated              648250
+bot 1 velocity read              649200
+bot 1 velocity updated              649450
+bot 1 velocity read              650400
+bot 1 velocity updated              650950
+bot 1 velocity read              651600
+bot 1 velocity updated              652150
+bot 1 velocity read              652800
+bot 1 velocity updated              653350
+bot 1 velocity read              653700
+bot 1 velocity updated              654550
+bot 1 velocity read              654900
+bot 2 velocity updated              655050
+bot 3 velocity updated              655050
+bot 2 velocity read              656100
+bot 3 velocity read              656100
+bot 1 velocity updated              656650
+bot 1 velocity read              657900
+bot 1 velocity updated              658150
+bot 1 velocity read              659100
+bot 1 velocity updated              659650
+bot 1 velocity read              660300
+bot 1 velocity updated              660850
+bot 1 velocity read              661200
+bot 1 velocity updated              662050
+bot 1 velocity read              667200
+bot 2 velocity updated              667650
+bot 3 velocity updated              667650
+bot 2 velocity read              668400
+bot 3 velocity read              668400
+bot 1 velocity updated              668950
+bot 1 velocity read              669900
+bot 1 velocity updated              670450
+bot 1 velocity read              671100
+bot 1 velocity updated              671650
+bot 1 velocity read              672000
+bot 1 velocity updated              672850
+bot 1 velocity read              679500
+bot 2 velocity updated              679950
+bot 3 velocity updated              679950
+bot 2 velocity read              680700
+bot 3 velocity read              680700
+bot 1 velocity updated              681250
+bot 1 velocity read              682200
+bot 1 velocity updated              682750
+bot 1 velocity read              683400
+bot 1 velocity updated              683950
+bot 1 velocity read              684300
+bot 1 velocity updated              685150
+bot 1 velocity read              691800
+bot 2 velocity updated              692250
+bot 3 velocity updated              692250
+bot 2 velocity read              693000
+bot 3 velocity read              693000
+bot 1 velocity updated              693550
+bot 1 velocity read              693900
+bot 1 velocity updated              695050
+bot 1 velocity read              704100
+bot 2 velocity updated              704550
+bot 2 velocity read              705600
+bot 1 velocity updated              705850
+bot 1 velocity read              707100
+bot 1 velocity updated              707650
+bot 1 velocity read              708300
+bot 1 velocity updated              708850
+bot 1 velocity read              709200
+bot 1 velocity updated              710050
+bot 1 velocity read              715500
+bot 3 velocity updated              715550
+bot 2 velocity updated              716850
+bot 2 velocity read              717000
+bot 1 velocity updated              717250
+bot 1 velocity read              718500
+bot 1 velocity updated              719050
+bot 2 velocity updated              719050
+bot 1 velocity read              719700
+bot 2 velocity read              719700
+bot 1 velocity updated              720250
+bot 2 velocity updated              720250
+bot 1 velocity read              720600
+bot 2 velocity read              720900
+bot 1 velocity updated              721450
+bot 2 velocity updated              721450
+bot 2 velocity read              722400
+bot 1 velocity read              723900
+bot 1 velocity updated              724450
+bot 2 velocity updated              724450
+bot 2 velocity read              724500
+bot 1 velocity read              725100
+bot 3 velocity read              725100
+bot 1 velocity updated              725650
+bot 2 velocity updated              725650
+bot 3 velocity updated              725650
+bot 2 velocity read              725700
+bot 1 velocity read              727200
+bot 1 velocity updated              727750
+bot 2 velocity updated              727750
+bot 3 velocity updated              727750
+bot 3 velocity read              727800
+bot 3 velocity read              728100
+bot 1 velocity read              728400
+bot 2 velocity read              728400
+bot 1 velocity updated              728950
+bot 2 velocity updated              728950
+bot 3 velocity updated              728950
+bot 1 velocity read              729000
+bot 2 velocity read              730200
+bot 3 velocity read              730200
+bot 1 velocity updated              730750
+bot 2 velocity updated              730750
+bot 3 velocity updated              730750
+bot 3 velocity read              730800
+bot 1 velocity read              731700
+bot 2 velocity read              731700
+bot 1 velocity updated              732250
+bot 2 velocity updated              732250
+bot 3 velocity updated              732250
+bot 1 velocity read              732300
+bot 2 velocity read              732900
+bot 3 velocity read              732900
+bot 1 velocity updated              733450
+bot 2 velocity updated              733450
+bot 3 velocity updated              733450
+bot 3 velocity read              733500
+bot 1 velocity read              734400
+bot 2 velocity read              734400
+bot 1 velocity updated              734950
+bot 2 velocity updated              734950
+bot 3 velocity updated              734950
+bot 1 velocity read              735600
+bot 2 velocity read              735600
+bot 3 velocity read              735600
+bot 1 velocity updated              736150
+bot 2 velocity updated              736150
+bot 3 velocity updated              736150
+bot 2 velocity read              736200
+bot 1 velocity read              736800
+bot 3 velocity read              736800
+bot 1 velocity updated              737350
+bot 2 velocity updated              737350
+bot 3 velocity updated              737350
+bot 1 velocity read              768300
+bot 2 velocity read              769500
+bot 3 velocity read              769500
+bot 1 velocity updated              770050
+bot 2 velocity updated              770050
+bot 3 velocity updated              770050
+bot 2 velocity read              770100
+bot 3 velocity read              770100
+bot 2 velocity updated              771550
+bot 3 velocity updated              771550
+bot 1 velocity read             1459800
+bot 2 velocity read             1461000
+bot 3 velocity read             1461000
+bot 1 velocity updated             1461550
+bot 2 velocity updated             1461550
+bot 3 velocity updated             1461550
+bot 3 velocity read             1461600
+bot 1 velocity read             1462500
+bot 2 velocity read             1462500
+bot 1 velocity updated             1463050
+bot 2 velocity updated             1463050
+bot 3 velocity updated             1463050
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:02:11 . Memory (MB): peak = 1143.715 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1 s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 1 velocity read                 300
+bot 3 velocity read                 300
+bot 1 velocity read                 600
+bot 2 velocity read                1500
+bot 2 velocity updated               13050
+bot 3 velocity updated               13050
+bot 1 velocity updated               46050
+bot 2 velocity read              138300
+bot 3 velocity read              139800
+bot 2 velocity updated              140350
+bot 3 velocity updated              140350
+bot 2 velocity read              140400
+bot 3 velocity read              141300
+bot 1 velocity read              143100
+bot 1 velocity updated              143350
+bot 1 velocity read              144300
+bot 1 velocity updated              144850
+bot 1 velocity read              145500
+bot 1 velocity updated              146050
+bot 1 velocity read              146700
+bot 1 velocity updated              147250
+bot 1 velocity read              147900
+bot 1 velocity updated              148450
+bot 1 velocity read              149100
+bot 1 velocity updated              149650
+bot 1 velocity read              150300
+bot 1 velocity updated              150850
+bot 1 velocity read              151500
+bot 1 velocity updated              152050
+bot 1 velocity read              152400
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1143.715 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1 s
+bot 2 velocity read                   0
+bot 3 velocity read                   0
+bot 3 velocity updated                2050
+bot 3 velocity read               23400
+bot 3 velocity updated               25450
+bot 3 velocity read               34500
+bot 3 velocity updated               36550
+bot 3 velocity read               45600
+bot 1 velocity read               47400
+bot 3 velocity updated               47650
+bot 3 velocity read               47700
+bot 3 velocity updated               49150
+bot 3 velocity read               56400
+bot 1 velocity updated               57050
+bot 2 velocity updated               57050
+bot 3 velocity updated               58450
+bot 3 velocity read               62100
+bot 3 velocity updated               64150
+bot 3 velocity read               64500
+bot 3 velocity updated               66550
+bot 3 velocity read               66600
+bot 1 velocity read               68400
+bot 3 velocity updated               68650
+bot 3 velocity read               69000
+bot 2 velocity read               69600
+bot 3 velocity updated               70150
+bot 2 velocity updated               71050
+bot 2 velocity read               79800
+bot 1 velocity updated               80450
+bot 2 velocity updated               81850
+bot 2 velocity read               82200
+bot 3 velocity read               83700
+bot 2 velocity updated               84250
+bot 3 velocity updated               84250
+bot 3 velocity read               84300
+bot 1 velocity read               85200
+bot 2 velocity read               85200
+bot 1 velocity updated               85750
+bot 2 velocity updated               85750
+bot 3 velocity updated               85750
+bot 3 velocity read               86100
+bot 1 velocity read               86400
+bot 2 velocity read               86400
+bot 1 velocity updated               86950
+bot 2 velocity updated               86950
+bot 3 velocity updated               86950
+bot 2 velocity read               87000
+bot 1 velocity read               87600
+bot 3 velocity read               87600
+bot 1 velocity updated               88150
+bot 2 velocity updated               88150
+bot 3 velocity updated               88150
+bot 2 velocity read               88200
+bot 1 velocity read               89700
+bot 3 velocity read               89700
+bot 1 velocity updated               90250
+bot 2 velocity updated               90250
+bot 3 velocity updated               90250
+bot 2 velocity read               90300
+bot 1 velocity read               90900
+bot 3 velocity read               90900
+bot 1 velocity updated               91450
+bot 2 velocity updated               91450
+bot 3 velocity updated               91450
+bot 3 velocity read               91500
+bot 1 velocity read               93000
+bot 2 velocity read               93000
+bot 1 velocity updated               93550
+bot 2 velocity updated               93550
+bot 3 velocity updated               93550
+bot 2 velocity read               93600
+bot 1 velocity read               94200
+bot 3 velocity read               94200
+bot 1 velocity updated               94750
+bot 2 velocity updated               94750
+bot 3 velocity updated               94750
+bot 2 velocity read               94800
+bot 1 velocity read               96300
+bot 3 velocity read               96300
+bot 1 velocity updated               96850
+bot 2 velocity updated               96850
+bot 3 velocity updated               96850
+bot 2 velocity read               96900
+bot 1 velocity read               97500
+bot 3 velocity read               97500
+bot 1 velocity updated               98050
+bot 2 velocity updated               98050
+bot 3 velocity updated               98050
+bot 3 velocity read               99900
+bot 1 velocity read              101400
+bot 2 velocity read              101400
+bot 1 velocity updated              101950
+bot 2 velocity updated              101950
+bot 3 velocity updated              101950
+bot 2 velocity read              102000
+bot 1 velocity read              102600
+bot 3 velocity read              102600
+bot 1 velocity updated              103150
+bot 2 velocity updated              103150
+bot 3 velocity updated              103150
+bot 2 velocity read              103200
+bot 3 velocity read              103200
+bot 1 velocity read              104700
+bot 1 velocity updated              105250
+bot 2 velocity updated              105250
+bot 3 velocity updated              105250
+bot 2 velocity read              105300
+bot 1 velocity read              105900
+bot 3 velocity read              105900
+bot 1 velocity updated              106450
+bot 2 velocity updated              106450
+bot 3 velocity updated              106450
+bot 3 velocity read              106800
+bot 1 velocity read              108300
+bot 2 velocity read              108300
+bot 1 velocity updated              108850
+bot 2 velocity updated              108850
+bot 3 velocity updated              108850
+bot 2 velocity read              108900
+bot 1 velocity read              109500
+bot 3 velocity read              109500
+bot 1 velocity updated              110050
+bot 2 velocity updated              110050
+bot 3 velocity updated              110050
+bot 3 velocity read              110400
+bot 1 velocity read              111900
+bot 2 velocity read              111900
+bot 2 velocity updated              112450
+bot 2 velocity read              112500
+bot 2 velocity updated              113650
+bot 2 velocity read              123000
+bot 1 velocity updated              123450
+bot 1 velocity read              124500
+bot 2 velocity updated              125050
+bot 2 velocity read              125700
+bot 2 velocity updated              126250
+bot 2 velocity read              127200
+bot 2 velocity updated              127750
+bot 2 velocity read              128700
+bot 2 velocity updated              129250
+bot 2 velocity read              130200
+bot 2 velocity updated              130750
+bot 2 velocity read              131700
+bot 2 velocity updated              132250
+bot 2 velocity read              133200
+bot 2 velocity updated              133750
+bot 2 velocity read              134400
+bot 2 velocity updated              135250
+bot 2 velocity read              135300
+bot 1 velocity updated              136050
+bot 2 velocity updated              136450
+bot 2 velocity read              136800
+bot 2 velocity updated              138850
+bot 2 velocity read              139200
+bot 2 velocity updated              141250
+bot 2 velocity read              144900
+bot 2 velocity updated              146950
+bot 2 velocity read              147900
+bot 2 velocity updated              149950
+bot 2 velocity read              156000
+bot 2 velocity updated              158050
+bot 1 velocity read              160500
+bot 2 velocity read              160500
+bot 1 velocity updated              160950
+bot 1 velocity read              161100
+bot 1 velocity updated              162250
+bot 2 velocity updated              162250
+bot 2 velocity read              162300
+bot 1 velocity read              163800
+bot 1 velocity updated              164350
+bot 2 velocity updated              164350
+bot 2 velocity read              164400
+bot 1 velocity read              165000
+bot 1 velocity updated              165550
+bot 2 velocity updated              165550
+bot 1 velocity read              167100
+bot 2 velocity read              167100
+bot 3 velocity updated              167450
+bot 3 velocity read              168300
+bot 1 velocity updated              168850
+bot 2 velocity updated              168850
+bot 3 velocity updated              168850
+bot 1 velocity read              168900
+bot 2 velocity read              168900
+bot 1 velocity updated              170350
+bot 2 velocity updated              170350
+bot 1 velocity read              170400
+bot 2 velocity read              171600
+bot 3 velocity read              171900
+bot 1 velocity updated              172150
+bot 2 velocity updated              172150
+bot 3 velocity updated              172150
+bot 1 velocity read              173100
+bot 2 velocity read              173100
+bot 3 velocity read              173100
+bot 1 velocity updated              173650
+bot 2 velocity updated              173650
+bot 3 velocity updated              173650
+bot 1 velocity read              174300
+bot 2 velocity read              174300
+bot 3 velocity read              174300
+bot 1 velocity updated              174850
+bot 2 velocity updated              174850
+bot 3 velocity updated              174850
+bot 3 velocity read              175200
+bot 1 velocity read              175500
+bot 2 velocity read              175500
+bot 1 velocity updated              176050
+bot 2 velocity updated              176050
+bot 3 velocity updated              176050
