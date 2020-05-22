@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_12.srcs/sources_1/imports/new/Velocity_selector.v" \
+"../../../../project_12.srcs/sources_1/imports/new/adder_16bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/adder_32bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/adder_4bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/adder_64bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/coll_det.v" \
+"../../../../project_12.srcs/sources_1/imports/new/comparator.v" \
+"../../../../project_12.srcs/sources_1/imports/new/full_adder.v" \
+"../../../../project_12.srcs/sources_1/imports/new/multiplier_16bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/multiplier_32bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/shifter.v" \
+"../../../../project_12.srcs/sources_1/imports/new/simultaneous_read.v" \
+"../../../../project_12.srcs/sources_1/imports/new/subtractor_16bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/subtractor_32bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/subtractor_4bit.v" \
+"../../../../project_12.srcs/sources_1/imports/new/update_module.v" \
+"../../../../project_12.srcs/sources_1/imports/new/write_simultaneous.v" \
+"../../../../project_12.srcs/sources_1/imports/new/Integrator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

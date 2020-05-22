@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Coll_avoidance_total.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd" \
+"../../../../Coll_avoidance_total.srcs/sources_1/ip/cordic_1/sim/cordic_1.vhd" \
+"../../../../Coll_avoidance_total.srcs/sources_1/imports/new/Polar_to_rect.vhd" \
+"../../../../Coll_avoidance_total.srcs/sources_1/imports/new/Rect_to_polar.vhd" \
+
+# Do not sort compile order
+nosort

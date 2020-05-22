@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 19 15:18:52 2020
+# Process ID: 21288
+# Current directory: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24084 D:\FYP_FINAL\FYP_Final\Coll_avoidance_total\Coll_avoidance_total.xpr
+# Log file: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/vivado.log
+# Journal file: D:/FYP_FINAL/FYP_Final/Coll_avoidance_total\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/Coll_avoidance_total.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Rect_to_polar [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+source top.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Rect_to_polar [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+open_wave_config D:/FYP_FINAL/FYP_Final/Coll_avoidance_total/top_behav.wcfg
+source Rect_to_polar.tcl
+close_sim
+launch_simulation
+source Rect_to_polar.tcl
+restart
+add_force {/Rect_to_polar/x_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/y_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/input_rdy} -radix hex {1 50ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 2 us
+close_sim
+launch_simulation
+source Rect_to_polar.tcl
+restart
+add_force {/Rect_to_polar/x_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/y_real} -radix hex {4000 0ns}
+add_force {/Rect_to_polar/input_rdy} -radix hex {1 100ns}
+run 2 us
+run 2 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Polar_to_rect [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Polar_to_rect [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source Polar_to_rect.tcl
+restart
+add_force {/Polar_to_rect/x_real} -radix dec {23170 0ns}
+add_force {/Polar_to_rect/theta_real} -radix hex {6433 0ns}
+close_sim
+launch_simulation
+source Polar_to_rect.tcl
+add_force {/Polar_to_rect/x_real} -radix dec {23170 0ns}
+add_force {/Polar_to_rect/theta_real} -radix dec {6433 0ns}
+add_force {/Polar_to_rect/input_rdy} -radix hex {1 100ns}
+run 2 us
+run 2 us
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Velocity_selector [current_fileset]
+current_sim simulation_4
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Velocity_selector [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+launch_simulation
+source Velocity_selector.tcl
+restart
+add_force {/Velocity_selector/x_real} -radix hex {4000 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {4000 0ns}
+add_force {/Velocity_selector/clock} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+run 2 us
+run 2 us
+restart
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 0ns}
+run 2 us
+restart
+add_force {/Velocity_selector/active} -radix hex {0 0ns}
+run 2 us
+add_force {/Velocity_selector/active} -radix hex {1 0ns}
+run 2 us
+run 2 us
+close_sim
+launch_simulation
+source Velocity_selector.tcl
+restart
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 10ns}
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+close_sim
+launch_simulation
+source Velocity_selector.tcl
+restart
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+close_sim
+launch_simulation
+current_sim simulation_4
+launch_simulation
+source Velocity_selector.tcl
+add_force {/Velocity_selector/x_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/y_real} -radix hex {800 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+restart
+add_force {/Velocity_selector/x_real} -radix dec {205 0ns}
+add_force {/Velocity_selector/y_real} -radix dec {205 0ns}
+add_force {/Velocity_selector/active} -radix hex {1 100ns}
+add_force {/Velocity_selector/active} -radix hex {1 10ns}
+run 2 us
+run 2 us
+close_sim
+current_sim simulation_4
+close_sim
+close_sim
