@@ -45,11 +45,8 @@ write_test3 WT3(WT_vx3,WT_vy3,wt3,stopped3);
 
 //Read test
 wire input_read1,input_read2,input_read3;
-//reg input_read1_reg,input_read2_reg,input_read3_reg;
-//assign input_read1 = input_read1_reg;
-//assign input_read2 = input_read2_reg;
-//assign input_read2 = input_read2_reg;
-reg input_read_done= 1'b0;
+
+
 //read_test RT(x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,input_read);
 read_test1 RT1(x1,y1,vx1,vy1,input_read1);
 read_test2 RT2(x2,y2,vx2,vy2,input_read2);
@@ -93,8 +90,8 @@ assign UM_Vyin3 = Vynew_UM3;*/
 update_module UM3 (x3, y3,Vxnew_UM3,Vynew_UM3, ax3, ay3 ,t,clock, UM_in_rdy3,UM_out_rdy3,xnew3, ynew3, vxnew3, vynew3);
 
 reg  UM1_done,UM2_done,UM3_done;
-wire UM_all_done;
-assign UM_all_done=UM1_done & UM2_done & UM3_done;
+
+
 //IG1 variables and instantiation
 wire IG_in_rdy1,IG_out_rdy1;
 reg IG_in_reg1;
@@ -121,14 +118,9 @@ ay2  = 16'd1024;
 ax3    = 16'd614;
 ay3  = 16'd614;
 end
-always @(input_read1 && input_read2 && input_read3)
-    begin
-    input_read_done = 1'b1;
-    #10
-    input_read_done = 1'b0;
-    end
+assign ig_trigger = UM1_done | UM2_done | UM3_done;
 
-always @(posedge input_read_done)   //Make input_check high for writing into UM from file
+always @(posedge input_read1)   //Make input_check high for writing into UM from file
 begin
         
         if (x1==tx1&&y1==ty1)   begin
@@ -150,8 +142,9 @@ begin
         Vxnew_UM1 = vx1;
         Vynew_UM1 = vy1;
         end
-         
- 
+  end
+  always @(posedge input_read2)   //Make input_check high for writing into UM from file
+  begin
         if (x2==tx2&&y2==ty2)     begin
         flag2=1'b1;
         Vxnew_UM2=16'b0;
@@ -171,7 +164,9 @@ begin
         Vxnew_UM2 = vx2;
         Vynew_UM2 = vy2;
         end
- 
+end
+always @(posedge input_read3)   //Make input_check high for writing into UM from file
+  begin
         if (x3==tx3&&y3==ty3)   begin
         flag3=1'b1;
         Vxnew_UM3=16'b0;
@@ -220,9 +215,9 @@ begin
     input_UM3 = 1'b0;
     UM3_done  = 1'b0;
 end
-always @(posedge UM_all_done)
+always @(UM3_done or UM2_done or UM1_done)
+if(ig_trigger)
 begin
-
     IG_in_reg1=(!flag1);
     IG_in_reg2=(!flag2);
     IG_in_reg3=(!flag3);
