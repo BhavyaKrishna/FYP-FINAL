@@ -37,7 +37,7 @@ module Velocity_selector(x_real,y_real,clock,active,x_rot,y_rot,vs_done);
     reg  [15:0]mag1;
     reg  [15:0]phase1;
     wire [15:0] x_real_nm,y_real_nm,x_rot_nm,y_rot_nm;
-    reg  [15:0]step=16'd164;
+    reg  [15:0]step=16'd205;
     reg  done=1'b0;
     reg [15:0] x_rot_reg,y_rot_reg;
     integer count=-1;

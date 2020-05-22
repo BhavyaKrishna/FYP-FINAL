@@ -50,7 +50,7 @@ wire output_in_rdy;
 
 reg [15:0] ax_reg=16'd1024;
 reg [15:0] ay_reg=16'd1024;
-reg [31:0] R_reg=16'd451;
+reg [31:0] R_reg=16'd203004;
 
 reg [15:0] vx1_WT,vy1_WT,vx2_WT,vy2_WT,vx3_WT,vy3_WT;
 wire [15:0] WT_vx1,WT_vy1,WT_vx2,WT_vy2,WT_vx3,WT_vy3;
@@ -93,7 +93,7 @@ assign R     = R_reg;
 assign ax    = ax_reg;
 assign ay    = ay_reg;
 assign clock = clock_reg;
-assign t = 16'd1000;         //Time should not b e scaled :) for LHS and RHS being okay.
+assign t = 16'd2048;         //Time should not b e scaled :) for LHS and RHS being okay.
 
 assign CD_xin=xnew_CD;
 assign CD_yin=ynew_CD;

@@ -18,8 +18,8 @@ architecture tb of Rect_to_polar is
   -----------------------------------------------------------------------
   -- Timing constants
   -----------------------------------------------------------------------
-  constant CLOCK_PERIOD : time := 1 ns;
-  constant T_HOLD       : time := 0.1 ns;
+  constant CLOCK_PERIOD : time := 100 ns;
+  constant T_HOLD       : time := 10 ns;
   constant T_STROBE     : time := CLOCK_PERIOD - (1 ns);
   constant TEST_CYCLES  : integer := 3000;
   constant PHASE_CYCLES : integer := 1000;
@@ -193,40 +193,40 @@ begin
       wait for T_HOLD;
 
       -- Drive AXI TVALID signals to demonstrate different types of operation
-      --case cycles is  -- do different types of operation at different phases of the test
-        --when 0 to PHASE_CYCLES * 1 - 1 =>
+      case cycles is  -- do different types of operation at different phases of the test
+        when 0 to PHASE_CYCLES * 1 - 1 =>
           -- Phase 1: inputs always valid, no missing input data
-          --cartesian_tvalid_nxt    := '1';
-          --phase_tvalid_nxt    := '1';
-        --when PHASE_CYCLES * 1 to PHASE_CYCLES * 2 - 1 =>
+          cartesian_tvalid_nxt    := '1';
+          phase_tvalid_nxt    := '1';
+        when PHASE_CYCLES * 1 to PHASE_CYCLES * 2 - 1 =>
           -- Phase 2: deprive channel S_AXIS_CARTESIAN of valid transactions at an increasing rate
-          --phase_tvalid_nxt    := '1';
-          --if phase2_count < phase2_cycles then
-            --cartesian_tvalid_nxt := '0';
-          --else
-            --cartesian_tvalid_nxt := '1';
-          --end if;
-          --phase2_count := phase2_count + 1;
-          --if phase2_count >= PHASE2_LIMIT then
-            --phase2_count  := 0;
-            --phase2_cycles := phase2_cycles + 1;
-          --end if;
-        --when PHASE_CYCLES * 2 to PHASE_CYCLES * 3 - 1 =>
+          phase_tvalid_nxt    := '1';
+          if phase2_count < phase2_cycles then
+            cartesian_tvalid_nxt := '0';
+          else
+            cartesian_tvalid_nxt := '1';
+          end if;
+          phase2_count := phase2_count + 1;
+          if phase2_count >= PHASE2_LIMIT then
+            phase2_count  := 0;
+            phase2_cycles := phase2_cycles + 1;
+          end if;
+        when PHASE_CYCLES * 2 to PHASE_CYCLES * 3 - 1 =>
           -- Phase 3: deprive channel S_AXIS_CARTESIAN of 1 out of 2 transactions, and channel S_AXIS_PHASE of 1 out of 3 transactions
-          --if cycles mod 2 = 0 then
-            --cartesian_tvalid_nxt := '0';
-          --else
-            --cartesian_tvalid_nxt := '1';
-          --end if;
-          --if cycles mod 3 = 0 then
-            --phase_tvalid_nxt := '0';
-          --else
-            --phase_tvalid_nxt := '1';
-          --end if;
-        --when others =>
+          if cycles mod 2 = 0 then
+            cartesian_tvalid_nxt := '0';
+          else
+            cartesian_tvalid_nxt := '1';
+          end if;
+          if cycles mod 3 = 0 then
+            phase_tvalid_nxt := '0';
+          else
+            phase_tvalid_nxt := '1';
+          end if;
+        when others =>
           -- Test will stop imminently - do nothing
-          --null;
-      --end case;--
+          null;
+      end case;--
 
       -- Drive handshake signals with local variable values
       s_axis_cartesian_tvalid <= cartesian_tvalid_nxt;
