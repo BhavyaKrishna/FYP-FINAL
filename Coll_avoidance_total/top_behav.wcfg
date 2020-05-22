@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="2049097453fs"></ZoomStartTime>
-      <ZoomEndTime time="2054512741fs"></ZoomEndTime>
-      <Cursor1Time time="2051131000fs"></Cursor1Time>
+      <ZoomStartTime time="993019292fs"></ZoomStartTime>
+      <ZoomEndTime time="1001396142fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="323" />
+   <WVObjectSize size="326" />
    <wvobject fp_name="/top/clock" type="logic">
       <obj_property name="ElementShortName">clock</obj_property>
       <obj_property name="ObjectShortName">clock</obj_property>
@@ -175,10 +175,6 @@
    <wvobject fp_name="/top/stopped3" type="logic">
       <obj_property name="ElementShortName">stopped3</obj_property>
       <obj_property name="ObjectShortName">stopped3</obj_property>
-   </wvobject>
-   <wvobject fp_name="/top/input_read" type="logic">
-      <obj_property name="ElementShortName">input_read</obj_property>
-      <obj_property name="ObjectShortName">input_read</obj_property>
    </wvobject>
    <wvobject fp_name="/top/flag1" type="logic">
       <obj_property name="ElementShortName">flag1</obj_property>
@@ -1316,5 +1312,21 @@
    <wvobject fp_name="/top/I3/VS/y_rot_real" type="other">
       <obj_property name="ElementShortName">y_rot_real</obj_property>
       <obj_property name="ObjectShortName">y_rot_real</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/input_read1" type="logic">
+      <obj_property name="ElementShortName">input_read1</obj_property>
+      <obj_property name="ObjectShortName">input_read1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/input_read2" type="logic">
+      <obj_property name="ElementShortName">input_read2</obj_property>
+      <obj_property name="ObjectShortName">input_read2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/input_read3" type="logic">
+      <obj_property name="ElementShortName">input_read3</obj_property>
+      <obj_property name="ObjectShortName">input_read3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/input_read_done" type="logic">
+      <obj_property name="ElementShortName">input_read_done</obj_property>
+      <obj_property name="ObjectShortName">input_read_done</obj_property>
    </wvobject>
 </wave_config>

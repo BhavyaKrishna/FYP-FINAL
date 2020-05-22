@@ -44,8 +44,16 @@ write_test3 WT3(WT_vx3,WT_vy3,wt3,stopped3);
 
 
 //Read test
-wire input_read;
-read_test RT(x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,input_read);
+wire input_read1,input_read2,input_read3;
+//reg input_read1_reg,input_read2_reg,input_read3_reg;
+//assign input_read1 = input_read1_reg;
+//assign input_read2 = input_read2_reg;
+//assign input_read2 = input_read2_reg;
+reg input_read_done= 1'b0;
+//read_test RT(x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,input_read);
+read_test1 RT1(x1,y1,vx1,vy1,input_read1);
+read_test2 RT2(x2,y2,vx2,vy2,input_read2);
+read_test3 RT3(x3,y3,vx3,vy3,input_read3);
 
 reg flag1=1'b0,flag2=1'b0,flag3=1'b0;//target reached flags set to 0 initially
 
@@ -113,9 +121,14 @@ ay2  = 16'd1024;
 ax3    = 16'd614;
 ay3  = 16'd614;
 end
+always @(input_read1 && input_read2 && input_read3)
+    begin
+    input_read_done = 1'b1;
+    #10
+    input_read_done = 1'b0;
+    end
 
-
-always @(posedge input_read)   //Make input_check high for writing into UM from file
+always @(posedge input_read_done)   //Make input_check high for writing into UM from file
 begin
         
         if (x1==tx1&&y1==ty1)   begin

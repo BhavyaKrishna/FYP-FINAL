@@ -14,8 +14,10 @@ verilog xil_defaultlib  \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/init.v" \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_16bit.v" \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/multiplier_32bit.v" \
+"../../../../Coll_avoidance_total.srcs/sources_1/new/read_test1.v" \
+"../../../../Coll_avoidance_total.srcs/sources_1/new/read_test2.v" \
+"../../../../Coll_avoidance_total.srcs/sources_1/new/read_test3.v" \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/shifter.v" \
-"../../../../Coll_avoidance_total.srcs/sources_1/imports/new/simultaneous_read.v" \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_16bit.v" \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_32bit.v" \
 "../../../../Coll_avoidance_total.srcs/sources_1/imports/new/subtractor_4bit.v" \
