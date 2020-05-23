@@ -191,11 +191,21 @@ always @(posedge clock)
     end
 
    8:begin       
+    if(S7==0)
+
+     begin
+     m=r_sq;
+     n=R2;
+     C1<=m; C2<=n;
+     end
+
+     else
+     begin
      m=S7;
      n=M0P;    
      C1<=m; C2<=n;
+     end
     end
-     
    9:begin
         trial=C0;  
         count=-1;             //so that after updation it goes to 0
