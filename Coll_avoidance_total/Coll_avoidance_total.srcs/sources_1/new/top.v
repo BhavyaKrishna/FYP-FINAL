@@ -96,7 +96,7 @@ reg  UM1_done,UM2_done,UM3_done;
 wire IG_in_rdy1,IG_out_rdy1;
 reg IG_in_reg1;
 assign IG_in_rdy1=IG_in_reg1;
-Integrator I1(vx1,vy1,xnew1,ynew1,vxnew1,vynew1,xnew2,ynew2,vxnew2,vynew2,xnew3,ynew3,vxnew3,vynew3,ax1,ay1,IG_in_rdy1,clock,IG_out_rdy1);
+Integrator I1(tx1,ty1,x1,y1,vx1,vy1,xnew1,ynew1,vxnew1,vynew1,xnew2,ynew2,vxnew2,vynew2,xnew3,ynew3,vxnew3,vynew3,ax1,ay1,IG_in_rdy1,clock,IG_out_rdy1);
 
 wire IG_in_rdy2,IG_out_rdy2;
 reg IG_in_reg2;
