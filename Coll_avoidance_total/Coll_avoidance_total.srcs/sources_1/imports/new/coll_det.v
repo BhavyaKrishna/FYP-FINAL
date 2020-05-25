@@ -191,8 +191,7 @@ always @(posedge clock)
     end
 
    8:begin       
-    if(S7==0)
-
+    if(S7<64'd17592186040)
      begin
      m=r_sq;
      n=R2;
