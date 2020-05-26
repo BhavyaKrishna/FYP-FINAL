@@ -30,13 +30,13 @@ assign tx1=-16'd8192;  //-4
 assign ty1=16'd6144;  //3
 
 
-assign tx2=-16'd1024;// 
-assign ty2=16'd1024;  //
+assign tx2=16'd0;// 0
+assign ty2=16'd10240;  //5
 
 
 
-assign tx3=-16'd2048;  //
-assign ty3=16'd2048; //
+assign tx3=-16'd10240;  //-5
+assign ty3=16'd0; //0
 
 
 

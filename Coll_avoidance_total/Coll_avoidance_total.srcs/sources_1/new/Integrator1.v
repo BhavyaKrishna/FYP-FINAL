@@ -20,14 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Integrator1(vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,ax,ay,input_rdy,clock,ig_done);
+module Integrator1(tx2,ty2,x2_not_update,y2_not_update,vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,ax,ay,input_rdy,clock,ig_done);
 
-input [15:0] vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3,ax,ay;
+input [15:0] tx2,ty2,x2_not_update,y2_not_update,vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3,ax,ay;
 input input_rdy,clock;
 output ig_done;
 
 reg ig_done_reg=1'b0;
 assign ig_done=ig_done_reg;
+reg [3:0] count2=0;
+reg [15:0] diffx,diffy;
 
 wire [15:0] t;
 wire [31:0] R;
@@ -137,6 +139,7 @@ always @(coll_detect1 | coll_detect2 )   //Load only when collision exist
 begin
     if((coll_detect1==1)||(coll_detect2 ==1))
         begin
+        count2=1'b0;
         input_VS = 1'b1;
         case(vs_ip_sel)
             0:begin
@@ -153,6 +156,19 @@ begin
     if((coll_detect1==0)&&(coll_detect2 ==0))
     begin
         output_check_reg=1'b1;
+        count2=count2+1'd1;
+        $display("count2 : ", count2);
+        
+        if(count2>=4'd8)
+                begin
+                    diffx = tx2-x2_not_update;
+                    vx1_WT  =$signed(diffx)*(1.0/(10.0));
+                    diffy = ty2-y2_not_update;
+                    vy1_WT =$signed(diffy)*(1.0/(10.0));;
+                    count2=0;                    
+                    $display("No collision for long so moving towars target", $time);
+                end
+        else
         case(vs_ip_sel)
             0:begin
                 vx1_WT = vx_not_update;

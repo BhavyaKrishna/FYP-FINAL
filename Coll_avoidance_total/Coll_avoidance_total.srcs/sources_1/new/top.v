@@ -101,14 +101,14 @@ Integrator I1(tx1,ty1,x1,y1,vx1,vy1,xnew1,ynew1,vxnew1,vynew1,xnew2,ynew2,vxnew2
 wire IG_in_rdy2,IG_out_rdy2;
 reg IG_in_reg2;
 assign IG_in_rdy2=IG_in_reg2;
-Integrator1 I2(vx2,vy2,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,xnew3,ynew3,vxnew3,vynew3,ax2,ay2,IG_in_rdy2,clock,IG_out_rdy2);
+Integrator1 I2(tx2,ty2,x2,y2,vx2,vy2,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,xnew3,ynew3,vxnew3,vynew3,ax2,ay2,IG_in_rdy2,clock,IG_out_rdy2);
 
 wire IG_in_rdy3,IG_out_rdy3;
 reg IG_in_reg3;
 assign IG_in_rdy3=IG_in_reg3;
-Integrator2 I3(vx3,vy3,xnew3,ynew3,vxnew3,vynew3,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,ax3,ay3,IG_in_rdy3,clock,IG_out_rdy3);
+Integrator2 I3(tx3,ty3,x3,y3,vx3,vy3,xnew3,ynew3,vxnew3,vynew3,xnew2,ynew2,vxnew2,vynew2,xnew1,ynew1,vxnew1,vynew1,ax3,ay3,IG_in_rdy3,clock,IG_out_rdy3);
 
-
+wire ig_trigger;
 initial
 begin
 ax1    = 16'd64921;
@@ -123,7 +123,7 @@ assign ig_trigger = UM1_done | UM2_done | UM3_done;
 always @(posedge input_read1)   //Make input_check high for writing into UM from file
 begin
         
-        if (x1==tx1&&y1==ty1)   begin
+        if ((x1-tx1)<16'd1024&&(x1-tx1)>(-16'd1024)&&(y1-ty1)<16'd1024&&(y1-ty1)>(-16'd1024))   begin
         flag1=1'b1;
         Vxnew_UM1=16'b0;
         Vynew_UM1 =16'b0;
@@ -145,7 +145,7 @@ begin
   end
   always @(posedge input_read2)   //Make input_check high for writing into UM from file
   begin
-        if (x2==tx2&&y2==ty2)     begin
+        if ((x2-tx2)<16'd1024&&(x2-tx2)>(-16'd1024)&&(y2-ty2)<16'd1024&&(y2-ty2)>(-16'd1024))     begin
         flag2=1'b1;
         Vxnew_UM2=16'b0;
         Vynew_UM2 =16'b0;
@@ -167,7 +167,7 @@ begin
 end
 always @(posedge input_read3)   //Make input_check high for writing into UM from file
   begin
-        if (x3==tx3&&y3==ty3)   begin
+        if ((x3-tx3)<16'd1024&&(x3-tx3)>(-16'd1024)&&(y3-ty3)<16'd1024&&(y3-ty3)>(-16'd1024))   begin
         flag3=1'b1;
         Vxnew_UM3=16'b0;
         Vynew_UM3 =16'b0;
