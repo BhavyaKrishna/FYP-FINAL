@@ -28,7 +28,7 @@ output ig_done;
 
 reg ig_done_reg=1'b0;
 assign ig_done=ig_done_reg;
-reg [3:0] count1=0;
+reg [15:0] count1=0;
 reg [15:0] diffx,diffy;
 wire [15:0] t;
 wire [31:0] R;
@@ -163,7 +163,7 @@ begin
             vx1_WT  =$signed(diffx)*(1.0/(10.0));
             diffy = ty1-y1_not_update;
             vy1_WT =$signed(diffy)*(1.0/(10.0));;
-            count1=0;
+            
             
             $display("No collision for long so moving towars target", $time);
         end

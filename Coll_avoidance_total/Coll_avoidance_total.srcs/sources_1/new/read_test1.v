@@ -19,13 +19,13 @@ module read_test1(x1_bin,y1_bin,vx1_bin,vy1_bin,read_done1);
  
  always 
      begin 
-         #300 file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot1_read.txt","r");
+         #300 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot1.txt","r");
          code=$fscanf(file_id, "%c\n",char1);
          $fclose(file_id);
          //$display("%c", char1);
          if(char1 =="w")
          begin
-         file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot1_read.txt","r");
+         file_id = $fopen("F:/FYP-FINAL/synchronisation/bot1.txt","r");
          code=$fscanf(file_id, "%c\n",char1);                              
          k = $fscanf(file_id, "%f\n",vx1);
          //$display(vx1);
@@ -35,7 +35,7 @@ module read_test1(x1_bin,y1_bin,vx1_bin,vy1_bin,read_done1);
          n = $fscanf(file_id, "%f\n",y1);
          $fclose(file_id);
          //$fwrite(file_id, "\n");
-         file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot1_read.txt","w");
+         file_id = $fopen("F:/FYP-FINAL/synchronisation/bot1.txt","w");
          $fseek(file_id, 0, 0);
          $fwrite(file_id, "r\n");
          $display("bot 1 velocity read", $time);

@@ -19,13 +19,13 @@ module read_test3(x3_bin,y3_bin,vx3_bin,vy3_bin,read_done3);
  
  always 
      begin 
-         #300 file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot3_read.txt","r");
+         #300 file_id = $fopen("F:/FYP-FINAL/synchronisation/bot3.txt","r");
          code=$fscanf(file_id, "%c\n",char3);
          $fclose(file_id);
          //$display("%c", char1);
          if(char3 =="w")
          begin
-         file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot3_read.txt","r");
+         file_id = $fopen("F:/FYP-FINAL/synchronisation/bot3.txt","r");
          code=$fscanf(file_id, "%c\n",char3);                              
          k = $fscanf(file_id, "%f\n",vx3);
          //$display(vx1);
@@ -35,7 +35,7 @@ module read_test3(x3_bin,y3_bin,vx3_bin,vy3_bin,read_done3);
          n = $fscanf(file_id, "%f\n",y3);
          $fclose(file_id);
          //$fwrite(file_id, "\n");
-         file_id = $fopen("C:/Users/sujan/Desktop/project final files/textfiles/bot3_read.txt","w");
+         file_id = $fopen("F:/FYP-FINAL/synchronisation/bot3.txt","w");
          $fseek(file_id, 0, 0);
          $fwrite(file_id, "r\n");
          $display("bot 3 velocity read", $time);
