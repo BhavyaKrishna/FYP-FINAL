@@ -20,17 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Integrator1(tx2,ty2,x2_not_update,y2_not_update,vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,ax,ay,input_rdy,clock,ig_done);
+module Integrator1(tx1,ty1,x1_not_update,y1_not_update, vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vy2,x3,y3,vx3,vy3,ax,ay,input_rdy,clock,ig_done);
 
-input [15:0] tx2,ty2,x2_not_update,y2_not_update,vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3,ax,ay;
+input [15:0] tx1,ty1,x1_not_update,y1_not_update,vx_not_update,vy_not_update,x1,y1,vx1,vy1,x2,y2,vx2,vx3,vy2,x3,y3,vy3,ax,ay;
 input input_rdy,clock;
 output ig_done;
 
 reg ig_done_reg=1'b0;
 assign ig_done=ig_done_reg;
-reg [15:0] count2=0;
+reg [15:0] count1=0;
 reg [15:0] diffx,diffy;
-
 wire [15:0] t;
 wire [31:0] R;
 reg [31:0] R_reg=32'd203004;
@@ -77,7 +76,7 @@ coll_det CD2(CD_xin,CD_yin,x3, y3, CD_Vxin, CD_Vyin, vx3, vy3, R, coll_detect2, 
 write_test2 WT(WT_vx1,WT_vy1,output_in_rdy,output_written);
 
 assign R     = R_reg;
-assign t = 16'd1;         //Time should not b e scaled :) for LHS and RHS being okay.
+assign t = 16'd1;         //Time should not be scaled :) for LHS and RHS being okay.
 
 assign CD_xin=xnew_CD;
 assign CD_yin=ynew_CD;
@@ -139,7 +138,7 @@ always @(coll_detect1 | coll_detect2 )   //Load only when collision exist
 begin
     if((coll_detect1==1)||(coll_detect2 ==1))
         begin
-        count2=1'b0;
+        count1=1'b0;
         input_VS = 1'b1;
         case(vs_ip_sel)
             0:begin
@@ -155,30 +154,38 @@ begin
     
     if((coll_detect1==0)&&(coll_detect2 ==0))
     begin
+        count1=count1+1'd1;
         output_check_reg=1'b1;
-        count2=count2+1'd1;
-        $display("count2 : ", count2);
-        
-        if(count2>=4'd8)
-                begin
-                    diffx = tx2-x2_not_update;
-                    vx1_WT  =$signed(diffx)*(1.0/(10.0));
-                    diffy = ty2-y2_not_update;
-                    vy1_WT =$signed(diffy)*(1.0/(10.0));;
-                                     
-                    $display("No collision for long so moving towars target", $time);
-                end
+        $display("count2 : ", count1);
+        if(count1>=4'd8)
+        begin
+            diffx = tx1-x1_not_update;
+            diffy = ty1-y1_not_update;
+            if ($signed(diffx)<$signed(16'd2048)&&$signed(diffx)>$signed(-16'd2048)&&$signed(diffy)<$signed(16'd2048)&&$signed(diffy)>$signed(-16'd2048))
+            begin
+            vx1_WT  =$signed(diffx)*(1.0/(2.0));
+            vy1_WT =$signed(diffy)*(1.0/(2.0));;
+            end
+            else
+            begin
+            vx1_WT  =$signed(diffx)*(1.0/(10.0));
+            vy1_WT =$signed(diffy)*(1.0/(10.0));;
+            end
+            $display("No collision for long so moving towars target", $time);
+        end
         else
-        case(vs_ip_sel)
-            0:begin
-                vx1_WT = vx_not_update;
-                vy1_WT = vy_not_update;
-              end
-            1:begin
-                vx1_WT  = UM_Vxin;
-                vy1_WT  = UM_Vyin;
-              end
-        endcase
+        begin
+            case(vs_ip_sel)
+                0:begin
+                    vx1_WT = vx_not_update;
+                    vy1_WT = vy_not_update;
+                  end
+                1:begin
+                    vx1_WT  = UM_Vxin;
+                    vy1_WT  = UM_Vyin;
+                  end
+            endcase
+        end
         #10;
         output_check_reg=1'b0;
         ig_done_reg=1'b1;
@@ -186,7 +193,14 @@ begin
         ig_done_reg=1'b0;
     end
 end
-   
+  
+  
+//path planner attempt
+
+
+
+
+
 
 always @(posedge VS_out_rdy)
 begin

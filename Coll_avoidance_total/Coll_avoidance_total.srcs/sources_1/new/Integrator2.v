@@ -28,7 +28,7 @@ output ig_done;
 
 reg ig_done_reg=1'b0;
 assign ig_done=ig_done_reg;
-reg [15:0] count3=0;
+reg [15:0] count1=0;
 reg [15:0] diffx,diffy;
 wire [15:0] t;
 wire [31:0] R;
@@ -138,7 +138,7 @@ always @(coll_detect1 | coll_detect2 )   //Load only when collision exist
 begin
     if((coll_detect1==1)||(coll_detect2 ==1))
         begin
-        count3=1'b0;
+        count1=1'b0;
         input_VS = 1'b1;
         case(vs_ip_sel)
             0:begin
@@ -154,16 +154,23 @@ begin
     
     if((coll_detect1==0)&&(coll_detect2 ==0))
     begin
-        count3=count3+1'd1;
+        count1=count1+1'd1;
         output_check_reg=1'b1;
-        $display("count3 : ", count3);
-        if(count3>=4'd8)
+        $display("count3 : ", count1);
+        if(count1>=4'd8)
         begin
             diffx = tx1-x1_not_update;
-            vx1_WT  =$signed(diffx)*(1.0/(10.0));
             diffy = ty1-y1_not_update;
-            vy1_WT =$signed(diffy)*(1.0/(10.0));;        
-            
+            if ($signed(diffx)<$signed(16'd2048)&&$signed(diffx)>$signed(-16'd2048)&&$signed(diffy)<$signed(16'd2048)&&$signed(diffy)>$signed(-16'd2048))
+            begin
+            vx1_WT  =$signed(diffx)*(1.0/(2.0));
+            vy1_WT =$signed(diffy)*(1.0/(2.0));;
+            end
+            else
+            begin
+            vx1_WT  =$signed(diffx)*(1.0/(10.0));
+            vy1_WT =$signed(diffy)*(1.0/(10.0));;
+            end
             $display("No collision for long so moving towars target", $time);
         end
         else

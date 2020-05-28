@@ -123,7 +123,7 @@ assign ig_trigger = UM1_done | UM2_done | UM3_done;
 always @(posedge input_read1)   //Make input_check high for writing into UM from file
 begin
         //diff=$(x1-tx1)>$signed((-16'd1024));
-        if ($signed(x1-tx1)<$signed(16'd1024)&&$signed(x1-tx1)>$signed(-16'd1024)&&$signed(y1-ty1)<$signed(16'd1024)&&$signed(y1-ty1)>$signed(-16'd1024))   begin
+        if ($signed(x1-tx1)<$signed(16'd900)&&$signed(x1-tx1)>$signed(-16'd900)&&$signed(y1-ty1)<$signed(16'd900)&&$signed(y1-ty1)>$signed(-16'd900))   begin
         flag1=1'b1;
         Vxnew_UM1=16'b0;
         Vynew_UM1 =16'b0;
@@ -145,7 +145,7 @@ begin
   end
   always @(posedge input_read2)   //Make input_check high for writing into UM from file
   begin
-        if ($signed(x2-tx2)<$signed(16'd1024)&&$signed(x2-tx2)>$signed(-16'd1024)&&$signed(y2-ty2)<$signed(16'd1024)&&$signed(y2-ty2)>$signed(-16'd1024))   begin
+        if ($signed(x2-tx2)<$signed(16'd900)&&$signed(x2-tx2)>$signed(-16'd900)&&$signed(y2-ty2)<$signed(16'd900)&&$signed(y2-ty2)>$signed(-16'd900))   begin
         flag2=1'b1;
         Vxnew_UM2=16'b0;
         Vynew_UM2 =16'b0;
@@ -167,7 +167,7 @@ begin
 end
 always @(posedge input_read3)   //Make input_check high for writing into UM from file
   begin
-        if ($signed(x3-tx3)<$signed(16'd1024)&&$signed(x3-tx3)>$signed(-16'd1024)&&$signed(y3-ty3)<$signed(16'd1024)&&$signed(y3-ty3)>$signed(-16'd1024))   begin
+        if ($signed(x3-tx3)<$signed(16'd900)&&$signed(x3-tx3)>$signed(-16'd900)&&$signed(y3-ty3)<$signed(16'd900)&&$signed(y3-ty3)>$signed(-16'd900))   begin
         flag3=1'b1;
         Vxnew_UM3=16'b0;
         Vynew_UM3 =16'b0;

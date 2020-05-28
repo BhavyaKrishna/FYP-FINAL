@@ -160,11 +160,17 @@ begin
         if(count1>=4'd8)
         begin
             diffx = tx1-x1_not_update;
-            vx1_WT  =$signed(diffx)*(1.0/(10.0));
             diffy = ty1-y1_not_update;
+            if ($signed(diffx)<$signed(16'd2048)&&$signed(diffx)>$signed(-16'd2048)&&$signed(diffy)<$signed(16'd2048)&&$signed(diffy)>$signed(-16'd2048))
+            begin
+            vx1_WT  =$signed(diffx)*(1.0/(2.0));
+            vy1_WT =$signed(diffy)*(1.0/(2.0));;
+            end
+            else
+            begin
+            vx1_WT  =$signed(diffx)*(1.0/(10.0));
             vy1_WT =$signed(diffy)*(1.0/(10.0));;
-            
-            
+            end
             $display("No collision for long so moving towars target", $time);
         end
         else
